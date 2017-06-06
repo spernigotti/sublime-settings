@@ -1,0 +1,31 @@
+[
+	{
+		"args":
+		{
+			"by": "words",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "subword_ends",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "subword_ends",
+			"extend": true,
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args": null,
+		"command": "right_delete"
+	}
+]

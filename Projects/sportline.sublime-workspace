@@ -1,0 +1,1083 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hidden",
+				"hiddenCategories"
+			],
+			[
+				"unit",
+				"unitMultiplier"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/sportline/src/html/shelf-templates/Showcase-Shelf.html",
+			"settings":
+			{
+				"buffer_size": 2513,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/sportline/src/html/search-result.html",
+			"settings":
+			{
+				"buffer_size": 3320,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{{SHELF-CLASS: base-product-wrapper}}\n#set($id = $product.Id)\n#set($url = $product.Uri)\n#set($escapedName = $product.HtmlEscapedName)\n#set($skuId = $product.productVariantId)\n#set($id = $product.Id)\n[!] template_id: 69721f9b-91ea-452c-a4a5-09ffb0819cbf [/!]\n\n<div class=\"base-product\">\n    <div class=\"data\">{\"url\": \"$url\", \"hasBestPrice\": $product.HasBestPrice, \"isInStock\": $product.IsInStock, \"listPrice\": \"$product.ListPrice\", \"bestPrice\": \"$product.BestPrice\", \"skuId\": \"$skuId\", \"id\": \"$id\", \"name\": `$product.Name`}</div>\n    <div class=\"discount-high-light\">$product.DiscountHightLight</div>\n    <div class=\"collection-highlight\">$product.HightLight</div>\n    <div class=\"product-image\">$product.GetImageTag(29)</div>\n    $product.Brand\n</div>",
+			"file": "/var/www/sportline/src/html/shelf-templates/base-product.html",
+			"file_size": 801,
+			"file_write_time": 131407100063454673,
+			"settings":
+			{
+				"buffer_size": 751,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 192.0,
+		"last_filter": "java",
+		"selected_items":
+		[
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/sportline",
+		"/var/www/sportline/src",
+		"/var/www/sportline/src/html",
+		"/var/www/sportline/src/html/shelf-templates"
+	],
+	"file_history":
+	[
+		"/var/www/sportline/src/js/classes/ListPageManager.js",
+		"/var/www/sportline/src/js/cybermonday-2016.js",
+		"/var/www/sportline/src/checkout/storePickupOffices.js",
+		"/var/www/sportline/src/js/global.js",
+		"/var/www/sportline/src/html/subtemplates/filtros.html",
+		"/var/www/sportline/src/checkout/storePickupOfficesOCA.js",
+		"/var/www/aurora/src/include/menu/menu-nonfood-mobile.html",
+		"/var/www/aurora/src/include/menu/menu-nonfood.html",
+		"/var/www/aurora/src/include/html/recipe-section-home.html",
+		"/var/www/aurora/src/include/styles/blocks/_recipe-item.css",
+		"/var/www/aurora/src/styles/global.css",
+		"/var/www/aurora/src/js/institutional.js",
+		"/var/www/aurora/src/js/global.js",
+		"/var/www/aurora/src/html/subtemplates/overlay-store.html",
+		"/var/www/aurora/src/include/institutional/institutional.css",
+		"/var/www/aurora/src/html/store-how-to-buy.html",
+		"/var/www/aurora/src/include/styles/_variables.css",
+		"/var/www/aurora/vtex-uploader.conf",
+		"/var/www/aurora/src/html/subtemplates/overlay-store-selector.html",
+		"/var/www/aurora/src/include/styles/blocks/_sliders.css",
+		"/var/www/aurora/src/js/list.js",
+		"/var/www/aurora/src/html/message-center/includes/order-reminder.html",
+		"/var/www/aurora/src/html/subtemplates/navigation.html",
+		"/var/www/aurora/src/html/store-faqs.html",
+		"/var/www/aurora/src/include/faqs/CO/faqs.html",
+		"/var/www/aurora/src/include/styles/views/_home.css",
+		"/var/www/aurora/src/include/checkout/shipping.js",
+		"/var/www/aurora/src/html/home.html",
+		"/var/www/aurora/src/js/recipe-search.js",
+		"/var/www/aurora/src/include/templates/recipe-item-template.html",
+		"/var/www/aurora/src/js/checkout.js",
+		"/var/www/aurora/src/styles/checkout-custom.css",
+		"/var/www/aurora/src/html/subtemplates/footer.html",
+		"/var/www/aurora/src/html/subtemplates/header.html",
+		"/var/www/aurora/src/js/product.js",
+		"/var/www/aurora/src/include/footer/links/CO/links.html",
+		"/var/www/aurora/src/include/styles/blocks/_overlay.css",
+		"/var/www/aurora/src/include/styles/_animations.css",
+		"/var/www/aurora/src/include/styles/blocks/_product-prices.css",
+		"/var/www/aurora/src/html/message-center/vtexcommerce-new-order.html",
+		"/var/www/aurora/src/html/message-center/includes/footer.html",
+		"/var/www/aurora/src/include/styles/_mixin.css",
+		"/var/www/aurora/src/html/subtemplates/overlay-product-quickview.html",
+		"/var/www/aurora/src/include/html/product-prices-handlebars.html",
+		"/var/www/aurora/src/include/html/product-quantity-handlebars.html",
+		"/var/www/aurora/src/include/styles/views/_category.css",
+		"/var/www/aurora/src/html/cart.html",
+		"/var/www/aurora/src/include/js/selectors.js",
+		"/var/www/aurora/src/js/cart.js",
+		"/var/www/aurora/src/include/styles/blocks/_product-item.css",
+		"/var/www/aurora/src/include/styles/views/_product.css",
+		"/var/www/aurora/src/include/styles/blocks/_product-quantity.css",
+		"/var/www/aurora/src/include/styles/blocks/_minicart.css",
+		"/var/www/aurora/src/include/shopping-list/shopping-list.css",
+		"/var/www/aurora/src/handlebars.js",
+		"/var/www/aurora/src/include/menu/menu-food.html",
+		"/var/www/aurora/src/html/product-nonfood.html",
+		"/var/www/aurora/src/.map/global.css.map",
+		"/var/www/aurora/src/include/js/handlebar-functions.js",
+		"/var/www/aurora/src/html/product-food.html",
+		"/var/www/aurora/src/html/shelf-templates/product-template.html",
+		"/var/www/aurora/src/js/orders.js",
+		"/var/www/aurora/src/html/shopping-list.html",
+		"/var/www/aurora/src/js/shopping-list.js",
+		"/var/www/aurora/src/include/templates/product-item-template.html",
+		"/var/www/aurora/src/js/compare.js",
+		"/var/www/aurora/src/js/recipe.js",
+		"/var/www/aurora/build/css/product-item.css",
+		"/var/www/aurora/src/html/orders.html",
+		"/var/www/aurora/src/html/compare.html",
+		"/var/www/aurora/src/include/checkout/AR-storePickupOffices.js",
+		"/var/www/aurora/src/js/fizzmod.minicart.js",
+		"/var/www/aurora/src/html/shelf-templates/accessory-product-template.html",
+		"/var/www/aurora/src/html/shelf-templates/category-product-template.html",
+		"/var/www/aurora/src/html/shelf-templates/CEM-Abandoned-Cart-Shelf.html",
+		"/var/www/aurora/src/include/templates/minicart-product-item-template.html",
+		"/var/www/aurora/src/html/recipe.html",
+		"/var/www/aurora/src/html/category.html",
+		"/var/www/aurora/src/include/styles/blocks/_product-list-wrapper.css",
+		"/var/www/aurora/src/include/loader/spinner-loader.html",
+		"/var/www/aurora/src/include/styles/font-icons/CO/font-icons-extended.css",
+		"/var/www/aurora/src/include/menu/menu-food-mobile.html",
+		"/var/www/aurora/src/include/header/CO/top-nav-wrapper.html",
+		"/var/www/aurora/src/include/minicart/minicart.html",
+		"/var/www/aurora/src/js/fizzmod.js",
+		"/var/www/aurora/src/html/subtemplates/overlay-no-availability-items.html",
+		"/var/www/aurora/src/html/message-center/vtexcommerce-order-cancelled.html",
+		"/var/www/aurora/src/include/styles/blocks/_header.css",
+		"/var/www/aurora/src/html/subscribe-newsletter.html",
+		"/var/www/aurora/src/html/message-center/portal-avise-me.html",
+		"/var/www/aurora/src/html/message-center/vtexid_check_email.html",
+		"/var/www/aurora/src/html/message-center/vtexcommerce-order-invoiced-with-cancel-request.html",
+		"/var/www/aurora/src/html/message-center/vtexcommerce-order-invoiced.html",
+		"/var/www/aurora/src/html/message-center/vtexcommerce-order-shipped.html",
+		"/var/www/aurora/src/html/message-center/vtexcommerce-payment-approved.html",
+		"/var/www/aurora/src/html/message-center/vtexcommerce-payment-denied.html",
+		"/var/www/aurora/src/html/subtemplates/metas.html",
+		"/home/fizzmod/Descargas/Backup/Sublime/packages.txt",
+		"/home/fizzmod/Descargas/Backup/Sublime/emmet-settings",
+		"/home/fizzmod/.config/sublime-text-3/Packages/User/Emmet.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"*js",
+			"*global.js",
+			"*.html",
+			"",
+			"*.html",
+			"*.css",
+			"*.html",
+			"",
+			"*.js",
+			"",
+			"*.js",
+			"",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.html",
+			"",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.html",
+			"*.css",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"escapedName",
+			"uri",
+			"postalcode",
+			"mercadopagomanager",
+			"body",
+			"results",
+			"eq",
+			"fillCoverageList",
+			"overlayStoreMessage",
+			"preguntas frecuentes",
+			"navigation wrapper",
+			"textarea",
+			".message",
+			":",
+			"::",
+			"swiper",
+			"fake",
+			"recipe-wrapper",
+			"new swiper",
+			"swiper-wrapper",
+			"6 - RECIPES",
+			"recipe-item-template",
+			"swiper",
+			"__tag",
+			"setRecipesHome",
+			"test",
+			"(\"disabled\", true",
+			"btn-go-to-payment",
+			";",
+			"$(document)",
+			"validateReceiverForm",
+			"onRecieverInputBlur",
+			"\"disabled\", true",
+			"disabled\", true",
+			"disabled",
+			"setShippingAttachmentPrefilter",
+			"ajax",
+			"9898",
+			"phone",
+			"jumbocolombiafood",
+			"phonenumbersecond",
+			"phone",
+			"FK:phoneNumber",
+			"\"phoneNumber\"",
+			"018000120320",
+			"3489898",
+			"phoneNumber",
+			"3489898",
+			"phoneNumberSecondClean",
+			"nombre",
+			"3489898",
+			"contact",
+			"018000120320",
+			"phoneNumber",
+			"catálogos",
+			"logos",
+			"nuestros servicios",
+			"phoneNumberClean",
+			"setcookie",
+			"colombia",
+			"onSubmitStoreCoNonfood",
+			"fadeIn",
+			"keyframes",
+			"2 - STORE LOCALITY",
+			"store-locality",
+			"onSubmitStore",
+			"submit-store",
+			"nonfood",
+			"productdata",
+			"skudata",
+			"facebookurl",
+			"COMPARE",
+			"getCategoriesFilters",
+			".prod-controls",
+			"4.a - Quickview Mobile",
+			"2 - PRODUCT ITEM MOBILE",
+			"add-to-cart",
+			"highlight-background",
+			".product-quantity",
+			"__input",
+			"products-wrapper",
+			"items-wrapper",
+			"body",
+			"__body",
+			"let",
+			"fakeheader",
+			"fakeNavigation",
+			".shop-list-slider",
+			"2.4 - Shop List Block Mobile",
+			".shop-list-slider",
+			"5.1 - Shop List Slider Block Mobile",
+			"platos pre",
+			"searchlist",
+			"searchAutocomplete",
+			"compileSearchResultsItems",
+			"measurementUnitCustom",
+			"20000",
+			"measurementUnitCustomSelector",
+			"unitMultiplierQuantity",
+			"bxslider",
+			"setOrderFormProductProperties",
+			"quantity",
+			"priceperunit",
+			"ppum",
+			"formatprice",
+			"measurementUnitCustom",
+			"Cantidad",
+			"test",
+			"__measurement-unit",
+			"quantityWrapper",
+			"measurement_unit_selector",
+			"setQuickviewProduct",
+			"hasPricePerUnit",
+			"listdata",
+			"totalprice",
+			"listData",
+			"TotalPrice",
+			"totalprice",
+			"measurementunit",
+			"flex",
+			"product-quickview",
+			"ppumOffset",
+			"setQuickviewProduct",
+			"setProductProperties",
+			"ppumSeparator",
+			"setProductProperties",
+			"haspriceperunit",
+			"setProductProperties"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/sportline/src/html/shelf-templates/Showcase-Shelf.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1296,
+								1296
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/sportline/src/html/search-result.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1559,
+								1559
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 323.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/sportline/src/html/shelf-templates/base-product.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 751,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								751,
+								751
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sportline.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"search-result",
+				"src/html/search-result.html"
+			],
+			[
+				"global.js",
+				"src/js/global.js"
+			],
+			[
+				"offices",
+				"src/checkout/storePickupOffices.js"
+			],
+			[
+				"filtro",
+				"src/html/subtemplates/filtros.html"
+			],
+			[
+				"cybermonday",
+				"src/js/cybermonday-2016.js"
+			],
+			[
+				"recipes.js",
+				"src/js/recipes.js"
+			],
+			[
+				"recipe-item",
+				"src/include/styles/blocks/_recipe-item.css"
+			],
+			[
+				"section",
+				"src/include/html/recipe-section-home.html"
+			],
+			[
+				"menu-nonfood",
+				"src/include/menu/menu-nonfood-mobile.html"
+			],
+			[
+				"menu-non",
+				"src/include/menu/menu-nonfood.html"
+			],
+			[
+				"how-tu",
+				"src/html/store-how-to-buy.html"
+			],
+			[
+				"var",
+				"src/include/styles/_variables.css"
+			],
+			[
+				"global.css",
+				"src/styles/global.css"
+			],
+			[
+				"instit",
+				"src/js/institutional.js"
+			],
+			[
+				"varia",
+				"src/include/styles/_variables.css"
+			],
+			[
+				"insti",
+				"src/include/institutional/institutional.css"
+			],
+			[
+				".conf",
+				"vtex-uploader.conf"
+			],
+			[
+				"overlay-store",
+				"src/html/subtemplates/overlay-store-selector.html"
+			],
+			[
+				"global.",
+				"src/js/global.js"
+			],
+			[
+				"coverage",
+				"src/html/store-coverage.html"
+			],
+			[
+				"faqs.html",
+				"src/include/faqs/CO/faqs.html"
+			],
+			[
+				"remin",
+				"src/html/message-center/includes/order-reminder.html"
+			],
+			[
+				"list.js",
+				"src/js/list.js"
+			],
+			[
+				"insttitu",
+				"src/include/institutional/institutional.css"
+			],
+			[
+				"home.css",
+				"src/include/styles/views/_home.css"
+			],
+			[
+				"recipe-section",
+				"src/include/html/recipe-section-home.html"
+			],
+			[
+				"slider.css",
+				"src/include/styles/blocks/_sliders.css"
+			],
+			[
+				"recipe-sec",
+				"src/include/html/recipe-section-home.html"
+			],
+			[
+				"recipe-search",
+				"src/js/recipe-search.js"
+			],
+			[
+				"shipping.js",
+				"src/include/checkout/shipping.js"
+			],
+			[
+				"recipe-item-temp",
+				"src/include/templates/recipe-item-template.html"
+			],
+			[
+				"recipe-item.css",
+				"src/include/styles/blocks/_recipe-item.css"
+			],
+			[
+				"home.html",
+				"src/html/home.html"
+			],
+			[
+				"shipping",
+				"src/include/checkout/shipping.js"
+			],
+			[
+				"checkout.js",
+				"src/js/checkout.js"
+			],
+			[
+				"custo",
+				"src/styles/checkout-custom.css"
+			],
+			[
+				"header.html",
+				"src/html/subtemplates/header.html"
+			],
+			[
+				"footer",
+				"src/html/subtemplates/footer.html"
+			],
+			[
+				"hoem.html",
+				"src/html/home.html"
+			],
+			[
+				"custom.css",
+				"src/styles/checkout-custom.css"
+			],
+			[
+				"how-to",
+				"src/html/store-how-to-buy.html"
+			],
+			[
+				"footer.html",
+				"src/html/message-center/includes/footer.html"
+			],
+			[
+				"new-or",
+				"src/html/message-center/vtexcommerce-new-order.html"
+			],
+			[
+				"how-to-",
+				"src/html/store-how-to-buy.html"
+			],
+			[
+				"mixin",
+				"src/include/styles/_mixin.css"
+			],
+			[
+				"verlay.css",
+				"src/include/styles/blocks/_overlay.css"
+			],
+			[
+				"home",
+				"src/html/home.html"
+			],
+			[
+				"proudct-prices.css",
+				"src/include/styles/blocks/_product-prices.css"
+			],
+			[
+				"quantity-",
+				"src/include/html/product-quantity-handlebars.html"
+			],
+			[
+				"product.js",
+				"src/js/product.js"
+			],
+			[
+				"cart.js",
+				"src/js/cart.js"
+			],
+			[
+				"selecto",
+				"src/include/js/selectors.js"
+			],
+			[
+				"cart.html",
+				"src/html/cart.html"
+			],
+			[
+				"category.css",
+				"src/include/styles/views/_category.css"
+			],
+			[
+				"product-quanti",
+				"src/include/styles/blocks/_product-quantity.css"
+			],
+			[
+				"overlay",
+				"src/include/styles/blocks/_overlay.css"
+			],
+			[
+				"product-quick",
+				"src/html/subtemplates/overlay-product-quickview.html"
+			],
+			[
+				"product-item.css",
+				"src/include/styles/blocks/_product-item.css"
+			],
+			[
+				"minicart.css",
+				"src/include/styles/blocks/_minicart.css"
+			],
+			[
+				"shopping-list.css",
+				"src/include/shopping-list/shopping-list.css"
+			],
+			[
+				"handle",
+				"src/handlebars.js"
+			],
+			[
+				"hanl",
+				"src/include/js/handlebar-functions.js"
+			],
+			[
+				"menu-foo",
+				"src/include/menu/menu-food.html"
+			],
+			[
+				"handleba",
+				"src/handlebars.js"
+			],
+			[
+				"handlebar",
+				"src/include/js/handlebar-functions.js"
+			],
+			[
+				"product-prices.html",
+				"src/include/html/product-prices-handlebars.html"
+			],
+			[
+				"quickvi",
+				"src/html/subtemplates/overlay-product-quickview.html"
+			],
+			[
+				"product-non",
+				"src/html/product-nonfood.html"
+			],
+			[
+				"product.html",
+				"src/html/product-food.html"
+			],
+			[
+				"product-prices",
+				"src/include/styles/blocks/_product-prices.css"
+			],
+			[
+				"glboal.js",
+				"src/js/global.js"
+			],
+			[
+				"product-pri",
+				"src/include/html/product-prices-handlebars.html"
+			],
+			[
+				"orders.js",
+				"src/js/orders.js"
+			],
+			[
+				"product-temp",
+				"src/html/shelf-templates/product-template.html"
+			],
+			[
+				"rpoduct-item.html",
+				"src/include/templates/product-item-template.html"
+			],
+			[
+				"selectors.js",
+				"src/include/js/selectors.js"
+			],
+			[
+				"shopping-l.",
+				"src/js/shopping-list.js"
+			],
+			[
+				"shopping-list.html",
+				"src/html/shopping-list.html"
+			],
+			[
+				"shopping-list.js",
+				"src/js/shopping-list.js"
+			],
+			[
+				"product-item-te",
+				"src/include/templates/product-item-template.html"
+			],
+			[
+				"proudc-item.css",
+				"build/css/product-item.css"
+			],
+			[
+				"proudct-item-tem",
+				"src/include/templates/product-item-template.html"
+			],
+			[
+				"product-tem",
+				"src/html/shelf-templates/product-template.html"
+			],
+			[
+				"product-prices.css",
+				"src/include/styles/blocks/_product-prices.css"
+			],
+			[
+				"quickview",
+				"src/html/subtemplates/overlay-product-quickview.html"
+			],
+			[
+				"orders.html",
+				"src/html/orders.html"
+			],
+			[
+				"conf",
+				"vtex-uploader.conf"
+			],
+			[
+				"compare.js",
+				"src/js/compare.js"
+			],
+			[
+				"comapre",
+				"src/html/compare.html"
+			],
+			[
+				"carts.j",
+				"src/include/checkout/AR-storePickupOffices.js"
+			],
+			[
+				"minicart.js",
+				"src/js/fizzmod.minicart.js"
+			],
+			[
+				"categoryp",
+				"src/html/shelf-templates/category-product-template.html"
+			],
+			[
+				"product-templ",
+				"src/html/shelf-templates/product-template.html"
+			],
+			[
+				"product-prices-ha",
+				"src/include/html/product-prices-handlebars.html"
+			],
+			[
+				"shopp",
+				"src/js/shopping-list.js"
+			],
+			[
+				"product-prices-han",
+				"src/include/html/product-prices-handlebars.html"
+			],
+			[
+				"product-pricescss",
+				"src/include/styles/blocks/_product-prices.css"
+			],
+			[
+				"category-temp",
+				"src/html/shelf-templates/category-product-template.html"
+			],
+			[
+				"minic",
+				"src/include/templates/minicart-product-item-template.html"
+			],
+			[
+				"compare.html",
+				"src/html/compare.html"
+			],
+			[
+				"recipe.js",
+				"src/js/recipe.js"
+			],
+			[
+				"minicart-pro",
+				"src/include/templates/minicart-product-item-template.html"
+			],
+			[
+				"product-item",
+				"src/include/templates/product-item-template.html"
+			],
+			[
+				"product-",
+				"src/include/html/product-prices-handlebars.html"
+			],
+			[
+				"shopping-lsit.js",
+				"src/js/shopping-list.js"
+			],
+			[
+				"product-pric",
+				"src/include/html/product-prices-handlebars.html"
+			],
+			[
+				"recipe.html",
+				"src/html/recipe.html"
+			],
+			[
+				"minicart",
+				"src/include/templates/minicart-product-item-template.html"
+			],
+			[
+				"selectorjs",
+				"src/include/js/selectors.js"
+			],
+			[
+				"shopping",
+				"src/html/shopping-list.html"
+			],
+			[
+				"spinner",
+				"src/include/loader/spinner-loader.html"
+			],
+			[
+				"cart.ht",
+				"src/html/cart.html"
+			],
+			[
+				"global.cs",
+				"src/styles/global.css"
+			],
+			[
+				"cofonticon",
+				"src/include/styles/font-icons/CO/font-icons-extended.css"
+			],
+			[
+				"catego",
+				"src/html/category.html"
+			],
+			[
+				"categor",
+				"src/html/category.html"
+			],
+			[
+				"overlay.css",
+				"src/include/styles/blocks/_overlay.css"
+			],
+			[
+				"fizzmod.js",
+				"src/js/fizzmod.js"
+			],
+			[
+				"product-item-tem",
+				"src/include/templates/product-item-template.html"
+			],
+			[
+				"compare",
+				"src/html/compare.html"
+			],
+			[
+				"global",
+				"src/js/global.js"
+			],
+			[
+				"fizzmod",
+				"src/js/fizzmod.js"
+			],
+			[
+				"minicart.html",
+				"src/include/minicart/minicart.html"
+			],
+			[
+				"menu-food",
+				"src/include/menu/menu-food.html"
+			],
+			[
+				"overlay-no-a",
+				"src/html/subtemplates/overlay-no-availability-items.html"
+			],
+			[
+				"checkout-cu",
+				"src/styles/checkout-custom.css"
+			],
+			[
+				"messagefoo",
+				"src/html/message-center/includes/footer.html"
+			],
+			[
+				"newslett",
+				"src/html/subscribe-newsletter.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

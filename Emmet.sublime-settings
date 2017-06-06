@@ -1,0 +1,43 @@
+{	
+	"preferences": {
+	   "css.autoInsertVendorPrefixes": false
+	 },
+	"snippets": {
+		"css": {
+			"snippets": {
+				"@m": "@media screen and (max-width: ${1:value}px) {\n\t|\n}",
+				"cp": "cursor: pointer;",
+				"ov": "overflow: visible;",
+				"db": "display: block;",
+				"dib": "display: inline-block;",
+				"oh": "overflow: hidden;",
+				"oa": "overflow: auto;",
+				"tac": "text-align: center;",
+				"tal": "text-align: left;",
+				"pen": "pointer-events: none;",
+				"mh": "min-height: |;",
+				"mw": "min-width: |;",
+				"bz": "box-sizing: border-box;",
+				"bs": "border-radius: |;",
+				"ws": "white-space: ${nowrap};",
+				"wsn": "white-space: nowrap;",
+				"toe": "text-overflow: ellipsis;",
+				"fl": "float: left;",
+				"df": "display: flex;",
+				"dib": "display: inline-block;",
+				"dn": "display: none;",
+				"fls": "flex-shrink: |;",
+				"poa": "position: absolute;",
+				"por": "position: relative;",
+				"pof": "position: fixed;",
+				"pos": "position: static;",
+				"bgr": "background: rgba(${1:0}, ${2:0}, ${3:0}, .${4:5});",
+				"tr": "transform",
+				"vam": "vertical-align: middle;",
+				"vat": "vertical-align: top;",
+				"key": "@keyframes ${name} { from { outline-color: #FFF; } to { outline-color: #000; } }\n@-moz-keyframes ${name} { from { outline-color: #FFF; } to { outline-color: #000; } }\n@-webkit-keyframes ${name} { from { outline-color: #FFF; } to { outline-color: #000; } }\n@-ms-keyframes ${name} { from { outline-color: #FFF; } to { outline-color: #000; } }\n@-o-keyframes ${name} { from { outline-color: #FFF; } to { outline-color: #000; } }"
+
+			}
+		}
+	}
+}

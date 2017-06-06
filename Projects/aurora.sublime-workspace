@@ -1,0 +1,1700 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"jumbocolom",
+				"jumbocolombiafood"
+			],
+			[
+				"fz",
+				"fz\tfont-size"
+			],
+			[
+				"bg-i",
+				"background-image"
+			],
+			[
+				"component",
+				"componentWillUpdate\t Life Cycle"
+			],
+			[
+				"placeholer",
+				"placeholderText"
+			],
+			[
+				"jumbo",
+				"jumbocolombiafood"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"address",
+				"addressSelector"
+			],
+			[
+				"hipo",
+				"hipotecario-svg"
+			],
+			[
+				"space-",
+				"space-between"
+			],
+			[
+				"jumbocolombi",
+				"jumbocolombiafoodqa"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"discoun",
+				"discountData"
+			],
+			[
+				"getD",
+				"getDiscountById"
+			],
+			[
+				"current",
+				"currentTarget"
+			],
+			[
+				"dis",
+				"discountIds"
+			],
+			[
+				"dicount",
+				"discountFormatted"
+			],
+			[
+				"hidden",
+				"hiddenCategories"
+			],
+			[
+				"unit",
+				"unitMultiplier"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/var/www/aurora/src/js/global.js",
+			"settings":
+			{
+				"buffer_size": 247156,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/aurora/src/include/classes/userAddressManager.js",
+			"settings":
+			{
+				"buffer_size": 2913,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/aurora/src/include/checkout/shipping.js",
+			"settings":
+			{
+				"buffer_size": 33520,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/aurora/src/include/classes/storeAddress.js",
+			"settings":
+			{
+				"buffer_size": 27476,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/aurora/src/include/janis/janis.conf.js",
+			"settings":
+			{
+				"buffer_size": 806,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/aurora/src/include/js/node-middleware-endpoints.js",
+			"settings":
+			{
+				"buffer_size": 1418,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/aurora/src/handlebars.js",
+			"settings":
+			{
+				"buffer_size": 21246,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/aurora/fizzmod-scripts/webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 3657,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/aurora/src/js/list.js",
+			"settings":
+			{
+				"buffer_size": 75842,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/aurora/src/include/checkout/CO/checkout-custom.css",
+			"settings":
+			{
+				"buffer_size": 2690,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 212.0,
+		"last_filter": "java",
+		"selected_items":
+		[
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"js",
+				"Set Syntax: JSX"
+			],
+			[
+				"git blam",
+				"Git: Blame"
+			],
+			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git bl",
+				"Git: Blame"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"gitbl",
+				"Git: Blame"
+			],
+			[
+				"fold",
+				"Code Folding: Unfold All"
+			],
+			[
+				"bind",
+				"Preferences: Key Bindings"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"scope",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"scopehun",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"show",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"show scope",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"scope hun",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"key ",
+				"Preferences: Key Bindings"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sjx",
+				"Set Syntax: JSX"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"git bla",
+				"Git: Blame"
+			],
+			[
+				"git",
+				"Git: Blame"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"beauti",
+				"HTMLBeautify"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"pug",
+				"Set Syntax: Pug"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"ls",
+			"./node_modules/.bin/eslint",
+			"eslint",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/aurora",
+		"/var/www/aurora/fizzmod-scripts"
+	],
+	"file_history":
+	[
+		"/var/www/aurora/src/include/checkout/checkout-global.js",
+		"/var/www/aurora/src/include/classes/Recipe.js",
+		"/var/www/aurora/src/include/styles/blocks/_tooltip.css",
+		"/var/www/aurora/src/styles/global-nonfood.css",
+		"/var/www/aurora/src/include/styles/checkout/_keyframes.css",
+		"/var/www/aurora/src/include/styles/_animations.css",
+		"/var/www/aurora/src/include/checkout/Checkout5Manager.js",
+		"/var/www/aurora/src/include/checkout/shipping.js",
+		"/var/www/aurora/src/include/styles/CO/footer.css",
+		"/var/www/aurora/src/include/styles/icons/CL/icons.css",
+		"/var/www/aurora/src/js/global.js",
+		"/var/www/aurora/src/include/js/jquery-prototype-extended.js",
+		"/var/www/aurora/src/js/recipe.js",
+		"/var/www/aurora/src/js/fizzmod.minicart.js",
+		"/var/www/aurora/src/include/classes/userAddressManager.js",
+		"/var/www/aurora/src/include/styles/checkout/_header.css",
+		"/var/www/aurora/src/html/portal/checkout-header.html",
+		"/var/www/aurora/src/include/html/CO/footer.html",
+		"/var/www/aurora/src/include/styles/blocks/_header.css",
+		"/var/www/aurora/src/include/html/CO/header.html",
+		"/var/www/aurora/src/include/styles/global/CO/global.css",
+		"/var/www/aurora/src/include/checkout/CO/checkout-custom.css",
+		"/var/www/aurora/src/html/home.html",
+		"/var/www/aurora/src/include/html/AR/cart.html",
+		"/var/www/aurora/src/html/message-center/vtexcommerce-order-cancelled.html",
+		"/var/www/aurora/vtex-uploader.conf",
+		"/var/www/aurora/src/include/header/CO/top-nav-wrapper.html",
+		"/var/www/aurora/src/include/json/CO/departments.json",
+		"/var/www/aurora/src/html/message-center/includes/footer.html",
+		"/var/www/aurora/src/include/styles/checkout/_modals.css",
+		"/var/www/marketcar/src/js/main.js",
+		"/var/www/aurora/src/html/subtemplates/overlay-store.html",
+		"/var/www/aurora/src/include/html/CO/store-selector-wrapper.html",
+		"/var/www/aurora/src/include/html/department-options.html",
+		"/var/www/aurora/tareas",
+		"/home/fizzmod/Documentos/prueba.html",
+		"/var/www/vtex-uploader2/vu.ini",
+		"/var/www/vtex-uploader/vu.ini",
+		"/var/www/aurora/src/html/subtemplates/header.html",
+		"/var/www/aurora/src/include/json/CO/departments-qa.json",
+		"/var/www/aurora/src/include/js/selectors.js",
+		"/var/www/aurora/src/include/institutional/CO/store-coverage.html",
+		"/var/www/aurora/src/components/CoverageSearch/CoverageSearch.js",
+		"/var/www/aurora/src/components/CoverageSearch/locationsGetter.js",
+		"/var/www/aurora/src/js/webpack/healthy-world.js",
+		"/var/www/aurora/src/js/shopping-lists.js",
+		"/var/www/aurora/src/js/shopping-list.js",
+		"/var/www/aurora/src/js/fizzmod.shoplist.js",
+		"/var/www/aurora/src/include/classes/storeAddress.js",
+		"/var/www/oechsle/src/js/checkout.js",
+		"/var/www/oechsle/src/checkout/checkout-global.js",
+		"/var/www/oechsle/src/checkout/checkout-profile.js",
+		"/var/www/oechsle/src/checkout/checkout-payment.js",
+		"/var/www/oechsle/src/checkout/checkout-orderPlaced.js",
+		"/var/www/aurora/src/include/cart/CO/cart.js",
+		"/var/www/oechsle/src/styles/category.css",
+		"/var/www/oechsle/src/styles/main.css",
+		"/var/www/oechsle/src/js/compare.js",
+		"/var/www/oechsle/src/js/main.js",
+		"/var/www/aurora/src/include/classes/discounter.js",
+		"/var/www/aurora/src/html/subtemplates/overlay-no-availability-items.html",
+		"/var/www/aurora/src/html/message-center/vtexcommerce-new-order.html",
+		"/var/www/aurora/src/styles/checkout-custom.css",
+		"/var/www/aurora/src/js/node/neighborhoodCsvToJson/neighborhoodCsvToJson.js",
+		"/var/www/aurora/package.json",
+		"/var/www/aurora/src/js/listPage.js",
+		"/var/www/aurora/src/include/js/CO/storeSelection.js",
+		"/var/www/aurora/src/include/classes/errorLogger.js",
+		"/var/www/aurora/src/html/subtemplates/metas.html",
+		"/var/www/aurora/src/js/fizzmod.js",
+		"/var/www/aurora/src/html/subtemplates/preload-screen.html",
+		"/home/fizzmod/Descargas/Pruebas/styles.css",
+		"/home/fizzmod/frontend/index.html",
+		"/var/www/aurora/src/js/list.js",
+		"/var/www/aurora/src/html/subtemplates/overlay-store-selector.html",
+		"/var/www/aurora/src/include/styles/blocks/_minicart.css",
+		"/var/www/aurora/src/include/janis/janis.conf.js",
+		"/var/www/aurora/src/include/js/node-middleware-endpoints.js",
+		"/var/www/aurora/src/components/CoverageSearch/SearchBar.js",
+		"/var/www/aurora/src/components/CoverageSearch/SideBar.js",
+		"/home/fizzmod/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
+		"/var/www/aurora/src/js/fizzmod.reviews.js",
+		"/home/fizzmod/Descargas/vtex-flash2/vtex-flash-server.js",
+		"/etc/vtex-flash/vtex-flash-server.js",
+		"/etc/vtex-flash2/vtex-flash-server.js",
+		"/var/www/aurora/src/views/CoverageSearchView.js",
+		"/var/www/aurora/src/components/coverage-search/CoverageSearch.js",
+		"/var/www/aurora/src/include/shopping-list/shopping-list.css",
+		"/var/www/aurora/src/html/shopping-list.html",
+		"/var/www/aurora/fizzmod-scripts/paths.js",
+		"/var/www/aurora/src/components/HealthyWorld/HealthyWorld.js",
+		"/var/www/aurora/src/js/webpack/vendor.js",
+		"/var/www/aurora/src/include/styles/CO/_coverage.css",
+		"/var/www/aurora/src/js/checkout.js",
+		"/var/www/aurora/src/include/styles/font-face/font-face-common.css",
+		"/var/www/aurora/src/include/classes/orderInfo.js",
+		"/var/www/aurora/src/js/cart.js",
+		"/var/www/aurora/src/components/overlay-paper-gift/overlay-paper-gift.js",
+		"/home/fizzmod/Descargas/Aurora/Colombia/Mapa COBERTURA-Chia-y-alrededores MAYO-FOOD/Mapa Chia y alrededores.geojson",
+		"/var/www/aurora/src/js/orders.js",
+		"/var/www/aurora/src/html/message-center/vtexcommerce-new-order.json",
+		"/var/www/aurora/src/include/classes/shareRecipeByMailManager.js",
+		"/var/www/aurora/src/js/product.js",
+		"/var/www/aurora/src/handlebars.js",
+		"/var/www/aurora/src/html/category.html",
+		"/var/www/aurora/src/js/checkout5-custom.js",
+		"/home/fizzmod/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/var/www/aurora/src/components/Search/Search.js",
+		"/home/fizzmod/Documentos/react-test2/src/index.js",
+		"/var/www/aurora/src/styles/global.css",
+		"/home/fizzmod/Documentos/guia de estilos",
+		"/home/fizzmod/Documentos/react - Por qué la Inmutabilidad es importante?",
+		"/var/www/aurora/src/include/checkout/PE/checkout-custom.css",
+		"/var/www/aurora/src/include/checkout/AR/checkout-custom.css",
+		"/var/www/aurora/src/include/styles/checkout/_shipping-data.css",
+		"/var/www/aurora/src/include/json/checkout-shipping-filters.js",
+		"/var/www/aurora/js/manifest.js",
+		"/var/www/aurora/src/js/webpack/manifest.js",
+		"/var/www/aurora/src/include/json/CO/checkout-shipping-valid-cities.json",
+		"/var/www/aurora/src/include/json/checkout-shipping-valid-cities.js",
+		"/var/www/aurora/src/include/json/checkout-shipping-valid-cities.json",
+		"/var/www/aurora/src/include/styles/checkout/_profile-data.css",
+		"/var/www/aurora/src/include/js/polyfills.js",
+		"/var/www/aurora/src/include/styles/blocks/_overlay.css",
+		"/var/www/aurora/fizzmod-scripts/webpack.config.js",
+		"/var/www/aurora/src/components/HealthyWorld/Menu.js",
+		"/var/www/aurora/src/components/HealthyWorld/Section.js",
+		"/var/www/aurora/src/components/HealthyWorld/DescriptionSection/DescriptionSection.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"*.html",
+			"*.css",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.js",
+			"*.css",
+			"*.html",
+			"*.css",
+			"*.html",
+			"",
+			"*.",
+			"*.css",
+			"*.js",
+			"",
+			"*.css",
+			"*.js",
+			"src/js",
+			"*js",
+			"*css",
+			"src/js",
+			"/src/js",
+			"*.js",
+			"",
+			"*js",
+			"*css",
+			"*js",
+			"*html",
+			"src/",
+			"src/components",
+			"*.css",
+			"*.html",
+			"*.css",
+			"src/components",
+			"*.html",
+			"",
+			"src/components/",
+			"",
+			"src/components/",
+			"/src/compotents/",
+			"src/compotents/",
+			"src/compotents/*",
+			"/src/compotents/*",
+			"*.css",
+			"*.js",
+			"src/components/HealthyWorld",
+			"src/components/HelthyWorld",
+			"src/components/",
+			"src/Components/",
+			"/src/Components",
+			"src/Components",
+			"*scss",
+			"scss",
+			"",
+			"*.css",
+			"",
+			"*.js",
+			"*.html",
+			"*.js",
+			"",
+			"*.html",
+			"*.js",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.js",
+			"*.html",
+			"*.css",
+			"*.html",
+			"*.css",
+			"*.html",
+			"*.css",
+			"",
+			"*.js",
+			"*.html",
+			"",
+			"*.html",
+			"*.js",
+			"*.html",
+			"*.css",
+			"*global.js",
+			"",
+			"*.js",
+			"*.css",
+			"*.html",
+			"",
+			"*.js",
+			"*.css",
+			"*.html",
+			"*.css",
+			"*.html",
+			"*.css",
+			"*.html",
+			"*.js",
+			"*.html",
+			"*.css",
+			"*.html",
+			"*.css",
+			"*.html",
+			"*.css",
+			"*.html",
+			"*.css",
+			"*.html",
+			"*.js",
+			"*.html",
+			"*.js",
+			"*.html",
+			"",
+			"*.css",
+			"*.js",
+			"*.css",
+			"",
+			"*.js",
+			"",
+			"*.css",
+			"*.js",
+			"*.html",
+			"",
+			"*.json",
+			"*.html",
+			"",
+			"*.js",
+			"*.html",
+			"*.css",
+			"*.html",
+			"*.css",
+			"*.html",
+			"*.js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"null",
+			"saleschannel",
+			"janis",
+			"vendor",
+			"bendor",
+			"176",
+			"dataset",
+			"isUserEditionAddress",
+			"click()",
+			"$(document)",
+			";",
+			"$(document)",
+			"console.log",
+			"data-tooltip",
+			"tooltipShow",
+			"tooltip-wrapper",
+			"showTooltip",
+			"self.",
+			"tootipsEvents",
+			"data-tooltip",
+			"toolt",
+			"address",
+			"sheepStreetInput",
+			"userAddressManager",
+			"shipStreet",
+			"Street",
+			"addressInputLoaded",
+			"ship-street",
+			"disabled",
+			"cencosud-card",
+			"--small",
+			"recipe.",
+			"Recipe.getItemHTM",
+			"setTimeout(",
+			"setTimeout(()",
+			"setTimeout(() => {",
+			"recipeData",
+			"itemtemplate",
+			"recipe.",
+			"recipe",
+			"Recipe",
+			"getItemHTML",
+			"recipe.",
+			"recipe.item",
+			"itemtemplate",
+			"setSearchInit",
+			"searchInit",
+			": function",
+			"aurora.",
+			"self.",
+			"minicartEvents",
+			" .store-info {\n\t\t\twidth: 160px;",
+			".footer-navigation-wrapper",
+			"minicartEvents",
+			"minicart",
+			"initialize",
+			"promos",
+			"searchProductPromos",
+			"hasCumulativeDiscount",
+			"searchProductPromos",
+			"searchProductPromosNew",
+			"searchProductPromos",
+			"applyDiscount",
+			"isBogota",
+			"UserAddressManager",
+			"checkUserAddress",
+			"configGoogleMapsAPIKey",
+			".checkout-header",
+			"FK:phoneNumber",
+			"font-icn phone-footer",
+			".top-nav-wrapper {",
+			"Bogotá:",
+			"font-icn phone-header",
+			"setProductSliders",
+			"setProductSliders: function(){",
+			"www.marketcar.vtexcommercestable.com.br",
+			"//www.marketcar.vtexcommercestable.com.br",
+			"addMarker",
+			"[!] [CO-11] [/!]",
+			"textB",
+			"textA",
+			"[!] [CO-10] [/!]",
+			"// Sku array to send request",
+			"\"skuArray\"",
+			"\"skuArray\", skuArray",
+			"\"skuArray\", skuArray);",
+			"console.log(\"skuArray\", skuArray);",
+			"buyList",
+			".catalog",
+			"sc",
+			"console.log",
+			"productId",
+			"availableSkus",
+			"activeListSkus",
+			"getCategories",
+			"updateTotalPrice",
+			"price",
+			"buy",
+			"_getValidAddress",
+			"available",
+			"activeList",
+			"--buy-list-button",
+			"onShopListBuy",
+			"setShopListPrice",
+			"activeList",
+			"listDataCache",
+			"onShopListBuy",
+			"buylist",
+			"search",
+			"onShopListBuy",
+			"spliceNotification",
+			"dispatchNotifications",
+			"hideoverlay",
+			"message",
+			"FK",
+			"validateNeighborhoods",
+			"fetchMap",
+			"new promise",
+			"promise",
+			"el siguiente producto no",
+			"Comunícate a la línea",
+			"Comunícate a la línea telefónica en Bogotá y Chía",
+			"jumbocolombiafood",
+			"FK:phoneNumber",
+			"\"document-ready\"",
+			"value",
+			"postalcode",
+			"console.timeEnd"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"@include justify-content;",
+			"@include align-items;",
+			"@include displayFlex;",
+			"align-items: center;",
+			"justify-content: center;",
+			"flex-direction: column;",
+			"display: flex;",
+			"",
+			"@include flex-direction(column);",
+			"@include justify-content(space-around);",
+			"@include justify-content(space-between);",
+			"",
+			"@include justify-content;",
+			"justify-content: center",
+			"@include align-items;",
+			"@include justify-content;",
+			"@include displayFlex;",
+			"elem.",
+			"$(elem.",
+			"{{FK:phoneNumber}}",
+			"*                               ",
+			"*\t\t\t\t\t\t\t",
+			"*      "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/aurora/src/js/global.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 247156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220155,
+								220155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 102777.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/aurora/src/include/classes/userAddressManager.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1100,
+								1100
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 690.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/aurora/src/include/checkout/shipping.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 33520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32216,
+								32216
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13580.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/aurora/src/include/classes/storeAddress.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27476,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4243,
+								4243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2295.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/var/www/aurora/src/include/janis/janis.conf.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								802,
+								802
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/var/www/aurora/src/include/js/node-middleware-endpoints.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1418,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1409,
+								1409
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/var/www/aurora/src/handlebars.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8959,
+								8959
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3694.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/var/www/aurora/fizzmod-scripts/webpack.config.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/var/www/aurora/src/js/list.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 75842,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9753,
+								9753
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4932.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/var/www/aurora/src/include/checkout/CO/checkout-custom.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2690,
+								2690
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.scopehunter.gencss":
+	{
+		"height": 309.0
+	},
+	"output.scopehunter.results":
+	{
+		"height": 100.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 377.0
+	},
+	"pinned_build_system": "",
+	"project": "aurora.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"janis",
+				"src/include/janis/janis.conf.js"
+			],
+			[
+				"storeadd",
+				"src/include/classes/storeAddress.js"
+			],
+			[
+				"storeaddress",
+				"src/include/classes/storeAddress.js"
+			],
+			[
+				"middle",
+				"src/include/js/node-middleware-endpoints.js"
+			],
+			[
+				"list.js",
+				"src/js/list.js"
+			],
+			[
+				"handle",
+				"src/handlebars.js"
+			],
+			[
+				"checkout-global",
+				"src/include/checkout/checkout-global.js"
+			],
+			[
+				"global-non",
+				"src/styles/global-nonfood.css"
+			],
+			[
+				"recipe.js",
+				"src/include/classes/Recipe.js"
+			],
+			[
+				"keyframes",
+				"src/include/styles/checkout/_keyframes.css"
+			],
+			[
+				"tooltip",
+				"src/include/styles/blocks/_tooltip.css"
+			],
+			[
+				"checkout-custom",
+				"src/include/checkout/CO/checkout-custom.css"
+			],
+			[
+				"checkout-glo",
+				"src/include/checkout/checkout-global.js"
+			],
+			[
+				"global.js",
+				"src/js/global.js"
+			],
+			[
+				"chekcout-glo",
+				"src/include/checkout/checkout-global.js"
+			],
+			[
+				"shipping.js",
+				"src/include/checkout/shipping.js"
+			],
+			[
+				"useradd",
+				"src/include/classes/userAddressManager.js"
+			],
+			[
+				"chekcout5man",
+				"src/include/checkout/Checkout5Manager.js"
+			],
+			[
+				"checkout-global.js",
+				"src/include/checkout/checkout-global.js"
+			],
+			[
+				"fizzmod.mini",
+				"src/js/fizzmod.minicart.js"
+			],
+			[
+				"useraddressmanager",
+				"src/include/classes/userAddressManager.js"
+			],
+			[
+				"useraddres",
+				"src/include/classes/userAddressManager.js"
+			],
+			[
+				"checokut5mana",
+				"src/include/checkout/Checkout5Manager.js"
+			],
+			[
+				"home.html",
+				"src/html/home.html"
+			],
+			[
+				"coglobal.css",
+				"src/include/styles/global/CO/global.css"
+			],
+			[
+				"arcart.html",
+				"src/include/html/AR/cart.html"
+			],
+			[
+				"global.css",
+				"src/include/styles/global/CO/global.css"
+			],
+			[
+				".conf",
+				"vtex-uploader.conf"
+			],
+			[
+				"header",
+				"src/html/subtemplates/header.html"
+			],
+			[
+				"manager.js",
+				"src/include/classes/userAddressManager.js"
+			],
+			[
+				"footer.html",
+				"src/html/message-center/includes/footer.html"
+			],
+			[
+				"tare",
+				"tareas"
+			],
+			[
+				"departments.json",
+				"src/include/json/CO/departments-qa.json"
+			],
+			[
+				"department-options",
+				"src/include/html/department-options.html"
+			],
+			[
+				"store-selector-wrapper",
+				"src/include/html/CO/store-selector-wrapper.html"
+			],
+			[
+				"overlay-store",
+				"src/html/subtemplates/overlay-store.html"
+			],
+			[
+				"shopping-lists.js",
+				"src/js/shopping-lists.js"
+			],
+			[
+				"fizzmod.shopli",
+				"src/js/fizzmod.shoplist.js"
+			],
+			[
+				"shopping-list.js",
+				"src/js/shopping-list.js"
+			],
+			[
+				"selector",
+				"src/include/js/selectors.js"
+			],
+			[
+				"selectors.js",
+				"src/include/js/selectors.js"
+			],
+			[
+				"cart.js",
+				"src/include/cart/CO/cart.js"
+			],
+			[
+				"chekcout-cu",
+				"src/styles/checkout-custom.css"
+			],
+			[
+				"new-orde",
+				"src/html/message-center/vtexcommerce-new-order.html"
+			],
+			[
+				"discounter.js",
+				"src/include/classes/discounter.js"
+			],
+			[
+				"new-order",
+				"src/html/message-center/vtexcommerce-new-order.html"
+			],
+			[
+				".json",
+				"package.json"
+			],
+			[
+				"glboal.js",
+				"src/js/global.js"
+			],
+			[
+				"tarea",
+				"tareas"
+			],
+			[
+				"discounter",
+				"src/include/classes/discounter.js"
+			],
+			[
+				"errorlogg",
+				"src/include/classes/errorLogger.js"
+			],
+			[
+				"metas.html",
+				"src/html/subtemplates/metas.html"
+			],
+			[
+				"fizzmod.js",
+				"src/js/fizzmod.js"
+			],
+			[
+				"store-coverage",
+				"src/include/institutional/CO/store-coverage.html"
+			],
+			[
+				"storeselection.js",
+				"src/include/js/CO/storeSelection.js"
+			],
+			[
+				"overlay-store-sele",
+				"src/html/subtemplates/overlay-store-selector.html"
+			],
+			[
+				"global",
+				"src/js/global.js"
+			],
+			[
+				"preload",
+				"src/html/subtemplates/preload-screen.html"
+			],
+			[
+				"metas",
+				"src/html/subtemplates/metas.html"
+			],
+			[
+				"fizzmod.revi",
+				"src/js/fizzmod.reviews.js"
+			],
+			[
+				"shopping-li",
+				"src/js/shopping-list.js"
+			],
+			[
+				"shopping-",
+				"src/js/shopping-list.js"
+			],
+			[
+				"shoppint-list.css",
+				"src/include/shopping-list/shopping-list.css"
+			],
+			[
+				"shopping-list.html",
+				"src/html/shopping-list.html"
+			],
+			[
+				"paths",
+				"fizzmod-scripts/paths.js"
+			],
+			[
+				"healty",
+				"src/components/HealthyWorld/HealthyWorld.js"
+			],
+			[
+				"store-coverage.html",
+				"src/include/institutional/CO/store-coverage.html"
+			],
+			[
+				"shopping-list.css",
+				"src/include/shopping-list/shopping-list.css"
+			],
+			[
+				"coverage.html",
+				"src/include/institutional/CO/store-coverage.html"
+			],
+			[
+				"orderinfo",
+				"src/include/classes/orderInfo.js"
+			],
+			[
+				"paper-gift",
+				"src/components/overlay-paper-gift/overlay-paper-gift.js"
+			],
+			[
+				"home",
+				"src/html/home.html"
+			],
+			[
+				"fontface",
+				"src/include/styles/font-face/font-face-common.css"
+			],
+			[
+				"order.js",
+				"src/js/orders.js"
+			],
+			[
+				"sharerecipe",
+				"src/include/classes/shareRecipeByMailManager.js"
+			],
+			[
+				"product.js",
+				"src/js/product.js"
+			],
+			[
+				"checkout.js",
+				"src/js/checkout.js"
+			],
+			[
+				"preloa",
+				"src/html/subtemplates/preload-screen.html"
+			],
+			[
+				"category.html",
+				"src/html/category.html"
+			],
+			[
+				"checkout-custom.css",
+				"src/include/checkout/CO/checkout-custom.css"
+			],
+			[
+				"checkout5mana",
+				"src/include/checkout/Checkout5Manager.js"
+			],
+			[
+				"checkout5.js",
+				"src/js/checkout5-custom.js"
+			],
+			[
+				"fizzmod",
+				"src/js/fizzmod.js"
+			],
+			[
+				"pecheckout",
+				"src/include/checkout/PE/checkout-custom.css"
+			],
+			[
+				"cocheckout",
+				"src/include/checkout/CO/checkout-custom.css"
+			],
+			[
+				"archeckout",
+				"src/include/checkout/AR/checkout-custom.css"
+			],
+			[
+				"checkout.css",
+				"src/styles/checkout-custom.css"
+			],
+			[
+				"manifest",
+				"src/js/webpack/manifest.js"
+			],
+			[
+				"manif",
+				"js/manifest.js"
+			],
+			[
+				"manifes",
+				"js/manifest.js"
+			],
+			[
+				"_shipping-d",
+				"src/include/styles/checkout/_shipping-data.css"
+			],
+			[
+				"_keyf",
+				"src/include/styles/checkout/_keyframes.css"
+			],
+			[
+				"checkout-cu",
+				"src/styles/checkout-custom.css"
+			],
+			[
+				"chekcout-global.js",
+				"src/include/checkout/checkout-global.js"
+			],
+			[
+				"shipping-data.css",
+				"src/include/styles/checkout/_shipping-data.css"
+			],
+			[
+				"custom",
+				"src/styles/checkout-custom.css"
+			],
+			[
+				"profile-data",
+				"src/include/styles/checkout/_profile-data.css"
+			],
+			[
+				"polyfills",
+				"src/include/js/polyfills.js"
+			],
+			[
+				"department-option",
+				"src/include/html/department-options.html"
+			],
+			[
+				"overlay.css",
+				"src/include/styles/blocks/_overlay.css"
+			],
+			[
+				"storeselection",
+				"src/include/js/CO/storeSelection.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"featuredprodu",
+				"src/components/HealthyWorld/FeaturedProductSection/FeaturedProductSection.js"
+			],
+			[
+				"featured",
+				"src/components/HealthyWorld/FeaturedProductSection/FeaturedProducts.js"
+			],
+			[
+				"descripn",
+				"src/components/HealthyWorld/DescriptionSection/DescriptionSection.js"
+			],
+			[
+				"mundosa",
+				"src/html/mundo-saludable.html"
+			],
+			[
+				"mainpage.js",
+				"src/components/HealthyWorld/MainPage.js"
+			],
+			[
+				"menu",
+				"src/components/HealthyWorld/Menu.js"
+			],
+			[
+				"checkout5",
+				"src/include/checkout/Checkout5Manager.js"
+			],
+			[
+				"section.js",
+				"src/components/HealthyWorld/Section.js"
+			],
+			[
+				"title.scss",
+				"src/components/HealthyWorld/styles/_hw-title.scss"
+			],
+			[
+				"title.js",
+				"src/components/HealthyWorld/Title.js"
+			],
+			[
+				"hw-title",
+				"src/components/HealthyWorld/styles/_hw-title.scss"
+			],
+			[
+				"description.scss",
+				"src/components/HealthyWorld/styles/_hw-description.scss"
+			],
+			[
+				"subpage",
+				"src/components/HealthyWorld/SubPage.js"
+			],
+			[
+				"chekocut5",
+				"src/include/checkout/Checkout5Manager.js"
+			],
+			[
+				"chjeckout",
+				"src/js/checkout5-custom.js"
+			],
+			[
+				"accordion",
+				"src/include/styles/checkout/_accordion-group.css"
+			],
+			[
+				"acco",
+				"src/include/styles/checkout/_accordion-group.css"
+			],
+			[
+				"_acco",
+				"src/include/styles/checkout/_accordion-group.css"
+			],
+			[
+				"mixin.css",
+				"src/include/styles/_mixin.css"
+			],
+			[
+				"_payment",
+				"src/include/styles/checkout/_payment-data.css"
+			],
+			[
+				"_paymen",
+				"src/include/styles/checkout/_payment-data.css"
+			],
+			[
+				"cart.css",
+				"src/include/styles/checkout/_cart.css"
+			],
+			[
+				"_shipp",
+				"src/include/styles/checkout/_shipping-data.css"
+			],
+			[
+				"_modals",
+				"src/include/styles/checkout/_modals.css"
+			],
+			[
+				"_shipping",
+				"src/include/styles/checkout/_shipping-data.css"
+			],
+			[
+				"_cart.css",
+				"src/include/styles/checkout/_cart.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 316.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

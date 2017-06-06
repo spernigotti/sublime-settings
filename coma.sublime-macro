@@ -1,0 +1,17 @@
+[
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": true
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": ","
+		},
+		"command": "insert"
+	}
+]

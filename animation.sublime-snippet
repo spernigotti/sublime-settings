@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+animation-name: ${1: animation-name}; -o-animation-name: ${1: animation-name}; -ms-animation-name: ${1: animation-name}; -moz-animation-name: ${1: animation-name}; -webkit-animation-name: ${1: animation-name};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ani</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.css</scope>
+</snippet>

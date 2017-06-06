@@ -1,0 +1,1253 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"address",
+				"addressSelector"
+			],
+			[
+				"hipo",
+				"hipotecario-svg"
+			],
+			[
+				"space-",
+				"space-between"
+			],
+			[
+				"jumbocolombi",
+				"jumbocolombiafoodqa"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"discoun",
+				"discountData"
+			],
+			[
+				"getD",
+				"getDiscountById"
+			],
+			[
+				"current",
+				"currentTarget"
+			],
+			[
+				"dis",
+				"discountIds"
+			],
+			[
+				"dicount",
+				"discountFormatted"
+			],
+			[
+				"hidden",
+				"hiddenCategories"
+			],
+			[
+				"unit",
+				"unitMultiplier"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Searching 46 files for \"janis\"\n\n/var/www/personalhomolog/src/js/arnet-v2.js:\n  247  \n  248  \t\t\t[IF ENV==\"arnethomolog\"]\n  249: \t\t\tlet url = 'https://janisqa.fizzmod.com/api/order/fullfillment',\n  250  \t\t\t\tclient = 'arnethomolog';\n  251  \t\t\t[/IF]\n  252  \t\t\t\n  253  \t\t\t[IF ENV==\"arnet\"]\n  254: \t\t\tlet url = 'https://janis.fizzmod.com/api/order/fullfillment',\n  255  \t\t\t \tclient = 'arnet';\n  256  \t\t\t[/IF]\n  ...\n  290  \t\t\t \t\tcrossDomain: true,\n  291  \t\t\t\t\theaders: {\n  292: \t\t\t\t\t\t'Janis-Client': client,\n  293  \t\t\t\t\t\t'Content-Type': 'application/json'\n  294  \t\t\t\t\t},\n\n3 matches in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 585,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/var/www/personalhomolog/src/js/arnet-v2.js",
+			"settings":
+			{
+				"buffer_size": 25631,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 52.0,
+		"last_filter": "jsx",
+		"selected_items":
+		[
+			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"beauti",
+				"HTMLBeautify"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"pug",
+				"Set Syntax: Pug"
+			],
+			[
+				"git bla",
+				"Git: Blame"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/personalhomolog"
+	],
+	"file_history":
+	[
+		"/var/www/personalhomolog/src/js/comparator.js",
+		"/var/www/personalhomolog/src/js/nuevo-flow-v2.js",
+		"/var/www/personalhomolog/src/js/fizzmod.js",
+		"/var/www/aurora/src/include/minicart/minicart.html",
+		"/var/www/aurora/src/include/classes/storeAddress.js",
+		"/var/www/aurora/src/include/js/CO/storeSelection.js",
+		"/var/www/aurora/src/js/global.js",
+		"/var/www/aurora/src/include/styles/blocks/_overlay.css",
+		"/var/www/aurora/src/include/styles/blocks/_products-not-found.css",
+		"/var/www/aurora/src/styles/global.css",
+		"/var/www/aurora/src/include/styles/blocks/_address-selector.css",
+		"/var/www/aurora/src/js/cart.js",
+		"/var/www/aurora/src/html/subtemplates/header.html",
+		"/var/www/aurora/src/js/fizzmod.js",
+		"/var/www/aurora/src/include/search-product-list/search-product-list.css",
+		"/var/www/aurora/src/html/cart.html",
+		"/var/www/aurora/src/include/styles/_mixin.css",
+		"/var/www/aurora/src/include/js/selectors.js",
+		"/var/www/aurora/src/components/overlay-paper-gift/overlay-paper-gift.js",
+		"/var/www/aurora/src/js/recipe.js",
+		"/var/www/aurora/src/js/recipe-search.js",
+		"/var/www/aurora/src/js/recipes.js",
+		"/var/www/aurora/src/include/classes/discounter.js",
+		"/var/www/aurora/src/js/overlay-paper-gift.js",
+		"/home/fizzmod/Descargas/exportar/jumbocolombiafoodqa_RP.csv",
+		"/var/www/aurora/src/styles/checkout-custom.css",
+		"/var/www/aurora/src/containers/FaqsContainer/FaqsContainer.js",
+		"/var/www/aurora/src/include/institutional/AR/contact-contact.html",
+		"/var/www/aurora/src/components/ProductsNotFound/ProductsNotFound.js",
+		"/var/www/aurora/src/containers/ContactContainer/ContactContainer.js",
+		"/var/www/aurora/src/js/contact-contact.js",
+		"/var/www/aurora/src/html/home.html",
+		"/var/www/aurora/src/include/shopping-list/shopping-list.css",
+		"/var/www/aurora/src/include/html/CO/store-selector-wrapper.html",
+		"/var/www/aurora/src/include/js/node-middleware-endpoints.js",
+		"/var/www/aurora/src/include/js/polyfills.js",
+		"/var/www/aurora/src/js/fizzmod.catalog.js",
+		"/var/www/aurora/src/include/styles/blocks/_search-mobile.css",
+		"/var/www/aurora/src/include/styles/_font-icons.css",
+		"/var/www/aurora/src/include/styles/_variables.css",
+		"/var/www/aurora/src/styles/_mixins.scss",
+		"/var/www/aurora/src/handlebars.js",
+		"/var/www/aurora/src/html/subtemplates/overlay-store.html",
+		"/var/www/aurora/src/html/subtemplates/metas.html",
+		"/var/www/aurora/src/include/checkout/shipping.js",
+		"/var/www/aurora/src/include/js/handlebar-functions.js",
+		"/var/www/aurora/src/include/html/PE/store-selector-wrapper.html",
+		"/var/www/aurora/src/include/html/AR/store-selector-wrapper.html",
+		"/var/www/aurora/src/include/styles/views/_recipes.css",
+		"/var/www/aurora/src/include/templates/product-item-template.html",
+		"/var/www/aurora/src/include/styles/blocks/_product-prices.css",
+		"/var/www/aurora/src/html/recipes.html",
+		"/var/www/aurora/src/html/shopping-list.html",
+		"/var/www/aurora/src/html/subtemplates/overlay-add-shop-list.html",
+		"/var/www/aurora/src/include/search-product-list/search-product-list.html",
+		"/var/www/aurora/src/html/shopping-lists-user.html",
+		"/var/www/aurora/src/html/subtemplates/overlay-filters-mobile.html",
+		"/var/www/aurora/src/include/navigation/mobile/AR/navigation-mobile.html",
+		"/var/www/aurora/src/html/subtemplates/overlay-substitute-warning.html",
+		"/var/www/aurora/src/html/subtemplates/overlay-added-to-lists.html",
+		"/var/www/aurora/src/html/subtemplates/overlay-added-to-cart.html",
+		"/var/www/aurora/src/html/recipe.html",
+		"/var/www/aurora/src/html/product-food.html",
+		"/var/www/aurora/src/html/compare.html",
+		"/var/www/aurora/src/include/styles/_buttons.css",
+		"/var/www/aurora/src/include/shopping-list/create-list/create-list.html",
+		"/var/www/aurora/src/include/styles/_box-shadow.css",
+		"/var/www/aurora/src/include/js/CL/storeSelection.js",
+		"/var/www/aurora/src/html/subtemplates/overlay-create-shop-list.html",
+		"/var/www/aurora/src/include/html/CL/store-selector-wrapper.html",
+		"/var/www/aurora/src/html/subtemplates/overlay-store-selector.html",
+		"/var/www/aurora/src/js/shopping-lists.js",
+		"/var/www/aurora/src/js/shopping-list.js",
+		"/var/www/aurora/src/js/list.js",
+		"/var/www/aurora/src/include/checkout/profile.js",
+		"/var/www/aurora/src/js/fizzmod.shoplist.js",
+		"/home/fizzmod/.config/sublime-text-3/Packages/User/ifar.sublime-snippet",
+		"/var/www/aurora/src/include/styles/blocks/_compare-header.css",
+		"/var/www/aurora/src/include/checkout/payment.js",
+		"/var/www/aurora/src/include/styles/views/_compare.css",
+		"/var/www/aurora/src/include/styles/blocks/_product-item.css",
+		"/var/www/aurora/vtex-uploader.conf",
+		"/var/www/aurora/src/include/styles/views/_department.css",
+		"/var/www/aurora/src/include/checkout/checkout-global.js",
+		"/var/www/aurora/src/include/styles/PE/footer.css",
+		"/var/www/aurora/src/components/Contact/ContactForm.scss",
+		"/var/www/aurora/src/components/Contact/Contact.scss",
+		"/var/www/aurora/src/components/Bank/Bank.scss",
+		"/var/www/aurora/src/components/Discounts/DiscountItem.scss",
+		"/var/www/aurora/src/components/Discounts/Discounts.js",
+		"/var/www/aurora/src/components/Discounts/Discount.scss",
+		"/var/www/aurora/src/components/Bank/Bank.js",
+		"/var/www/aurora/src/components/Discounts/discounts.json",
+		"/var/www/aurora/src/components/Bank/BankIcons.js",
+		"/var/www/aurora/src/js/search.js",
+		"/var/www/aurora/build/js/search.js",
+		"/var/www/aurora/src/components/Contact/ContactForm.js",
+		"/var/www/aurora/src/include/svg/americanexpress.svg",
+		"/var/www/aurora/src/include/svg/citi.svg",
+		"/var/www/aurora/src/include/svg/provincia.svg",
+		"/var/www/aurora/src/include/svg/jumbomas.svg",
+		"/var/www/aurora/src/html/jumbomas.html",
+		"/var/www/aurora/src/include/svg/ciudad.svg",
+		"/var/www/aurora/src/include/svg/diners.svg",
+		"/var/www/aurora/src/js/contact.js",
+		"/var/www/aurora/src/include/svg/nacion.svg",
+		"/var/www/aurora/src/include/svg/cencosud.svg",
+		"/var/www/aurora/src/include/svg/santafe.svg",
+		"/var/www/aurora/src/include/svg/naranja.svg",
+		"/var/www/aurora/src/include/svg/macro.svg",
+		"/var/www/aurora/src/include/svg/icbc.svg",
+		"/var/www/aurora/src/include/svg/hipotecario.svg",
+		"/var/www/aurora/src/include/svg/itau.svg",
+		"/var/www/aurora/src/include/svg/patagonia.svg",
+		"/var/www/aurora/src/js/discounts.js",
+		"/var/www/aurora/src/components/Discounts/DiscountItem.js",
+		"/var/www/aurora/src/components/Bank/Bank.css",
+		"/var/www/aurora/src/components/Discounts/DiscountsFilter.js",
+		"/var/www/aurora/src/components/Discounts/BankFilter.js",
+		"/var/www/aurora/src/components/Discounts/DiscountList.js",
+		"/var/www/aurora/src/styles/discounts.css",
+		"/var/www/aurora/src/styles/discounts.scss",
+		"/var/www/aurora/src/components/ShippingMethods/ShippingMethods.scss",
+		"/var/www/aurora/fizzmod-scripts/configs/webpack.config.dev.js",
+		"/var/www/aurora/src/include/styles/_functions.css",
+		"/var/www/aurora/src/components/PaymentMethods/PaymentMethods.scss",
+		"/var/www/aurora/src/html/message-center/vtexcommerce-new-order.html",
+		"/var/www/aurora/src/components/PaymentMethods/PaymentMethod.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"*.js",
+			"*.html",
+			"*.css",
+			"*.html",
+			"*.js",
+			"/var/www/aurora/src/components",
+			"",
+			"*global.css",
+			"",
+			"*.js",
+			"*.css",
+			"*.html",
+			"*.css",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.js",
+			"*.css",
+			"*.js",
+			"*.css",
+			"*.js",
+			"*.css",
+			"",
+			"*.css",
+			"*.html",
+			"*.js",
+			"*.html",
+			"*.css",
+			"*.js",
+			"include/*.css",
+			"styles/*.css",
+			"/styles/*.css",
+			"",
+			"*.css",
+			"",
+			".css",
+			"include/*.css",
+			"*.css",
+			"src/styles/*.css",
+			"/src/styles/*.css",
+			"./src/styles/*.css",
+			"*.css",
+			"",
+			"institutional.css",
+			"",
+			"*.js",
+			"*.css",
+			"*.js",
+			"",
+			"*.js",
+			"cart.js",
+			"*.js",
+			"*.html",
+			"",
+			"*.js",
+			"",
+			"*.js",
+			"*.html",
+			"*.js",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.js",
+			"*.css",
+			"*.html",
+			"",
+			"*.html",
+			"*.css",
+			"*.html",
+			"",
+			"*.js",
+			"",
+			"*.js",
+			"",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.html",
+			"",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.html",
+			"*.css",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"janis",
+			"addUrlParam = function",
+			"addUrlParam",
+			"refreshUrlCompareButton",
+			"url",
+			"error:",
+			"\"list\"",
+			"showOverlay",
+			"addToCart",
+			"self.addToCart",
+			"aurora.addToCart",
+			"addtocart",
+			"wong",
+			"ENV.match",
+			"wong",
+			"searchByFlag",
+			"minicart.html",
+			"store-selector-bottom-container",
+			"bottom-container",
+			"store-selector-bottom-container",
+			"message",
+			"2.a - Store Locality Mobile",
+			"hasslas",
+			"setAddressInputValue",
+			"setcookie",
+			"initializeProperties",
+			"address",
+			"error",
+			"OrderForm",
+			"cookie",
+			"hasSlas",
+			"setCookie",
+			"storeAddress",
+			"formatted_address",
+			"addressQuery",
+			"formatted_address",
+			"setGoogleAutocomplete",
+			"this.autocomplete",
+			"onSubmitStore",
+			"colombiafoodqa",
+			"colombia",
+			"colombiaqa",
+			"onUpdateSearchListParams",
+			"searchProductListInput",
+			"28px",
+			"event",
+			"onUpdateSearchListParams",
+			"match",
+			"matchh",
+			".match",
+			"match",
+			".match",
+			"removeSearchListItem",
+			"remove",
+			"constructor",
+			"phone",
+			"orderinfo",
+			"documentReady",
+			"onUpdateSearchListParams",
+			"orderInfo",
+			"onUpdateSearchListParams",
+			"updatesearch",
+			"onUpdateSearchListParams",
+			"updatesearchlis",
+			"onUpdateSearchListParams",
+			"updatesearchlist",
+			"onUpdateSearchListParams",
+			"updateOrderInfo",
+			"UpdateSearchListParams",
+			"orderinfo",
+			"colombia",
+			" cart",
+			"cart",
+			"iscart",
+			"react-select",
+			"searchProductList",
+			"PaperGiftOverlay",
+			"contact-contact-root",
+			"getelement",
+			"InstallmentsCalculator",
+			"ProductsNotFound",
+			"orderinfo",
+			" ",
+			"\"",
+			"recipes",
+			".shop-list-filters",
+			"setRecipesHome",
+			"setRecipes",
+			"recipe",
+			"env",
+			"new swiper",
+			"hideoverlay",
+			"onSubmitStore",
+			"overlay",
+			"get",
+			"/**\n * \n */",
+			"initialize",
+			"animation(fadeIn",
+			"fadein",
+			"fillInAddress",
+			"not-found",
+			"check",
+			"modifier",
+			"not-found",
+			"error",
+			"ea002e",
+			"input",
+			"font-icn",
+			"error",
+			"26654",
+			"let collectionId = script",
+			"let collectionId = script.match",
+			"\"0",
+			",",
+			"simulate",
+			"get-sku",
+			"city",
+			"data.",
+			"length",
+			"googleDataMap",
+			"storeSelection",
+			"store",
+			"required",
+			"for",
+			"autocomplete",
+			"initAutocomplete",
+			"setStoreSelection",
+			"colombia"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"@include justify-content;",
+			"@include align-items;",
+			"@include displayFlex;",
+			"align-items: center;",
+			"justify-content: center;",
+			"flex-direction: column;",
+			"display: flex;",
+			"",
+			"@include flex-direction(column);",
+			"@include justify-content(space-around);",
+			"@include justify-content(space-between);",
+			"",
+			"@include justify-content;",
+			"justify-content: center",
+			"@include align-items;",
+			"@include justify-content;",
+			"@include displayFlex;",
+			"elem.",
+			"$(elem.",
+			"{{FK:phoneNumber}}",
+			"*                               ",
+			"*\t\t\t\t\t\t\t",
+			"*      "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 585,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										149,
+										154
+									],
+									[
+										314,
+										319
+									],
+									[
+										478,
+										483
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/personalhomolog/src/js/arnet-v2.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5718,
+								5718
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3104.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "personalhomolog.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"fizzmod",
+				"src/js/fizzmod.js"
+			],
+			[
+				"fizmod",
+				"src/js/fizzmod.js"
+			],
+			[
+				"compar",
+				"src/js/comparator.js"
+			],
+			[
+				"catalog.js",
+				"src/js/fizzmod.catalog.js"
+			],
+			[
+				"product.js",
+				"src/js/product.js"
+			],
+			[
+				"global.js",
+				"src/js/global.js"
+			],
+			[
+				"recipe.html",
+				"src/html/recipe.html"
+			],
+			[
+				"recipe.js",
+				"src/js/recipe.js"
+			],
+			[
+				"gobal",
+				"src/js/global.js"
+			],
+			[
+				"store.js",
+				"src/include/js/CO/storeSelection.js"
+			],
+			[
+				"storeaddres",
+				"src/include/classes/storeAddress.js"
+			],
+			[
+				"minicart",
+				"src/include/minicart/minicart.html"
+			],
+			[
+				"global.css",
+				"src/styles/global.css"
+			],
+			[
+				"overlay.cs",
+				"src/include/styles/blocks/_overlay.css"
+			],
+			[
+				"header",
+				"src/html/subtemplates/header.html"
+			],
+			[
+				"fizzmod.js",
+				"src/js/fizzmod.js"
+			],
+			[
+				"storeaddress",
+				"src/include/classes/storeAddress.js"
+			],
+			[
+				"cart.html",
+				"src/html/cart.html"
+			],
+			[
+				"mixin",
+				"src/include/styles/_mixin.css"
+			],
+			[
+				"selectors.j",
+				"src/include/js/selectors.js"
+			],
+			[
+				"globa",
+				"src/js/global.js"
+			],
+			[
+				"recipes.js",
+				"src/js/recipes.js"
+			],
+			[
+				"recipe-sera",
+				"src/js/recipe-search.js"
+			],
+			[
+				"selectors.js",
+				"src/include/js/selectors.js"
+			],
+			[
+				"discounter.js",
+				"src/include/classes/discounter.js"
+			],
+			[
+				"cart.js",
+				"src/js/cart.js"
+			],
+			[
+				"overlay-paper-gift",
+				"src/components/overlay-paper-gift/overlay-paper-gift.js"
+			],
+			[
+				"product-list.css",
+				"src/include/search-product-list/search-product-list.css"
+			],
+			[
+				"checkout-custom.css",
+				"src/styles/checkout-custom.css"
+			],
+			[
+				"container.js",
+				"src/containers/FaqsContainer/FaqsContainer.js"
+			],
+			[
+				"contact-concat.js",
+				"src/js/contact-contact.js"
+			],
+			[
+				"include/institutional/ar/contact-contact.html",
+				"src/include/institutional/AR/contact-contact.html"
+			],
+			[
+				"paper-gift",
+				"src/components/overlay-paper-gift/overlay-paper-gift.js"
+			],
+			[
+				"paper-fi",
+				"src/js/overlay-paper-gift.js"
+			],
+			[
+				"shoppnig-list.css",
+				"src/include/shopping-list/shopping-list.css"
+			],
+			[
+				"home.html",
+				"src/html/home.html"
+			],
+			[
+				"fizz",
+				"src/js/fizzmod.catalog.js"
+			],
+			[
+				"mixin.css",
+				"src/include/styles/_mixin.css"
+			],
+			[
+				"font-icn",
+				"src/include/styles/_font-icons.css"
+			],
+			[
+				"var",
+				"src/include/styles/_variables.css"
+			],
+			[
+				"store-wrapper",
+				"src/include/html/CO/store-selector-wrapper.html"
+			],
+			[
+				"mixincss",
+				"src/include/styles/_mixin.css"
+			],
+			[
+				"mixins",
+				"src/styles/_mixins.scss"
+			],
+			[
+				"overlaycss",
+				"src/include/styles/blocks/_overlay.css"
+			],
+			[
+				"handler",
+				"src/handlebars.js"
+			],
+			[
+				"node-mi",
+				"src/include/js/node-middleware-endpoints.js"
+			],
+			[
+				"shipping.js",
+				"src/include/checkout/shipping.js"
+			],
+			[
+				"handlebars.js",
+				"src/handlebars.js"
+			],
+			[
+				"handlebar",
+				"src/include/js/handlebar-functions.js"
+			],
+			[
+				"overlay-sto",
+				"src/html/subtemplates/overlay-store.html"
+			],
+			[
+				"metas",
+				"src/html/subtemplates/metas.html"
+			],
+			[
+				"store-selector-pe",
+				"src/include/html/PE/store-selector-wrapper.html"
+			],
+			[
+				"store-selecot",
+				"src/include/html/AR/store-selector-wrapper.html"
+			],
+			[
+				"overlay.css",
+				"src/include/styles/blocks/_overlay.css"
+			],
+			[
+				"product-prices",
+				"src/include/styles/blocks/_product-prices.css"
+			],
+			[
+				"selector-",
+				"src/include/html/CO/store-selector-wrapper.html"
+			],
+			[
+				"overlay-store",
+				"src/html/subtemplates/overlay-store.html"
+			],
+			[
+				"product-item-tem",
+				"src/include/templates/product-item-template.html"
+			],
+			[
+				"recipes.html",
+				"src/html/recipes.html"
+			],
+			[
+				"shopping-list.css",
+				"src/include/shopping-list/shopping-list.css"
+			],
+			[
+				"buttons.css",
+				"src/include/styles/_buttons.css"
+			],
+			[
+				"create-list.html",
+				"src/include/shopping-list/create-list/create-list.html"
+			],
+			[
+				"create-shop-li",
+				"src/html/subtemplates/overlay-create-shop-list.html"
+			],
+			[
+				"shopping-list.html",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"vari",
+				"src/include/styles/_variables.css"
+			],
+			[
+				"shoppint-lis",
+				"src/include/shopping-list/shopping-list.css"
+			],
+			[
+				"shoppin",
+				"src/js/shopping-lists.js"
+			],
+			[
+				"shopping-lists",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"shopping-list.js",
+				"src/js/shopping-list.js"
+			],
+			[
+				"profile",
+				"src/include/checkout/profile.js"
+			],
+			[
+				"gloal",
+				"src/js/global.js"
+			],
+			[
+				"payment.js",
+				"src/include/checkout/payment.js"
+			],
+			[
+				"compare.css",
+				"src/include/styles/views/_compare.css"
+			],
+			[
+				"product-pri",
+				"src/include/styles/blocks/_product-prices.css"
+			],
+			[
+				".conf",
+				"vtex-uploader.conf"
+			],
+			[
+				"compare.html",
+				"src/html/compare.html"
+			],
+			[
+				"listjs",
+				"src/js/list.js"
+			],
+			[
+				"checkout.js",
+				"src/include/checkout/checkout-global.js"
+			],
+			[
+				"footer.css",
+				"src/include/styles/PE/footer.css"
+			],
+			[
+				"department.css",
+				"src/include/styles/views/_department.css"
+			],
+			[
+				"list.js",
+				"src/js/list.js"
+			],
+			[
+				"js/search.js",
+				"src/js/search.js"
+			],
+			[
+				"search.js",
+				"build/js/search.js"
+			],
+			[
+				"discountitem.scss",
+				"src/components/Discounts/DiscountItem.scss"
+			],
+			[
+				"discounts.css",
+				"src/components/Discounts/Discount.scss"
+			],
+			[
+				"provincia",
+				"src/include/svg/provincia.svg"
+			],
+			[
+				"citi",
+				"src/include/svg/citi.svg"
+			],
+			[
+				"jumbomas",
+				"src/include/svg/jumbomas.svg"
+			],
+			[
+				"ameri",
+				"src/include/svg/americanexpress.svg"
+			],
+			[
+				"ciudad",
+				"src/include/svg/ciudad.svg"
+			],
+			[
+				"diners",
+				"src/include/svg/diners.svg"
+			],
+			[
+				"nacion.s",
+				"src/include/svg/nacion.svg"
+			],
+			[
+				"cencosud",
+				"src/include/svg/cencosud.svg"
+			],
+			[
+				"conta",
+				"src/js/contact.js"
+			],
+			[
+				"discountitem",
+				"src/components/Discounts/DiscountItem.js"
+			],
+			[
+				"discounts.json",
+				"src/components/Discounts/discounts.json"
+			],
+			[
+				"discounts.scss",
+				"src/styles/discounts.scss"
+			],
+			[
+				"discounts",
+				"src/styles/discounts.css"
+			],
+			[
+				"varia",
+				"src/include/styles/_variables.css"
+			],
+			[
+				"funcions",
+				"src/include/styles/_functions.css"
+			],
+			[
+				"function",
+				"src/include/styles/_functions.css"
+			],
+			[
+				"new-order",
+				"src/html/message-center/vtexcommerce-new-order.html"
+			],
+			[
+				"custom",
+				"src/styles/checkout-custom.css"
+			],
+			[
+				"variables",
+				"src/styles/_variables.scss"
+			],
+			[
+				"institu",
+				"src/include/institutional/institutional.css"
+			],
+			[
+				"histo",
+				"src/include/institutional/AR/us-history.html"
+			],
+			[
+				"contact-our-stores",
+				"src/include/institutional/PE/contact-our-stores.html"
+			],
+			[
+				"contact-our-store",
+				"src/include/institutional/CL/contact-our-stores.html"
+			],
+			[
+				"contact-pro",
+				"src/html/contact-providers.html"
+			],
+			[
+				"funci",
+				"src/include/styles/_functions.css"
+			],
+			[
+				"global.",
+				"src/js/global.js"
+			],
+			[
+				"funcion",
+				"src/include/styles/_functions.css"
+			],
+			[
+				"font-face",
+				"src/include/styles/font-face/font-face-common.css"
+			],
+			[
+				"navigation",
+				"src/html/subtemplates/navigation.html"
+			],
+			[
+				"navi-mobile",
+				"src/include/styles/blocks/_navigation-mobile.css"
+			],
+			[
+				"naviga",
+				"src/html/subtemplates/navigation.html"
+			],
+			[
+				"menu-non",
+				"src/include/menu/menu-nonfood.html"
+			],
+			[
+				"menu-mobil",
+				"src/include/menu/menu-food-mobile.html"
+			],
+			[
+				"offi",
+				"src/include/checkout/CO-storePickupOffices.js"
+			],
+			[
+				"contact.js",
+				"src/js/contact.js"
+			],
+			[
+				"institutional",
+				"src/js/institutional.js"
+			],
+			[
+				"cofooter",
+				"src/include/footer/CO/footer.css"
+			],
+			[
+				"checkout.css",
+				"src/styles/checkout-custom.css"
+			],
+			[
+				"cofont-icon",
+				"src/include/styles/font-icons/CO/font-icons-extended.css"
+			],
+			[
+				"coicons",
+				"src/include/styles/icons/CO/icons.css"
+			],
+			[
+				"icons",
+				"src/include/styles/icons/AR/icons.css"
+			],
+			[
+				"home",
+				"src/html/home.html"
+			],
+			[
+				"meta",
+				"src/html/subtemplates/metas.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

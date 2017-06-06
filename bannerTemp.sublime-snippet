@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+<div class="row">
+	<div class="col left big">
+		<vtex:contentPlaceHolder id="${1:this} - Mejor arriba izq 565px" />
+	</div>
+	<div class="col right">
+		<vtex:contentPlaceHolder id="${2:this} - Mejor arriba der 375px" />
+	</div>
+</div>
+<div class="row">
+	<div class="col left">
+		<vtex:contentPlaceHolder id="${3:this} - Mejor abajo izq 375px" />
+	</div>
+	<div class="col right big">
+		<vtex:contentPlaceHolder id="${4:this} - Mejor abajo der 565px" />
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ban</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

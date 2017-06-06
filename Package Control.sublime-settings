@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"DocBlockr",
+		"Emmet",
+		"Git",
+		"HTML-CSS-JS Prettify",
+		"HTMLBeautify",
+		"Javascript Beautify",
+		"JSONLint",
+		"JSX",
+		"Package Control",
+		"ProjectManager",
+		"Pug",
+		"Sass",
+		"ScopeHunter",
+		"SCSS",
+		"Sublimall",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint"
+	]
+}

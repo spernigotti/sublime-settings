@@ -1,0 +1,1317 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"discoun",
+				"discountData"
+			],
+			[
+				"getD",
+				"getDiscountById"
+			],
+			[
+				"current",
+				"currentTarget"
+			],
+			[
+				"dis",
+				"discountIds"
+			],
+			[
+				"dicount",
+				"discountFormatted"
+			],
+			[
+				"hidden",
+				"hiddenCategories"
+			],
+			[
+				"unit",
+				"unitMultiplier"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/fizzmod/Documentos/react-test/package.json",
+			"settings":
+			{
+				"buffer_size": 701,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/fizzmod/Documentos/react-test/webpack.config.js",
+			"settings":
+			{
+				"buffer_size": 226,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "module.exports = {"
+			}
+		},
+		{
+			"file": "/home/fizzmod/Documentos/react-test/app/index.js",
+			"settings":
+			{
+				"buffer_size": 648,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/fizzmod/Documentos/react-test/index.html",
+			"settings":
+			{
+				"buffer_size": 154,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/fizzmod/Documentos/react-test/webpack.config.dev.js",
+			"settings":
+			{
+				"buffer_size": 226,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/fizzmod/Documentos/react-test/dist/bundle.js",
+			"settings":
+			{
+				"buffer_size": 764918,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/fizzmod/Documentos/react-test/.babelrc",
+			"settings":
+			{
+				"buffer_size": 49,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 52.0,
+		"last_filter": "set syntax jsx",
+		"selected_items":
+		[
+			[
+				"set syntax jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git bla",
+				"Git: Blame"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/fizzmod/Documentos/react-test",
+		"/home/fizzmod/Documentos/react-test/app",
+		"/home/fizzmod/Documentos/react-test/dist",
+		"/home/fizzmod/Documentos/react-test2"
+	],
+	"file_history":
+	[
+		"/home/fizzmod/Documentos/react-test/app/index.html",
+		"/home/fizzmod/Documentos/react-test/index.html",
+		"/home/fizzmod/Documentos/react-test/node_modules/webpack.config.js",
+		"/home/fizzmod/Documentos/react-test/dist/bundle.js",
+		"/home/fizzmod/Documentos/react-test/.babelrc",
+		"/var/www/aurora/src/include/institutional/institutional.css",
+		"/var/www/aurora/src/html/store-benefits.html",
+		"/var/www/aurora/src/include/faqs/CL/faqs.html",
+		"/var/www/aurora/src/html/store-faqs.html",
+		"/var/www/aurora/src/include/checkout/profile.js",
+		"/var/www/aurora/src/js/checkout.js",
+		"/var/www/aurora/src/styles/checkout-custom.css",
+		"/var/www/aurora/src/js/checkout5-custom.js",
+		"/var/www/aurora/src/js/global.js",
+		"/var/www/aurora/src/include/checkout/shipping.js",
+		"/var/www/aurora/src/js/shopping-lists.js",
+		"/var/www/aurora/src/include/classes/discount.js",
+		"/var/www/aurora/src/include/checkout/checkout-global.js",
+		"/var/www/aurora/src/html/store-terms.html",
+		"/var/www/aurora/src/js/fizzmod.catalog.js",
+		"/var/www/aurora/src/html/shopping-list.html",
+		"/var/www/aurora/src/html/shopping-lists-user.html",
+		"/var/www/aurora/src/js/list.js",
+		"/var/www/aurora/build/js/discounts.js",
+		"/var/www/aurora/src/include/html/product-prices-handlebars.html",
+		"/var/www/aurora/src/include/styles/blocks/_overlay.css",
+		"/var/www/aurora/src/html/home.html",
+		"/var/www/aurora/src/html/recipe.html",
+		"/var/www/aurora/src/include/templates/product-item-template.html",
+		"/var/www/aurora/vtex-uploader.conf",
+		"/var/www/aurora/src/js/product.js",
+		"/var/www/aurora/src/include/styles/blocks/_product-prices.css",
+		"/var/www/aurora/src/js/cart.js",
+		"/var/www/aurora/src/js/recipe.js",
+		"/var/www/aurora/src/include/styles/blocks/_product-item.css",
+		"/var/www/aurora/src/include/classes/orderInfo.js",
+		"/var/www/aurora/src/include/footer/CO/footer.css",
+		"/var/www/aurora/src/include/footer/footer.css",
+		"/var/www/aurora/src/js/fizzmod.compare.js",
+		"/var/www/aurora/src/js/compare.js",
+		"/var/www/aurora/src/js/shopping-list.js",
+		"/var/www/aurora/build/css/product-item.css",
+		"/var/www/aurora/src/include/styles/_buttons.css",
+		"/var/www/aurora/src/include/styles/_mixin.css",
+		"/var/www/aurora/src/include/styles/blocks/_filter-wrapper.css",
+		"/var/www/aurora/src/include/styles/icons/CO/icons.css",
+		"/var/www/aurora/src/html/subtemplates/overlay-product-quickview.html",
+		"/var/www/aurora/src/include/js/selectors.js",
+		"/var/www/aurora/src/js/fizzmod.js",
+		"/var/www/aurora/src/handlebars.js",
+		"/var/www/aurora/src/html/cart.html",
+		"/var/www/aurora/src/include/menu/menu-food.html",
+		"/home/fizzmod/Documentos/react - Por qué la Inmutabilidad es importante?",
+		"/var/www/aurora/src/html/product-nonfood.html",
+		"/var/www/aurora/src/include/html/product-quantity-handlebars.html",
+		"/var/www/aurora/src/include/templates/minicart-product-item-template.html",
+		"/var/www/aurora/src/include/js/handlebar-functions.js",
+		"/var/www/aurora/src/include/menu/menu-nonfood.html",
+		"/var/www/aurora/src/html/product-food.html",
+		"/var/www/aurora/src/include/styles/views/_product.css",
+		"/var/www/aurora/src/styles/global.css",
+		"/var/www/aurora/src/html/category.html",
+		"/var/www/aurora/src/html/subtemplates/metas.html",
+		"/var/www/aurora/src/html/department-nonfood.html",
+		"/var/www/aurora/src/include/styles/_font-icons.css",
+		"/var/www/aurora/src/styles/responsive.css",
+		"/var/www/aurora/src/js/recipes.js",
+		"/var/www/aurora/src/include/checkout/payment.js",
+		"/var/www/aurora/src/js/institutional.js",
+		"/var/www/aurora/src/js/orders.js",
+		"/var/www/aurora/src/include/templates/recipe-item-template.html",
+		"/var/www/aurora/src/include/janis/janis.conf.js",
+		"/var/www/aurora/src/html/portal/checkout-header.html",
+		"/var/www/aurora/src/html/no-disponible.html",
+		"/home/fizzmod/Documentos/guia de estilos",
+		"/var/www/aurora/src/include/styles/font-face/CO/font-face-categories.css",
+		"/var/www/aurora/src/html/subtemplates/footer.html",
+		"/var/www/aurora/src/html/subtemplates/overlay-store.html",
+		"/var/www/aurora/src/html/subtemplates/header.html",
+		"/var/www/aurora/src/html/recipe-search.html",
+		"/var/www/aurora/src/js/fizzmod.minicart.js",
+		"/var/www/aurora/src/html/store-coverage.html",
+		"/var/www/aurora/src/html/shelf-templates/product-template.html",
+		"/var/www/aurora/src/include/footer/links/CO/links.html",
+		"/var/www/aurora/src/include/html/product-prices-shelf.html",
+		"/var/www/aurora/src/html/shelf-templates/category-product-template.html",
+		"/var/www/aurora/src/html/shelf-templates/accessory-product-template.html",
+		"/var/www/aurora/src/include/faqs/CO/faqs.html",
+		"/var/www/aurora/src/include/terms/CO/terms.html",
+		"/var/www/aurora/src/html/store-how-to-buy.html",
+		"/var/www/aurora/src/html/compare.html",
+		"/var/www/aurora/src/html/orders.html",
+		"/var/www/aurora/src/html/subtemplates/navigation.html",
+		"/var/www/aurora/src/include/styles/_animations.css",
+		"/var/www/aurora/src/include/styles/blocks/_search-mobile.css",
+		"/var/www/aurora/src/html/subtemplates/preload-screen.html",
+		"/var/www/aurora/src/include/styles/views/_home.css",
+		"/var/www/aurora/src/include/styles/blocks/_login.css",
+		"/var/www/aurora/src/include/menu/menu-food-mobile.html",
+		"/var/www/aurora/src/include/styles/views/_recipe.css",
+		"/var/www/aurora/src/include/styles/views/_search-multiple.css",
+		"/var/www/aurora/src/include/styles/blocks/_recipe-item.css",
+		"/home/fizzmod/.config/sublime-text-3/Packages/User/separator.sublime-snippet",
+		"/home/fizzmod/.config/sublime-text-3/Packages/User/subseparator.sublime-snippet",
+		"/home/fizzmod/.config/sublime-text-3/Packages/User/separator-marcos.sublime-snippet",
+		"/var/www/aurora/src/include/styles/blocks/_reviews.css",
+		"/var/www/aurora/src/include/styles/views/_compare.css",
+		"/var/www/aurora/src/include/shopping-list/shopping-list.css",
+		"/var/www/aurora/src/include/styles/blocks/_compare-header.css",
+		"/var/www/aurora/src/include/styles/blocks/_flags.css",
+		"/var/www/aurora/src/include/styles/blocks/_select2.css",
+		"/var/www/aurora/src/include/menu/menu-nonfood-mobile.html",
+		"/var/www/aurora/src/include/html/recipe-section-home.html",
+		"/var/www/aurora/src/include/styles/_variables.css",
+		"/var/www/aurora/src/html/subtemplates/overlay-store-selector.html",
+		"/var/www/aurora/src/include/styles/blocks/_sliders.css",
+		"/var/www/aurora/src/html/message-center/includes/order-reminder.html",
+		"/var/www/aurora/src/js/recipe-search.js",
+		"/var/www/aurora/src/html/message-center/vtexcommerce-new-order.html",
+		"/var/www/aurora/src/html/message-center/includes/footer.html",
+		"/var/www/aurora/src/include/styles/views/_category.css",
+		"/var/www/aurora/src/include/styles/blocks/_product-quantity.css",
+		"/var/www/aurora/src/include/styles/blocks/_minicart.css",
+		"/var/www/aurora/src/.map/global.css.map",
+		"/var/www/aurora/src/include/checkout/AR-storePickupOffices.js",
+		"/var/www/aurora/src/html/shelf-templates/CEM-Abandoned-Cart-Shelf.html",
+		"/var/www/aurora/src/include/styles/blocks/_product-list-wrapper.css",
+		"/var/www/aurora/src/include/loader/spinner-loader.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"institutional.css",
+			"",
+			"*.js",
+			"*.css",
+			"*.js",
+			"",
+			"*.js",
+			"cart.js",
+			"*.js",
+			"*.html",
+			"",
+			"*.js",
+			"",
+			"*.js",
+			"*.html",
+			"*.js",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.js",
+			"*.css",
+			"*.html",
+			"",
+			"*.html",
+			"*.css",
+			"*.html",
+			"",
+			"*.js",
+			"",
+			"*.js",
+			"",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.html",
+			"",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.html",
+			"*.css",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"webpack",
+			"pRu",
+			"prueba",
+			"request",
+			"rquest",
+			"addproduct",
+			"client-new-document",
+			"activeDocument",
+			"addOptionsDocument",
+			"addproduct",
+			"o=",
+			"shelfOptions.order",
+			"shelfOptions",
+			"change",
+			"order",
+			"getproducts",
+			"listGetCurrent",
+			"buscapagina",
+			"share",
+			"toggleShareList",
+			"important",
+			"llega a totalizers",
+			"showTotalizerWithDiscount",
+			"withdiscount",
+			"searchProductPromosnew",
+			"searchproductpromos",
+			"withdiscount",
+			"jsonParse",
+			"jsonparse",
+			"jsonParse",
+			"_discounts",
+			"discounts",
+			"withdiscount",
+			"showTotalizerWithDiscount",
+			"setDiscountPrices",
+			"applyDiscount",
+			"searchProductPromos",
+			"getDiscounts",
+			"searchProductPromos",
+			"applyDiscount",
+			"searchProductPromos",
+			"promo",
+			"discount",
+			"formatprice",
+			"promotions",
+			"showTotalizerWithDiscount",
+			"getDiscountsById",
+			"promo",
+			"array de ",
+			"promo",
+			"discountData",
+			"discountdata",
+			"discountData",
+			"discountdata",
+			"totalwi",
+			".setDiscountsHTML",
+			"setDiscountsHTML",
+			"searchproductpromosnew",
+			"isnew",
+			"applyDiscount",
+			"searchProductPromosNew",
+			"applyDiscount",
+			"searchProductPromosNew",
+			"wrapper",
+			"2 - PRODUCT VIEWS",
+			"flex-grow: 1",
+			"__value",
+			"2 - PRODUCT VIEWS",
+			"discount",
+			"promotions",
+			"let hasPricePerUnit = false",
+			"unitmultiplier",
+			"measurementUnitShow",
+			"measurementunitshow",
+			"unformatpri",
+			"unitm",
+			"let ",
+			"searchProductPromos",
+			"applyDiscount",
+			"searchProductPromos",
+			"measurable",
+			"measurementUnitVisual",
+			"discount",
+			"measurement",
+			"unFormatPrice",
+			"unformatprice",
+			"searchProductPromos",
+			"promotions",
+			"applyDiscount",
+			"searchProductPromos",
+			"self.discount",
+			"this.discount",
+			"discount",
+			"2 - PRODUCT VIEWS",
+			"4 - QUICKVIEW",
+			"ppum",
+			"discount",
+			"apply",
+			"ppum",
+			"bind(this",
+			"bind",
+			"onGottenSpecifications",
+			"appendListProduct",
+			"error",
+			"getItemsSpecifications",
+			"catalog",
+			"appendListProduct",
+			".done",
+			"catalog",
+			"addProductRequests",
+			"setproductproperties",
+			"addProductPropertyRequests",
+			"setproductproperties",
+			"addProductPropertyRequests",
+			"search",
+			"addProductPropertyRequests",
+			"xhr",
+			"addProductPropertyRequests",
+			"compileSearchResultsItems",
+			"setProductProperties",
+			"setProductItemsData",
+			"setProductProperties",
+			"4.f - Recipe Modifier",
+			"recipe",
+			"1.k - Recipe Modifier",
+			"3.h - Recipe Modifier",
+			"__description",
+			"3.g - Shop List Modifier"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"elem.",
+			"$(elem.",
+			"{{FK:phoneNumber}}",
+			"*                               ",
+			"*\t\t\t\t\t\t\t",
+			"*      "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/fizzmod/Documentos/react-test/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 701,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								355,
+								355
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/fizzmod/Documentos/react-test/webpack.config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								226
+							]
+						],
+						"settings":
+						{
+							"auto_name": "module.exports = {",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/fizzmod/Documentos/react-test/app/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JSX/JSX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/fizzmod/Documentos/react-test/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								154,
+								154
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/fizzmod/Documentos/react-test/webpack.config.dev.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 226,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								224,
+								224
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/fizzmod/Documentos/react-test/dist/bundle.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 764918,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3158,
+								3158
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1078.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/fizzmod/Documentos/react-test/.babelrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "react-test.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"babelrc",
+				".babelrc"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"discount.js",
+				"src/include/classes/discount.js"
+			],
+			[
+				"global.js",
+				"src/js/global.js"
+			],
+			[
+				"list.js",
+				"src/js/list.js"
+			],
+			[
+				"shipping.js",
+				"src/include/checkout/shipping.js"
+			],
+			[
+				"checkout5",
+				"src/js/checkout5-custom.js"
+			],
+			[
+				"profile.js",
+				"src/include/checkout/profile.js"
+			],
+			[
+				"custom",
+				"src/styles/checkout-custom.css"
+			],
+			[
+				"checkout.js",
+				"src/js/checkout.js"
+			],
+			[
+				"faqs.html",
+				"src/include/faqs/CL/faqs.html"
+			],
+			[
+				"store-be",
+				"src/html/store-benefits.html"
+			],
+			[
+				"instit",
+				"src/include/institutional/institutional.css"
+			],
+			[
+				"store-faqs",
+				"src/html/store-faqs.html"
+			],
+			[
+				"checkut",
+				"src/js/checkout.js"
+			],
+			[
+				"shopping-lists",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"shopping-lists.js",
+				"src/js/shopping-lists.js"
+			],
+			[
+				"shopping-list-us",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"shopping",
+				"src/html/shopping-list.html"
+			],
+			[
+				"catalog",
+				"src/js/fizzmod.catalog.js"
+			],
+			[
+				"insti",
+				"src/include/institutional/institutional.css"
+			],
+			[
+				"terms",
+				"src/html/store-terms.html"
+			],
+			[
+				"shipping",
+				"src/include/checkout/shipping.js"
+			],
+			[
+				"discon",
+				"build/js/discounts.js"
+			],
+			[
+				".conf",
+				"vtex-uploader.conf"
+			],
+			[
+				"checkoutglo",
+				"src/include/checkout/checkout-global.js"
+			],
+			[
+				"cart.js",
+				"src/js/cart.js"
+			],
+			[
+				"product-prices.css",
+				"src/include/styles/blocks/_product-prices.css"
+			],
+			[
+				"recipe",
+				"src/html/recipe.html"
+			],
+			[
+				"product-item-te",
+				"src/include/templates/product-item-template.html"
+			],
+			[
+				"product.js",
+				"src/js/product.js"
+			],
+			[
+				"product-pri",
+				"src/include/styles/blocks/_product-prices.css"
+			],
+			[
+				"overlay.css",
+				"src/include/styles/blocks/_overlay.css"
+			],
+			[
+				"product-prices.cs",
+				"src/include/styles/blocks/_product-prices.css"
+			],
+			[
+				"home.html",
+				"src/html/home.html"
+			],
+			[
+				"product-prices-ha",
+				"src/include/html/product-prices-handlebars.html"
+			],
+			[
+				"recipe.js",
+				"src/js/recipe.js"
+			],
+			[
+				"compare",
+				"src/js/compare.js"
+			],
+			[
+				"compare.js",
+				"src/js/compare.js"
+			],
+			[
+				"shopping-list.js",
+				"src/js/shopping-list.js"
+			],
+			[
+				"product-item.css",
+				"src/include/styles/blocks/_product-item.css"
+			],
+			[
+				"proudct-item.css",
+				"build/css/product-item.css"
+			],
+			[
+				"prodcut-prices.css",
+				"src/include/styles/blocks/_product-prices.css"
+			],
+			[
+				"prices-",
+				"src/include/html/product-prices-handlebars.html"
+			],
+			[
+				"checkout-glo",
+				"src/include/checkout/checkout-global.js"
+			],
+			[
+				"button",
+				"src/include/styles/_buttons.css"
+			],
+			[
+				"mixin",
+				"src/include/styles/_mixin.css"
+			],
+			[
+				"icon.css",
+				"src/include/styles/icons/CO/icons.css"
+			],
+			[
+				"globa",
+				"src/js/global.js"
+			],
+			[
+				"cofooter",
+				"src/include/footer/CO/footer.css"
+			],
+			[
+				"footer.css",
+				"src/include/footer/footer.css"
+			],
+			[
+				"order",
+				"src/include/classes/orderInfo.js"
+			],
+			[
+				"product-rpic",
+				"src/include/html/product-prices-handlebars.html"
+			],
+			[
+				"quickview",
+				"src/html/subtemplates/overlay-product-quickview.html"
+			],
+			[
+				"product-item",
+				"src/include/templates/product-item-template.html"
+			],
+			[
+				"proudct-prices",
+				"src/include/styles/blocks/_product-prices.css"
+			],
+			[
+				"selectors.j",
+				"src/include/js/selectors.js"
+			],
+			[
+				"fizzmod",
+				"src/js/fizzmod.js"
+			],
+			[
+				"promo",
+				"src/include/classes/promo.js"
+			],
+			[
+				"fizzmod.js",
+				"src/js/fizzmod.js"
+			],
+			[
+				"orderinfo",
+				"src/include/classes/orderInfo.js"
+			],
+			[
+				"handle",
+				"src/handlebars.js"
+			],
+			[
+				"orderinfo.js",
+				"src/include/classes/orderInfo.js"
+			],
+			[
+				"menu-food",
+				"src/include/menu/menu-food.html"
+			],
+			[
+				"checkout-cu",
+				"src/styles/checkout-custom.css"
+			],
+			[
+				"cart.html",
+				"src/html/cart.html"
+			],
+			[
+				"checkout-globa",
+				"src/include/checkout/checkout-global.js"
+			],
+			[
+				"product-prices",
+				"src/include/styles/blocks/_product-prices.css"
+			],
+			[
+				"product-quantiy",
+				"src/include/html/product-quantity-handlebars.html"
+			],
+			[
+				"minicartproduc",
+				"src/include/templates/minicart-product-item-template.html"
+			],
+			[
+				"product-nonfoo",
+				"src/html/product-nonfood.html"
+			],
+			[
+				"menu-nonfoo",
+				"src/include/menu/menu-nonfood.html"
+			],
+			[
+				"product.css",
+				"src/include/styles/views/_product.css"
+			],
+			[
+				"product-food.html",
+				"src/html/product-food.html"
+			],
+			[
+				"icons",
+				"src/include/styles/icons/CO/icons.css"
+			],
+			[
+				"global.css",
+				"src/styles/global.css"
+			],
+			[
+				"font-icon",
+				"src/include/styles/_font-icons.css"
+			],
+			[
+				"department-nonfood",
+				"src/html/department-nonfood.html"
+			],
+			[
+				"shopping-list-",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"shopping-list.html",
+				"src/html/shopping-list.html"
+			],
+			[
+				"category",
+				"src/html/category.html"
+			],
+			[
+				"responsi",
+				"src/styles/responsive.css"
+			],
+			[
+				"metas",
+				"src/html/subtemplates/metas.html"
+			],
+			[
+				"payment.js",
+				"src/include/checkout/payment.js"
+			],
+			[
+				"profi",
+				"src/include/checkout/profile.js"
+			],
+			[
+				"selectors",
+				"src/include/js/selectors.js"
+			],
+			[
+				"recipes.js",
+				"src/js/recipes.js"
+			],
+			[
+				"recipe-item",
+				"src/include/templates/recipe-item-template.html"
+			],
+			[
+				"glboal.js",
+				"src/js/global.js"
+			],
+			[
+				"product-non",
+				"src/html/product-nonfood.html"
+			],
+			[
+				"janis",
+				"src/include/janis/janis.conf.js"
+			],
+			[
+				"no-dis",
+				"src/html/no-disponible.html"
+			],
+			[
+				"recipe-item-",
+				"src/include/templates/recipe-item-template.html"
+			],
+			[
+				"cart.htm",
+				"src/html/cart.html"
+			],
+			[
+				"shopping-list-user",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"checkout-header",
+				"src/html/portal/checkout-header.html"
+			],
+			[
+				"cofont-face",
+				"src/include/styles/font-face/CO/font-face-categories.css"
+			],
+			[
+				"custom.css",
+				"src/styles/checkout-custom.css"
+			],
+			[
+				"overlay-sto",
+				"src/html/subtemplates/overlay-store.html"
+			],
+			[
+				"hea",
+				"src/html/subtemplates/header.html"
+			],
+			[
+				"footer",
+				"src/html/subtemplates/footer.html"
+			],
+			[
+				"metas.html",
+				"src/html/subtemplates/metas.html"
+			],
+			[
+				"recipe-search",
+				"src/html/recipe-search.html"
+			],
+			[
+				"product-rp",
+				"src/include/html/product-prices-handlebars.html"
+			],
+			[
+				"product-item-tem",
+				"src/include/templates/product-item-template.html"
+			],
+			[
+				"custo",
+				"src/styles/checkout-custom.css"
+			],
+			[
+				"fizzmod.mini",
+				"src/js/fizzmod.minicart.js"
+			],
+			[
+				"recipe.html",
+				"src/html/recipe.html"
+			],
+			[
+				"footer.html",
+				"src/html/subtemplates/footer.html"
+			],
+			[
+				"font-icn",
+				"src/include/styles/_font-icons.css"
+			],
+			[
+				"shoppnig-list.js",
+				"src/js/shopping-list.js"
+			],
+			[
+				"cofaqs",
+				"src/include/faqs/CO/faqs.html"
+			],
+			[
+				"minicart.html",
+				"src/include/templates/minicart-product-item-template.html"
+			],
+			[
+				"hanlde",
+				"src/handlebars.js"
+			],
+			[
+				"how-to-bu",
+				"src/html/store-how-to-buy.html"
+			],
+			[
+				"recpie.js",
+				"src/js/recipe.js"
+			],
+			[
+				"compare.html",
+				"src/html/compare.html"
+			],
+			[
+				"orders.html",
+				"src/html/orders.html"
+			],
+			[
+				"selectors.js",
+				"src/include/js/selectors.js"
+			],
+			[
+				"globa.js",
+				"src/js/global.js"
+			],
+			[
+				"product-prices-han",
+				"src/include/html/product-prices-handlebars.html"
+			],
+			[
+				"produc-titem-tem",
+				"src/include/templates/minicart-product-item-template.html"
+			],
+			[
+				"quantity-handle",
+				"src/include/html/product-quantity-handlebars.html"
+			],
+			[
+				"list-u",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"product.html",
+				"src/html/product-food.html"
+			],
+			[
+				"product-nono",
+				"src/html/product-nonfood.html"
+			],
+			[
+				"product-quantit",
+				"src/include/html/product-quantity-handlebars.html"
+			],
+			[
+				"product-imte.h",
+				"src/include/templates/product-item-template.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+[IF ENV == "mxsonyb2c" || ENV == "mxsonyb2cqa"]
+	${1}
+[/IF]
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ifmx</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

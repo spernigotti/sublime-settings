@@ -1,0 +1,357 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"space",
+				"space-between"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 72.0,
+		"last_filter": "add proje",
+		"selected_items":
+		[
+			[
+				"add proje",
+				"Project Manager: Add New Project"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/capacitaciones/flexbox",
+		"/var/www/capacitaciones/flexbox/diapositivas",
+		"/var/www/capacitaciones/flexbox/diapositivas/src",
+		"/var/www/capacitaciones/flexbox/diapositivas/src/views",
+		"/var/www/capacitaciones/flexbox/practica"
+	],
+	"file_history":
+	[
+		"/var/www/capacitaciones/flexbox/practica/styles.css",
+		"/var/www/capacitaciones/flexbox/practica/index.html",
+		"/var/www/capacitaciones/flexbox/diapositivas/src/views/index.pug",
+		"/var/www/elsuper/src/html/Category.html",
+		"/var/www/elsuper/src/js/fizzlist.js",
+		"/var/www/elsuper/src/html/Department.html",
+		"/var/www/elsuper/src/js/global.js",
+		"/var/www/elsuper/src/html/shelf-templates/Product List.html",
+		"/var/www/elsuper/src/styles/includes/global-mixins.css",
+		"/var/www/elsuper/src/html/Orders.html",
+		"/var/www/elsuper/src/styles/checkout-custom.css",
+		"/var/www/elsuper/src/styles/fonts.css",
+		"/var/www/elsuper/src/js/product.js",
+		"/var/www/elsuper/src/styles/global.css",
+		"/var/www/elsuper/src/js/checkout/orderplaced.js",
+		"/var/www/elsuper/src/js/fizzmod.js"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"60",
+			"50px",
+			".prev()",
+			"EmptyObje",
+			"5 - GLOBAL FUNCTIONS",
+			"14 - DEPARTMENT - CATEGORY - SEARCH",
+			"fixProductBox",
+			"communes",
+			"new",
+			"newContent",
+			"fixPro",
+			"fixProductBox",
+			"newProducts",
+			"4.c - Scroll",
+			"4.b - Prehome Register User",
+			"8 - MENU",
+			"jc",
+			"getSkuVariation",
+			"select",
+			"fq",
+			"withdiscount",
+			"when",
+			"_",
+			"createListInListBox",
+			")\n",
+			"4.k - Checkbox",
+			"14.1 - Department",
+			"12 - HOME",
+			"lex"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "capacitacion flexbox.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"catego",
+				"src/html/Category.html"
+			],
+			[
+				"deparm",
+				"src/html/Department.html"
+			],
+			[
+				"global.js",
+				"src/js/global.js"
+			],
+			[
+				"fizzlis",
+				"src/js/fizzlist.js"
+			],
+			[
+				"fizzli",
+				"src/js/fizzlist.js"
+			],
+			[
+				"global.css",
+				"src/styles/global.css"
+			],
+			[
+				"orderpla",
+				"src/js/checkout/orderplaced.js"
+			],
+			[
+				"produ",
+				"src/js/product.js"
+			],
+			[
+				"fizz",
+				"src/js/fizzlist.js"
+			],
+			[
+				"product",
+				"src/html/shelf-templates/Product List.html"
+			],
+			[
+				"font",
+				"src/styles/fonts.css"
+			],
+			[
+				"globa",
+				"src/js/global.js"
+			],
+			[
+				"checkout",
+				"src/styles/checkout-custom.css"
+			],
+			[
+				"list",
+				"src/js/fizzlist.js"
+			],
+			[
+				"list.js",
+				"src/js/fizzlist.js"
+			],
+			[
+				"orders",
+				"src/html/Orders.html"
+			],
+			[
+				"global",
+				"src/js/global.js"
+			],
+			[
+				"dep",
+				"src/html/Department.html"
+			],
+			[
+				"fizzmod",
+				"src/js/fizzmod.js"
+			],
+			[
+				"product.js",
+				"src/js/product.js"
+			],
+			[
+				"mixin",
+				"src/styles/includes/global-mixins.css"
+			],
+			[
+				"fizzlist",
+				"src/js/fizzlist.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 271.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

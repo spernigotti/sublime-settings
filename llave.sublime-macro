@@ -1,0 +1,25 @@
+[
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "eol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"characters": " "
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"begin": "{",
+			"end": "}"
+		},
+		"command": "wrap_block"
+	}
+]
