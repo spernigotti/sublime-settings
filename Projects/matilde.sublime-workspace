@@ -1,0 +1,1343 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"PropTyp",
+				"PropTypes.number"
+			],
+			[
+				"Prop",
+				"PropTypes.string"
+			],
+			[
+				"array",
+				"PropTypes.arrayOf"
+			],
+			[
+				"shape",
+				"PropTypes.shape"
+			],
+			[
+				"arrayOf",
+				"React.PropTypes.arrayOf"
+			],
+			[
+				"Propty",
+				"PropTypes.array"
+			],
+			[
+				"ob",
+				"PropTypes.object"
+			],
+			[
+				"arra",
+				"PropTypes.arrayOf"
+			],
+			[
+				"Number",
+				"PropTypes.number"
+			],
+			[
+				"profileLoa",
+				"startProfileLoading"
+			],
+			[
+				"mh",
+				"min-height"
+			],
+			[
+				"startship",
+				"startShippingMethodsLoading"
+			],
+			[
+				"imp",
+				"import\t x from 'x'"
+			],
+			[
+				"a",
+				"Array"
+			],
+			[
+				"ecolo",
+				"ecologicBagsInCart"
+			],
+			[
+				"config",
+				"configPromise"
+			],
+			[
+				"jumbocolom",
+				"jumbocolombiafood"
+			],
+			[
+				"fz",
+				"fz\tfont-size"
+			],
+			[
+				"bg-i",
+				"background-image"
+			],
+			[
+				"component",
+				"componentWillUpdate\t Life Cycle"
+			],
+			[
+				"placeholer",
+				"placeholderText"
+			],
+			[
+				"jumbo",
+				"jumbocolombiafood"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"address",
+				"addressSelector"
+			],
+			[
+				"hipo",
+				"hipotecario-svg"
+			],
+			[
+				"space-",
+				"space-between"
+			],
+			[
+				"jumbocolombi",
+				"jumbocolombiafoodqa"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"discoun",
+				"discountData"
+			],
+			[
+				"getD",
+				"getDiscountById"
+			],
+			[
+				"current",
+				"currentTarget"
+			],
+			[
+				"dis",
+				"discountIds"
+			],
+			[
+				"dicount",
+				"discountFormatted"
+			],
+			[
+				"hidden",
+				"hiddenCategories"
+			],
+			[
+				"unit",
+				"unitMultiplier"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Searching 82 files for \"hiddenProducts\"\n\n/var/www/matilde/src/styles/includes/pages/_list.css:\n  694  \t\t.product.\\--shelf {\n  695  \t\t\tmargin: 0 auto;\n  696: \t\t\t$hiddenProducts: 632 701 700 632 697 631 630;\n  697  \n  698: \t\t\t@each $id in $hiddenProducts {\n  699  \t\t\t\t&[data-id=\"#{$id}\"] {\n  700  \t\t\t\t\tdisplay: none;\n\n2 matches in 1 file\n",
+			"settings":
+			{
+				"buffer_size": 336,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/var/www/matilde/src/styles/includes/pages/_list.css",
+			"settings":
+			{
+				"buffer_size": 17643,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/matilde/vtex-uploader.conf",
+			"settings":
+			{
+				"buffer_size": 10652,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 124.0,
+		"last_filter": "add pr",
+		"selected_items":
+		[
+			[
+				"add pr",
+				"Project Manager: Add New Project"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"add rp",
+				"Project Manager: Add New Project"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Enable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"conver to",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"snippet react",
+				"Snippet: reactClass"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"indetation",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"identation",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"bind",
+				"Preferences: Key Bindings"
+			],
+			[
+				"fold a",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"fold all",
+				"Code Folding: Unfold All"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"debu",
+				"SublimeLinter: Enable Debug Mode"
+			],
+			[
+				"debug",
+				"SublimeLinter: Disable Debug Mode"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"monokai",
+				"Monokai Pro: select theme"
+			],
+			[
+				"linte er",
+				"SublimeLinter: Report (Open Files)"
+			],
+			[
+				"linte",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"lint mo",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"toggle l",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"lista pa",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pakaces",
+				"Package Control: List Packages"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"js",
+				"Set Syntax: JSX"
+			],
+			[
+				"git blam",
+				"Git: Blame"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"git bl",
+				"Git: Blame"
+			],
+			[
+				"gitbl",
+				"Git: Blame"
+			],
+			[
+				"fold",
+				"Code Folding: Unfold All"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"scope",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"scopehun",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"show",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"show scope",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"scope hun",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"key ",
+				"Preferences: Key Bindings"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sjx",
+				"Set Syntax: JSX"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"git bla",
+				"Git: Blame"
+			],
+			[
+				"git",
+				"Git: Blame"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"beauti",
+				"HTMLBeautify"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"pug",
+				"Set Syntax: Pug"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 497.0
+	},
+	"console":
+	{
+		"height": 425.0,
+		"history":
+		[
+			"ls",
+			"./node_modules/.bin/eslint",
+			"eslint",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/matilde",
+		"/var/www/matilde/src"
+	],
+	"file_history":
+	[
+		"/home/fizzmod/Descargas/notes/1-es6-modules.txt",
+		"/home/fizzmod/Descargas/notes/2-create-react-app.txt",
+		"/home/fizzmod/Descargas/notes/3-react.txt",
+		"/home/fizzmod/Descargas/notes/4-react-elements-react-dom.txt",
+		"/home/fizzmod/Descargas/notes/5-JSX.txt",
+		"/home/fizzmod/Descargas/notes/6-components.txt",
+		"/var/www/capacitaciones/node modules/webpack-project/index.js",
+		"/var/www/capacitaciones/node modules/webpack-project/package.json",
+		"/var/www/capacitaciones/es6 - tercera parte/practica/nested-destructuring.js",
+		"/var/www/capacitaciones/es6 - tercera parte/practica/destructuring.js",
+		"/var/www/capacitaciones/node modules/diapositivas.pug",
+		"/var/www/capacitaciones/node modules/webpack-project/webpack.config.js",
+		"/var/www/capacitaciones/es6 - segunda parte/diapositivas/src/index.pug",
+		"/var/www/capacitaciones/es6 - tercera parte/diapositivas.pug",
+		"/var/www/capacitaciones/es6 - tercera parte/destructuring.js",
+		"/var/www/capacitaciones/es6 - tercera parte/forOf.js",
+		"/var/www/capacitaciones/slides-src/layout.pug",
+		"/var/www/aurora/src/js/shopping-lists.js",
+		"/var/www/aurora/src/redux/modules/shoppingLists.js",
+		"/var/www/aurora/src/components/ShoppingLists/ShoppingLists.js",
+		"/var/www/aurora/src/components/ShoppingLists/Lists.js",
+		"/var/www/aurora/src/components/ShoppingLists/ShoppingLists.scss",
+		"/var/www/aurora/src/redux/create.js",
+		"/var/www/aurora/src/js/shopping-list.js",
+		"/var/www/aurora/src/components/MyAccount/Utils.js",
+		"/var/www/aurora/src/js/fizzmod.shoplist.js",
+		"/var/www/aurora/src/js/global.js",
+		"/var/www/aurora/.eslintignore",
+		"/home/fizzmod/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/var/www/aurora/.eslintrc.json",
+		"/var/www/aurora/src/components/ShoppingLists/ShoppingListsContainer.js",
+		"/var/www/aurora/src/components/ShoppingLists/Loader.js",
+		"/var/www/aurora/src/components/MyOrders/styles/MyOrders.scss",
+		"/var/www/aurora/src/components/ShoppingLists/ListItem/ListItem.js",
+		"/var/www/aurora/vtex-uploader.conf",
+		"/var/www/aurora/src/components/MyOrders/MyOrdersContainer.js",
+		"/var/www/aurora/src/components/ShoppingLists/AddListView.js",
+		"/var/www/aurora/src/components/ShoppingLists/ListItem/ActionsForEmptyLIst.js",
+		"/var/www/aurora/src/components/ShoppingLists/Actions.js",
+		"/var/www/aurora/src/components/ShoppingLists/ListItem/Actions.js",
+		"/var/www/aurora/src/components/ShoppingLists/ListItem.js",
+		"/var/www/aurora/src/html/subtemplates/overlay-add-shop-list.html",
+		"/var/www/aurora/src/include/styles/blocks/_overlay.css",
+		"/var/www/aurora/src/html/subtemplates/overlay-create-shop-list.html",
+		"/var/www/aurora/src/redux/modules/myOrders.js",
+		"/var/www/aurora/src/redux/modules/reducer.js",
+		"/var/www/aurora/src/redux/modules/myAccount.js",
+		"/var/www/aurora/src/include/js/selectors.js",
+		"/var/www/aurora/src/html/shopping-lists-user.html",
+		"/var/www/aurora/src/components/MyAccount/MyAccount.js",
+		"/var/www/aurora/src/components/MyOrders/MyOrders.js",
+		"/var/www/aurora/src/include/classes/shareByMailManager.js",
+		"/var/www/aurora/src/include/shopping-list/create-list/create-list.html",
+		"/var/www/aurora/src/components/MyOrders/Filters.js",
+		"/var/www/aurora/src/components/MyOrders/Order/OrderItems.js",
+		"/var/www/aurora/src/components/MyOrders/Order/Totalizer.js",
+		"/var/www/aurora/src/components/MyOrders/OrderList.js",
+		"/var/www/aurora/src/components/MyOrders/Utils.js",
+		"/var/www/aurora/src/views/MyAccountView.js",
+		"/var/www/aurora/src/include/styles/views/_orders.css",
+		"/var/www/aurora/src/components/MyOrders/Loader.js",
+		"/var/www/aurora/src/js/orders.js",
+		"/var/www/aurora/src/components/MyOrders/Order/Order.js",
+		"/var/www/aurora/src/components/ShippingPreference/ShippingDelivery/ShippingDeliverySelector.js",
+		"/var/www/aurora/fizzmod-scripts/webpack.config.js",
+		"/var/www/capacitaciones/es6 - segunda parte/Observacionesjs",
+		"/var/www/aurora/src/components/MyOrders/Order/Info.js",
+		"/var/www/aurora/src/js/libs/lodash.js",
+		"/var/www/aurora/src/components/MyData/MyData.js",
+		"/var/www/aurora/src/components/ProductPrices/ProductPrices.js",
+		"/var/www/aurora/src/components/MyOrders/Order/ProductItem.js",
+		"/var/www/aurora/src/components/MyData/profile/ProfileBox.js",
+		"/var/www/aurora/src/components/UI/Loader.js",
+		"/var/www/aurora/src/components/MyOrders/Order/Categories.js",
+		"/var/www/aurora/src/components/MyData/Utils.js",
+		"/var/www/aurora/src/components/MyData/styles/_myDataShippingMethodOption.scss",
+		"/var/www/aurora/src/components/MyData/shipping/ShippingMethods.js",
+		"/var/www/aurora/src/components/MyData/shipping/ShippingMethodListPE.js",
+		"/var/www/aurora/src/html/orders.html",
+		"/var/www/aurora/src/components/MyOrders/Order/OrderInfo.js",
+		"/var/www/aurora/src/include/html/product-prices-handlebars.html",
+		"/var/www/aurora/src/js/fizzmod.js",
+		"/var/www/aurora/package.json",
+		"/var/www/aurora/fizzmod-scripts/clear-folder.js",
+		"/var/www/aurora/src/styles/my-account.css",
+		"/var/www/aurora/src/selectors/my-account.css",
+		"/var/www/aurora/src/html/my-account.html",
+		"/var/www/aurora/src/components/Utils/Utils.js",
+		"/var/www/aurora/src/include/footer/common-resources.html",
+		"/var/www/aurora/src/html/subtemplates/footer.html",
+		"/var/www/aurora/src/include/html/CO/footer.html",
+		"/var/www/aurora/src/components/MyOrders/Order.js",
+		"/var/www/aurora/src/components/MyAccount/MyAccount.scss",
+		"/var/www/aurora/src/components/HealthyWorld/HealthyWorld.js",
+		"/var/www/aurora/src/components/HealthyWorld/Menu.js",
+		"/var/www/aurora/src/components/MyData/styles/MyData.scss",
+		"/var/www/aurora/src/styles/custom-landing/my-account.css",
+		"/var/www/aurora/src/styles/global.css",
+		"/var/www/aurora/src/styles/temp.css",
+		"/var/www/aurora/src/redux/modules/myData.js",
+		"/var/www/aurora/src/components/MyData/profile/CorporateForm.js",
+		"/var/www/aurora/src/components/MyData/profile/ProfileForm.js",
+		"/var/www/aurora/src/include/checkout/profile.js",
+		"/var/www/aurora/src/components/MyData/shipping/ShippingBox.js",
+		"/var/www/aurora/src/components/MyData/MyDataContainer.js",
+		"/var/www/aurora/src/components/MyData/styles/_profileForm.scss",
+		"/var/www/aurora/src/components/MyData/styles/_myDataBox.scss",
+		"/var/www/aurora/src/components/MyAccount/MyAccountContainer.js",
+		"/var/www/aurora/fizzmod-scripts/countryConfig.js",
+		"/var/www/aurora/src/components/HealthyWorld/CollectionSection/CollectionSlider.js",
+		"/var/www/aurora/src/include/cart/CO/cart.js",
+		"/home/fizzmod/Documentos/Evaluaciones/Evalucacion-Es6-Pedro/app.js",
+		"/var/www/aurora/src/components/MyData/styles/_myData.scss",
+		"/var/www/aurora/src/components/MyData/styles/_myDataShippingMethods.scss",
+		"/var/www/aurora/src/components/MyData/Loader.js",
+		"/var/www/aurora/src/components/MyData/shipping/ShippingMethodListCL.js",
+		"/var/www/aurora/src/components/MyData/shipping/ModalEditAddress.js",
+		"/var/www/aurora/src/components/MyData/styles/_myDataModal.scss",
+		"/var/www/aurora/src/components/MyData/styles/_myDataEditAddress.scss",
+		"/var/www/aurora/src/components/MyData/styles/_addressSelector.scss",
+		"/var/www/aurora/src/components/Spinner.js",
+		"/var/www/aurora/src/components/MyAccount/profile/ProfileForm.js",
+		"/var/www/aurora/src/components/MyAccount/my-orders/MyOrders.js",
+		"/var/www/aurora/src/html/subtemplates/navigation.html",
+		"/var/www/aurora/src/include/html/AR/navigation.html",
+		"/var/www/aurora/src/include/menu/menu-food.html",
+		"/var/www/aurora/src/include/menu/AR/menu-nonfood.html",
+		"/var/www/aurora/src/components/MyAccount/shipping/ModalEditAddress.js"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+			"*.css"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hiddenProducts"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 336,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										161,
+										175
+									],
+									[
+										238,
+										252
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								248,
+								248
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/matilde/src/styles/includes/pages/_list.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17643,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14944,
+								14944
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9958.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/matilde/vtex-uploader.conf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10652,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1453,
+								1453
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "matilde.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"vtexup",
+				"vtex-uploader.conf"
+			],
+			[
+				"shopping-lists.js",
+				"src/js/shopping-lists.js"
+			],
+			[
+				"fizzmod.shop",
+				"src/js/fizzmod.shoplist.js"
+			],
+			[
+				"reduxshoppig",
+				"src/redux/modules/shoppingLists.js"
+			],
+			[
+				"global.js",
+				"src/js/global.js"
+			],
+			[
+				"global.j",
+				"src/js/global.js"
+			],
+			[
+				"globa",
+				"src/js/global.js"
+			],
+			[
+				"eslinti",
+				".eslintignore"
+			],
+			[
+				"eslint",
+				".eslintrc.json"
+			],
+			[
+				"crea",
+				"src/redux/create.js"
+			],
+			[
+				"shopping-list.js",
+				"src/js/shopping-list.js"
+			],
+			[
+				"shopping-list-u",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"reduxshopping",
+				"src/redux/modules/shoppingLists.js"
+			],
+			[
+				".conf",
+				"vtex-uploader.conf"
+			],
+			[
+				"create.js",
+				"src/redux/create.js"
+			],
+			[
+				"myorderscont",
+				"src/components/MyOrders/MyOrdersContainer.js"
+			],
+			[
+				"shopping-lists-u",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"shopping-lists-user",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"overlay.css",
+				"src/include/styles/blocks/_overlay.css"
+			],
+			[
+				"overlay-add",
+				"src/html/subtemplates/overlay-add-shop-list.html"
+			],
+			[
+				"overlay-cre",
+				"src/html/subtemplates/overlay-create-shop-list.html"
+			],
+			[
+				"fizzmod.sho",
+				"src/js/fizzmod.shoplist.js"
+			],
+			[
+				"fizzmod.shp",
+				"src/js/fizzmod.shoplist.js"
+			],
+			[
+				"selectors.js",
+				"src/include/js/selectors.js"
+			],
+			[
+				"sharebymailmanager",
+				"src/include/classes/shareByMailManager.js"
+			],
+			[
+				"create-list",
+				"src/include/shopping-list/create-list/create-list.html"
+			],
+			[
+				"shopping-lists.html",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"shopping-lists",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"orders.css",
+				"src/include/styles/views/_orders.css"
+			],
+			[
+				"shopping-list-user",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"utils",
+				"src/components/MyOrders/Utils.js"
+			],
+			[
+				"orders.js",
+				"src/js/orders.js"
+			],
+			[
+				"lodash.js",
+				"src/js/libs/lodash.js"
+			],
+			[
+				"selectors",
+				"src/include/js/selectors.js"
+			],
+			[
+				"global",
+				"src/js/global.js"
+			],
+			[
+				"order.js",
+				"src/js/orders.js"
+			],
+			[
+				"glo",
+				"src/js/global.js"
+			],
+			[
+				"fizzmod.shopli",
+				"src/js/fizzmod.shoplist.js"
+			],
+			[
+				"myorders.js",
+				"src/redux/modules/myOrders.js"
+			],
+			[
+				"myorder",
+				"src/components/MyOrders/MyOrders.js"
+			],
+			[
+				"orders.html",
+				"src/html/orders.html"
+			],
+			[
+				"product-pric",
+				"src/include/html/product-prices-handlebars.html"
+			],
+			[
+				"myor",
+				"src/redux/modules/myOrders.js"
+			],
+			[
+				"fizzmod.js",
+				"src/js/fizzmod.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"product-prices",
+				"src/include/html/product-prices-handlebars.html"
+			],
+			[
+				"esl",
+				".eslintrc.json"
+			],
+			[
+				"my-accoutn.css",
+				"src/selectors/my-account.css"
+			],
+			[
+				"my-account.css",
+				"src/styles/my-account.css"
+			],
+			[
+				"eslin",
+				".eslintrc.json"
+			],
+			[
+				"my-account.html",
+				"src/html/my-account.html"
+			],
+			[
+				"common",
+				"src/include/footer/common-resources.html"
+			],
+			[
+				"footer.html",
+				"src/html/subtemplates/footer.html"
+			],
+			[
+				"cofooter.html",
+				"src/include/html/CO/footer.html"
+			],
+			[
+				"global.css",
+				"src/styles/global.css"
+			],
+			[
+				"webpa",
+				"fizzmod-scripts/webpack.config.js"
+			],
+			[
+				"profile.js",
+				"src/include/checkout/profile.js"
+			],
+			[
+				"cart.js",
+				"src/include/cart/CO/cart.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"myaccount.js",
+				"src/components/MyAccount/MyAccount.js"
+			],
+			[
+				"menu-food",
+				"src/include/menu/menu-food.html"
+			],
+			[
+				"arnavi",
+				"src/include/html/AR/navigation.html"
+			],
+			[
+				"nav",
+				"src/html/subtemplates/navigation.html"
+			],
+			[
+				"web",
+				"fizzmod-scripts/webpack.config.js"
+			],
+			[
+				"myaccount",
+				"src/redux/modules/myAccount.js"
+			],
+			[
+				"departments.json",
+				"src/include/json/CO/departments-menu-nonfood.json"
+			],
+			[
+				"lint",
+				".eslintrc.json"
+			],
+			[
+				"checkout-cu",
+				"src/styles/checkout-custom.css"
+			],
+			[
+				"navigation",
+				"src/include/html/CO/navigation.html"
+			],
+			[
+				"menu-nonfood",
+				"src/include/menu/menu-nonfood-mobile.html"
+			],
+			[
+				"navigation.html",
+				"src/include/html/CO/navigation.html"
+			],
+			[
+				"home.h",
+				"src/html/home.html"
+			],
+			[
+				"conavigation",
+				"src/include/html/CO/navigation.html"
+			],
+			[
+				"navi",
+				"src/html/subtemplates/navigation.html"
+			],
+			[
+				"menunonfood",
+				"src/include/menu/menu-nonfood.html"
+			],
+			[
+				"vtex",
+				"vtex-uploader.conf"
+			],
+			[
+				"list.js",
+				"src/js/list.js"
+			],
+			[
+				"webpack",
+				"fizzmod-scripts/webpack.config.js"
+			],
+			[
+				"we",
+				"fizzmod-scripts/webpack.config.js"
+			],
+			[
+				"paths",
+				"fizzmod-scripts/paths.js"
+			],
+			[
+				"webp",
+				"fizzmod-scripts/webpack.config.js"
+			],
+			[
+				"header.html",
+				"src/include/html/PE/header.html"
+			],
+			[
+				"peheader",
+				"src/include/html/PE/header.html"
+			],
+			[
+				"header.css",
+				"src/include/styles/blocks/_header.css"
+			],
+			[
+				"pehader",
+				"src/include/html/PE/header.html"
+			],
+			[
+				"recipe.js",
+				"src/js/recipe.js"
+			],
+			[
+				"conf",
+				"src/components/MyAccount/config.js"
+			],
+			[
+				"my-account",
+				"src/styles/my-account.css"
+			],
+			[
+				"checkout5-custom",
+				"src/include/checkout/PE-checkout5-custom.js"
+			],
+			[
+				"checkout5-cus",
+				"src/js/checkout5-custom.js"
+			],
+			[
+				"pe-ch",
+				"src/include/checkout/PE-checkout5-custom.js"
+			],
+			[
+				"font-icons-exte",
+				"src/include/styles/font-icons/PE/font-icons-extended.css"
+			],
+			[
+				"font-face-cate",
+				"src/include/styles/font-face/PE/font-face-categories.css"
+			],
+			[
+				"variables",
+				"src/include/styles/_variables.css"
+			],
+			[
+				"janis.con",
+				"src/include/janis/janis.conf.js"
+			],
+			[
+				"font-icons-ex",
+				"src/include/styles/font-icons/PE/font-icons-extended.css"
+			],
+			[
+				"recipes.js",
+				"src/js/recipes.js"
+			],
+			[
+				"edit",
+				"src/components/MyAccount/ModalEditAddress.js"
+			],
+			[
+				"config.js",
+				"src/components/MyAccount/config.js"
+			],
+			[
+				"marker.js",
+				"src/components/ShippingPreference/Marker.js"
+			],
+			[
+				"shippingstoremap",
+				"src/components/ShippingPreference/ShippingStore/ShippingStoreMap.js"
+			],
+			[
+				"storeadres",
+				"src/include/classes/storeAddress.js"
+			],
+			[
+				"janis",
+				"src/include/janis/janis.conf.js"
+			],
+			[
+				"store.css",
+				"src/include/institutional/_institutional-store.css"
+			],
+			[
+				"variables.scss",
+				"src/styles/_variables.scss"
+			],
+			[
+				"font-face-ca",
+				"src/include/styles/font-face/PE/font-face-categories.css"
+			],
+			[
+				"my-acc",
+				"src/html/my-account.html"
+			],
+			[
+				"font-icons",
+				"src/include/styles/_font-icons.css"
+			],
+			[
+				"bagadder.scss",
+				"src/components/BagAdder/BagAdder.scss"
+			],
+			[
+				"handle",
+				"src/handlebars.js"
+			],
+			[
+				"handlebar",
+				"src/include/js/handlebar-functions.js"
+			],
+			[
+				"han",
+				"src/handlebars.js"
+			],
+			[
+				"checkout5",
+				"src/include/checkout/CO-checkout5-custom.js"
+			],
+			[
+				"fizzmod.shoplis",
+				"src/js/fizzmod.shoplist.js"
+			],
+			[
+				"profileform",
+				"src/components/MyAccount/ProfileForm.js"
+			],
+			[
+				"global-tem",
+				"src/include/html/global-templates.html"
+			],
+			[
+				"var",
+				"src/styles/_variables.scss"
+			],
+			[
+				"shopping-lists.",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"paths.js",
+				"fizzmod-scripts/paths.js"
+			],
+			[
+				"payment.js",
+				"src/include/checkout/payment.js"
+			],
+			[
+				"globa.l",
+				"src/js/global.js"
+			],
+			[
+				"list",
+				"src/js/list.js"
+			],
+			[
+				"shipping-filter",
+				"src/include/json/CO/checkout-shipping-filters.json"
+			],
+			[
+				"shippingpreferencemap.js",
+				"src/components/ShippingPreference/ShippingStore/ShippingStoreMap.js"
+			],
+			[
+				"shipping-data.css",
+				"src/include/styles/checkout/_shipping-data.css"
+			],
+			[
+				"checkout5-c",
+				"src/js/checkout5-custom.js"
+			],
+			[
+				"pech",
+				"src/include/checkout/PE-checkout5-custom.js"
+			],
+			[
+				"checkout5manager",
+				"src/include/checkout/Checkout5Manager.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 289.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -36,64 +36,31 @@
 	"buffers":
 	[
 		{
-			"file": "/home/fizzmod/Documentos/react-test/package.json",
+			"file": "/home/fizzmod/Documentos/test-html-extractor/app.js",
 			"settings":
 			{
-				"buffer_size": 701,
+				"buffer_size": 52223,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/fizzmod/Documentos/react-test/webpack.config.js",
+			"file": "/home/fizzmod/Documentos/test-html-extractor/app2.js",
 			"settings":
 			{
-				"buffer_size": 226,
-				"encoding": "UTF-8",
-				"line_ending": "Unix",
-				"name": "module.exports = {"
-			}
-		},
-		{
-			"file": "/home/fizzmod/Documentos/react-test/app/index.js",
-			"settings":
-			{
-				"buffer_size": 648,
+				"buffer_size": 52184,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/fizzmod/Documentos/react-test/index.html",
+			"contents": "const cheerio = require('cheerio');\n\nvar html = `\n\t<html><head><META NAME=\"ROBOTS\" CONTENT=\"NOINDEX, FOLLOW\"></head><body><div class=\"product-base-wrapper n6colunas\"><ul><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/magistax-onda-ii-tf-077005844417375/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 1.799,00\", \"bestPrice\": \"$ 1.799,00\", \"skuId\": \"2180454\"}</div>\n    <div class=\"product-name\">BOTINES NIKE MAGISTAX ONDA II TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/251238-225-225/077005844417375_1.jpg\" width=\"225\" height=\"225\" alt=\"077005844417375_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2027237\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/mercurialx-finale-ii-tf-077005831975888/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 2.399,00\", \"bestPrice\": \"$ 2.399,00\", \"skuId\": \"2180248\"}</div>\n    <div class=\"product-name\">BOTINES NIKE MERCURIALX FINALE II TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag floodlight-glow\">Floodlight Glow</p><p class=\"flag mercurial-glow\">Mercurial Glow</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/251083-225-225/077005831975888_1.jpg\" width=\"225\" height=\"225\" alt=\"077005831975888_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2027210\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/messi-16-3-tf-004005000ba9014/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 1.849,00\", \"bestPrice\": \"$ 1.849,00\", \"skuId\": \"2179589\"}</div>\n    <div class=\"product-name\">BOTINES ADIDAS MESSI 16.3 TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag red-limit\">Red Limit</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/247349-225-225/004005000BA9014_1.jpg\" width=\"225\" height=\"225\" alt=\"004005000BA9014_1\" id=\"\" /></div>\n    <p class=\"texto brand adidas\">adidas</p>\n</div>\n</li><li id=\"helperComplement_2027128\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/messi-16-3-tf-004005000aq3524/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 1.799,00\", \"bestPrice\": \"$ 1.799,00\", \"skuId\": \"2173684\"}</div>\n    <div class=\"product-name\">BOTINES ADIDAS MESSI 16.3 TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/252500-225-225/004005000AQ3524_1.jpg\" width=\"225\" height=\"225\" alt=\"004005000AQ3524_1\" id=\"\" /></div>\n    <p class=\"texto brand adidas\">adidas</p>\n</div>\n</li><li id=\"helperComplement_2026038\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/tiempox-proximo-tf-077005843962009/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 2.799,00\", \"bestPrice\": \"$ 2.799,00\", \"skuId\": \"2170187\"}</div>\n    <div class=\"product-name\">BOTINES NIKE TIEMPOX PROXIMO TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/243287-225-225/077005843962009_1.jpg\" width=\"225\" height=\"225\" alt=\"077005843962009_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2025605\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines last\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/hypervenom-phade-ii-tf-077005749891009/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 1.599,00\", \"bestPrice\": \"$ 1.599,00\", \"skuId\": \"2170179\"}</div>\n    <div class=\"product-name\">BOTINES NIKE HYPERVENOM PHADE II TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/243282-225-225/077005749891009_1.jpg\" width=\"225\" height=\"225\" alt=\"077005749891009_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2025604\" style=\"display:none\" class=\"helperComplement\"></li></ul><ul><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/tiempo-genio-ii-leather-tf-077005819216004/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 1.699,00\", \"bestPrice\": \"$ 1.699,00\", \"skuId\": \"2168789\"}</div>\n    <div class=\"product-name\">BOTINES NIKE TIEMPO GENIO II LEATHER TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/242806-225-225/077005819216004_1.jpg\" width=\"225\" height=\"225\" alt=\"077005819216004_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2025444\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/magistax-finale-ii-tf-077005844446008/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 2.399,00\", \"bestPrice\": \"$ 1.679,30\", \"skuId\": \"2164199\"}</div>\n    <div class=\"product-name\">BOTINES NIKE MAGISTAX FINALE II TF</div>\n    <div class=\"discount-high-light\"><p class=\"flag 30-off-hs17\">30%OFF HS17</p></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p><p class=\"flag hs17-30-off\">HS17 30%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/240262-225-225/077005844446008_1.jpg\" width=\"225\" height=\"225\" alt=\"077005844446008_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2024705\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/tiempo-rio-iii-tf-077005819237004/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 1.499,00\", \"bestPrice\": \"$ 974,35\", \"skuId\": \"2163099\"}</div>\n    <div class=\"product-name\">BOTINES NIKE TIEMPO RIO III TF</div>\n    <div class=\"discount-high-light\"><p class=\"flag 35-off-hs17\">35%OFF HS17</p></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag tiempo-pack\">Tiempo Pack</p><p class=\"flag pack-nike-all\">Pack Nike All</p><p class=\"flag pack-nike-2\">Pack Nike 2</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p><p class=\"flag hs17-35-off\">HS17 35%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/239594-225-225/077005819237004_1.jpg\" width=\"225\" height=\"225\" alt=\"077005819237004_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2024568\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/mercurialx-pro-tf-077005725245100/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 1.699,00\", \"bestPrice\": \"$ 1.359,20\", \"skuId\": \"2162334\"}</div>\n    <div class=\"product-name\">BOTINES NIKE MERCURIALX PRO TF</div>\n    <div class=\"discount-high-light\"><p class=\"flag 20-off-hs17\">20%OFF HS17</p></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p><p class=\"flag hs17-20-off\">HS17 20%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/261885-225-225/077005725245100_1.jpg\" width=\"225\" height=\"225\" alt=\"077005725245100_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2024467\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/evotouch-3-tt-480005010411801/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 1.299,00\", \"bestPrice\": \"$ 1.299,00\", \"skuId\": \"2158342\"}</div>\n    <div class=\"product-name\">BOTINES PUMA EVOTOUCH 3 TT</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag puma-evotouch\">Puma Evotouch</p><p class=\"flag campana-09-2016\">Campaña 09-2016</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/234565-225-225/480005010411801_1.jpg\" width=\"225\" height=\"225\" alt=\"480005010411801_1\" id=\"\" /></div>\n    <p class=\"texto brand puma\">puma</p>\n</div>\n</li><li id=\"helperComplement_2023813\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines last\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/mercurialx-finale-tf-077005725243401/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 2.049,00\", \"bestPrice\": \"$ 2.049,00\", \"skuId\": \"2154813\"}</div>\n    <div class=\"product-name\">BOTINES NIKE MERCURIALX FINALE TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/233754-225-225/077005725243401_1.jpg\" width=\"225\" height=\"225\" alt=\"077005725243401_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2023268\" style=\"display:none\" class=\"helperComplement\"></li></ul><ul><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/magista-onda-tf-077005651549130/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 1.800,00\", \"bestPrice\": \"$ 1.440,00\", \"skuId\": \"2154797\"}</div>\n    <div class=\"product-name\">BOTINES NIKE MAGISTA ONDA TF</div>\n    <div class=\"discount-high-light\"><p class=\"flag 20-off-hs17\">20%OFF HS17</p></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p><p class=\"flag hs17-20-off\">HS17 20%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/233752-225-225/077005651549130_1.jpg\" width=\"225\" height=\"225\" alt=\"077005651549130_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2023267\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/hypervenomx-proximo-tf-077005747484903/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 3.040,00\", \"bestPrice\": \"$ 2.052,00\", \"skuId\": \"2143548\"}</div>\n    <div class=\"product-name\">BOTINES NIKE HYPERVENOMX PROXIMO TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag hs17-20-off\">HS17 20%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/262627-225-225/077005747484903_1.jpg\" width=\"225\" height=\"225\" alt=\"077005747484903_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2021494\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/evospeed-1-5-tricks-fg-480010010359701/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 3.620,00\", \"bestPrice\": \"$ 2.606,00\", \"skuId\": \"2140491\"}</div>\n    <div class=\"product-name\">BOTINES PUMA EVOSPEED 1.5 TRICKS FG</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag hs17-20-off\">HS17 20%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/230987-225-225/480010010359701_1.jpg\" width=\"225\" height=\"225\" alt=\"480010010359701_1\" id=\"\" /></div>\n    <p class=\"texto brand puma\">puma</p>\n</div>\n</li><li id=\"helperComplement_2020987\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/evospeed-5-5-tricks-tt-480005010390701/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 1.220,00\", \"bestPrice\": \"$ 932,00\", \"skuId\": \"2140482\"}</div>\n    <div class=\"product-name\">BOTINES PUMA EVOSPEED 5.5 TRICKS TT</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag hs17-10-off\">HS17 10%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/230963-225-225/480005010390701_1.jpg\" width=\"225\" height=\"225\" alt=\"480005010390701_1\" id=\"\" /></div>\n    <p class=\"texto brand puma\">puma</p>\n</div>\n</li><li id=\"helperComplement_2020986\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/x-15-3-tf-004005000s74660/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 1.539,00\", \"bestPrice\": \"$ 1.049,00\", \"skuId\": \"2139836\"}</div>\n    <div class=\"product-name\">BOTINES ADIDAS X 15.3 TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag hs17-10-off\">HS17 10%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/268339-225-225/004005000S74660_1.jpg\" width=\"225\" height=\"225\" alt=\"004005000S74660_1\" id=\"\" /></div>\n    <p class=\"texto brand adidas\">adidas</p>\n</div>\n</li><li id=\"helperComplement_2020903\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines last\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/hypervenom-phelon-ii-njr-tf-077005820108061/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 1.739,00\", \"bestPrice\": \"$ 1.408,00\", \"skuId\": \"2139225\"}</div>\n    <div class=\"product-name\">BOTINES NIKE HYPERVENOM PHELON II NJR TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag hypervenom-neymar-njr\">Hypervenom Neymar njr</p><p class=\"flag hs17-10-off\">HS17 10%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/224023-225-225/077005820108061_1.jpg\" width=\"225\" height=\"225\" alt=\"077005820108061_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2020791\" style=\"display:none\" class=\"helperComplement\"></li></ul><ul><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/phalqo-wings-society-800005000048258/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 1.210,00\", \"bestPrice\": \"$ 873,00\", \"skuId\": \"2134392\"}</div>\n    <div class=\"product-name\">BOTINES TOPPER PHALQO WINGS SOCIETY</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag hs17-20-off\">HS17 20%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/222447-225-225/800005000048258_1.jpg\" width=\"225\" height=\"225\" alt=\"800005000048258_1\" id=\"\" /></div>\n    <p class=\"texto brand topper\">topper</p>\n</div>\n</li><li id=\"helperComplement_2020163\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/hbd-decem-society-800005000049307/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 1.249,00\", \"bestPrice\": \"$ 874,30\", \"skuId\": \"2125517\"}</div>\n    <div class=\"product-name\">BOTINES TOPPER HBD DECEM SOCIETY</div>\n    <div class=\"discount-high-light\"><p class=\"flag 30-off-hs17\">30%OFF HS17</p></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p><p class=\"flag hs17-30-off\">HS17 30%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/208552-225-225/800005000049307_1.jpg\" width=\"225\" height=\"225\" alt=\"800005000049307_1\" id=\"\" /></div>\n    <p class=\"texto brand topper\">topper</p>\n</div>\n</li><li id=\"helperComplement_2018681\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/hypervenom-phade-ii-tf-077005749891888/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 1.600,00\", \"bestPrice\": \"$ 891,00\", \"skuId\": \"2114417\"}</div>\n    <div class=\"product-name\">BOTINES NIKE HYPERVENOM PHADE II TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag hs17-30-off\">HS17 30%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/205265-225-225/077005749891888_1.jpg\" width=\"225\" height=\"225\" alt=\"077005749891888_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2016883\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/fox-iq-317005fox182182/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 1.832,00\", \"bestPrice\": \"$ 1.026,00\", \"skuId\": \"2112866\"}</div>\n    <div class=\"product-name\">BOTINES REVES FOX IQ</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag hs17-30-off\">HS17 30%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/209110-225-225/317005FOX182182_1.jpg\" width=\"225\" height=\"225\" alt=\"317005FOX182182_1\" id=\"\" /></div>\n    <p class=\"texto brand reves\">reves</p>\n</div>\n</li><li id=\"helperComplement_2016669\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/tiempo-legacy-tf-077005631517418/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 2.249,00\", \"bestPrice\": \"$ 1.088,00\", \"skuId\": \"2096249\"}</div>\n    <div class=\"product-name\">BOTINES NIKE TIEMPO LEGACY TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag hs17-50-off\">HS17 50%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/261876-225-225/077005631517418_1.jpg\" width=\"225\" height=\"225\" alt=\"077005631517418_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2014051\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines last\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/nantes-iii-801005000024326/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 929,00\", \"bestPrice\": \"$ 929,00\", \"skuId\": \"2191005\"}</div>\n    <div class=\"product-name\">BOTINES TOPPER NANTES III</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/282027-225-225/801005000024326_1.jpg\" width=\"225\" height=\"225\" alt=\"801005000024326_1\" id=\"\" /></div>\n    <p class=\"texto brand topper\">topper</p>\n</div>\n</li><li id=\"helperComplement_2028669\" style=\"display:none\" class=\"helperComplement\"></li></ul><ul><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/x-16-4-tf-004005000bb5904/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 1.449,00\", \"bestPrice\": \"$ 1.449,00\", \"skuId\": \"2188444\"}</div>\n    <div class=\"product-name\">BOTINES ADIDAS X 16.4 TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/275921-225-225/004005000BB5904_1.jpg\" width=\"225\" height=\"225\" alt=\"004005000BB5904_1\" id=\"\" /></div>\n    <p class=\"texto brand adidas\">adidas</p>\n</div>\n</li><li id=\"helperComplement_2028297\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/nantes-iii-800005000024328/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 929,00\", \"bestPrice\": \"$ 929,00\", \"skuId\": \"2186688\"}</div>\n    <div class=\"product-name\">BOTINES TOPPER NANTES III</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/266862-225-225/800005000024328_1.jpg\" width=\"225\" height=\"225\" alt=\"800005000024328_1\" id=\"\" /></div>\n    <p class=\"texto brand topper\">topper</p>\n</div>\n</li><li id=\"helperComplement_2028034\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/ace-17-3-primemesh-tf-004005000bb0863/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 1.799,00\", \"bestPrice\": \"$ 1.799,00\", \"skuId\": \"2185220\"}</div>\n    <div class=\"product-name\">BOTINES ADIDAS ACE 17.3 PRIMEMESH TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/260665-225-225/004005000BB0863_1.jpg\" width=\"225\" height=\"225\" alt=\"004005000BB0863_1\" id=\"\" /></div>\n    <p class=\"texto brand adidas\">adidas</p>\n</div>\n</li><li id=\"helperComplement_2027881\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/messi-16-4-tf-004005000ba9024/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 1.499,00\", \"bestPrice\": \"$ 1.499,00\", \"skuId\": \"2185200\"}</div>\n    <div class=\"product-name\">BOTINES ADIDAS MESSI 16.4 TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/260657-225-225/004005000BA9024_1.jpg\" width=\"225\" height=\"225\" alt=\"004005000BA9024_1\" id=\"\" /></div>\n    <p class=\"texto brand adidas\">adidas</p>\n</div>\n</li><li id=\"helperComplement_2027880\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/tiempo-mystic-v-tf-077005819224443/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 2.199,00\", \"bestPrice\": \"$ 2.199,00\", \"skuId\": \"2177239\"}</div>\n    <div class=\"product-name\">BOTINES NIKE TIEMPO MYSTIC V TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag nike-floodlight-pack\">Nike Floodlight Pack</p><p class=\"flag tiempo\">Tiempo</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/261923-225-225/077005819224443_1.jpg\" width=\"225\" height=\"225\" alt=\"077005819224443_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2026702\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines last\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/hypervenomx-pro-tf-077005749904480/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 1.600,00\", \"bestPrice\": \"$ 1.200,00\", \"skuId\": \"2158864\"}</div>\n    <div class=\"product-name\">BOTINES NIKE HYPERVENOMX PRO TF</div>\n    <div class=\"discount-high-light\"><p class=\"flag 25-off-hs17\">25%OFF HS17</p></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p><p class=\"flag hs17-25-off\">HS17 25%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/234758-225-225/077005749904480_1.jpg\" width=\"225\" height=\"225\" alt=\"077005749904480_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2023872\" style=\"display:none\" class=\"helperComplement\"></li></ul><ul><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/tiempo-rio-iii-tf-077005819237307/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 1.499,00\", \"bestPrice\": \"$ 1.049,30\", \"skuId\": \"2157294\"}</div>\n    <div class=\"product-name\">BOTINES NIKE TIEMPO RIO III TF</div>\n    <div class=\"discount-high-light\"><p class=\"flag 30-off-hs17\">30%OFF HS17</p></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p><p class=\"flag hs17-30-off\">HS17 30%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/234368-225-225/077005819237307_1.jpg\" width=\"225\" height=\"225\" alt=\"077005819237307_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2023661\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/hypervenomx-finale-tf-077005749888008/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 2.399,00\", \"bestPrice\": \"$ 1.559,35\", \"skuId\": \"2151221\"}</div>\n    <div class=\"product-name\">BOTINES NIKE HYPERVENOMX FINALE TF</div>\n    <div class=\"discount-high-light\"><p class=\"flag 35-off-hs17\">35%OFF HS17</p></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag indigo-pack\">Indigo Pack</p><p class=\"flag campana-09-2016\">Campaña 09-2016</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p><p class=\"flag hs17-35-off\">HS17 35%OFF</p><p class=\"flag hs17-megaofertas\">HS17 MEGAOFERTAS</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/232747-225-225/077005749888008_1.jpg\" width=\"225\" height=\"225\" alt=\"077005749888008_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2022724\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/mercurialx-proximo-ii-tf-077005831977870/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 2.999,00\", \"bestPrice\": \"$ 2.099,30\", \"skuId\": \"2140714\"}</div>\n    <div class=\"product-name\">BOTINES NIKE MERCURIALX PROXIMO II TF</div>\n    <div class=\"discount-high-light\"><p class=\"flag 30-off-hs17\">30%OFF HS17</p></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag nike-mercurial-all\">Nike Mercurial All</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p><p class=\"flag hs17-30-off\">HS17 30%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/224747-225-225/077005831977870_1.jpg\" width=\"225\" height=\"225\" alt=\"077005831977870_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2021018\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/mercurialx-proximo-tf-077005718775580/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 2.940,00\", \"bestPrice\": \"$ 2.115,00\", \"skuId\": \"2138596\"}</div>\n    <div class=\"product-name\">BOTINES NIKE MERCURIALX PROXIMO TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag liquid-chrome\">Liquid Chrome</p><p class=\"flag hs17-20-off\">HS17 20%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/223742-225-225/077005718775580_1.jpg\" width=\"225\" height=\"225\" alt=\"077005718775580_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2020708\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/tiempo-genio-ii-leather-tf-077005819216001/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 1.740,00\", \"bestPrice\": \"$ 1.096,00\", \"skuId\": \"2132599\"}</div>\n    <div class=\"product-name\">BOTINES NIKE TIEMPO GENIO II LEATHER TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag hs17-30-off\">HS17 30%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/257811-225-225/077005819216001_1.jpg\" width=\"225\" height=\"225\" alt=\"077005819216001_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2019898\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines last\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/phalqo-wings-society-800005000028777/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 1.069,00\", \"bestPrice\": \"$ 770,00\", \"skuId\": \"2130258\"}</div>\n    <div class=\"product-name\">BOTINES TOPPER PHALQO WINGS SOCIETY</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag hs17-20-off\">HS17 20%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/231516-225-225/800005000028777_1.jpg\" width=\"225\" height=\"225\" alt=\"800005000028777_1\" id=\"\" /></div>\n    <p class=\"texto brand topper\">topper</p>\n</div>\n</li><li id=\"helperComplement_2019435\" style=\"display:none\" class=\"helperComplement\"></li></ul><ul><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/hypervenom-phade-ii-tf-077005749891550/p\", \"hasBestPrice\": True, \"isInStock\": True, \"listPrice\": \"$ 1.600,00\", \"bestPrice\": \"$ 1.036,00\", \"skuId\": \"2122687\"}</div>\n    <div class=\"product-name\">BOTINES NIKE HYPERVENOM PHADE II TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag hs17-20-off\">HS17 20%OFF</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/207299-225-225/077005749891550_1.jpg\" width=\"225\" height=\"225\" alt=\"077005749891550_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2018257\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/san-ciro-iii-soc-800005000028670/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 1.079,00\", \"bestPrice\": \"$ 1.079,00\", \"skuId\": \"2006441\"}</div>\n    <div class=\"product-name\">BOTINES TOPPER SAN CIRO III SOC</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag promo-futbol\">PROMO FUTBOL</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/157448-225-225/800005000028670_1.jpg\" width=\"225\" height=\"225\" alt=\"800005000028670_1\" id=\"\" /></div>\n    <p class=\"texto brand topper\">topper</p>\n</div>\n</li><li id=\"helperComplement_2000905\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/magistax-finale-ii-tf-077005844446808/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 2.399,00\", \"bestPrice\": \"$ 2.399,00\", \"skuId\": \"2192985\"}</div>\n    <div class=\"product-name\">BOTINES NIKE MAGISTAX FINALE II TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/284910-225-225/077005844446808_1.jpg\" width=\"225\" height=\"225\" alt=\"077005844446808_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2028971\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/magistax-onda-ii-tf-077005844417808/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 1.799,00\", \"bestPrice\": \"$ 1.799,00\", \"skuId\": \"2192970\"}</div>\n    <div class=\"product-name\">BOTINES NIKE MAGISTAX ONDA II TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/284904-225-225/077005844417808_1.jpg\" width=\"225\" height=\"225\" alt=\"077005844417808_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2028970\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/mercurialx-finale-ii-tf-077005831975301/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 2.399,00\", \"bestPrice\": \"$ 2.399,00\", \"skuId\": \"2192944\"}</div>\n    <div class=\"product-name\">BOTINES NIKE MERCURIALX FINALE II TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/284554-225-225/077005831975301_1.jpg\" width=\"225\" height=\"225\" alt=\"077005831975301_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2028968\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines last\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/tiempo-mystic-v-tf-077005819224018/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 2.199,00\", \"bestPrice\": \"$ 2.199,00\", \"skuId\": \"2192931\"}</div>\n    <div class=\"product-name\">BOTINES NIKE TIEMPO MYSTIC V TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/284547-225-225/077005819224018_1.jpg\" width=\"225\" height=\"225\" alt=\"077005819224018_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2028967\" style=\"display:none\" class=\"helperComplement\"></li></ul><ul><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/magista-ola-ii-tf-077005844408808/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 1.599,00\", \"bestPrice\": \"$ 1.599,00\", \"skuId\": \"2192083\"}</div>\n    <div class=\"product-name\">BOTINES NIKE MAGISTA OLA II TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/282721-225-225/077005844408808_1.jpg\" width=\"225\" height=\"225\" alt=\"077005844408808_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2028842\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/veyron-sang-ii-society-801005000047270/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 1.259,00\", \"bestPrice\": \"$ 1.259,00\", \"skuId\": \"2191028\"}</div>\n    <div class=\"product-name\">BOTINES TOPPER VEYRON SANG II SOCIETY</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/283593-225-225/801005000047270_1.jpg\" width=\"225\" height=\"225\" alt=\"801005000047270_1\" id=\"\" /></div>\n    <p class=\"texto brand topper\">topper</p>\n</div>\n</li><li id=\"helperComplement_2028672\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/san-ciro-iii-801005000028670/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 1.079,00\", \"bestPrice\": \"$ 1.079,00\", \"skuId\": \"2191021\"}</div>\n    <div class=\"product-name\">BOTINES TOPPER SAN CIRO III</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/282033-225-225/801005000028670_1.jpg\" width=\"225\" height=\"225\" alt=\"801005000028670_1\" id=\"\" /></div>\n    <p class=\"texto brand topper\">topper</p>\n</div>\n</li><li id=\"helperComplement_2028671\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/san-ciro-iii-801005000028664/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 1.079,00\", \"bestPrice\": \"$ 1.079,00\", \"skuId\": \"2191013\"}</div>\n    <div class=\"product-name\">BOTINES TOPPER SAN CIRO III</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/282924-225-225/801005000028664_1.jpg\" width=\"225\" height=\"225\" alt=\"801005000028664_1\" id=\"\" /></div>\n    <p class=\"texto brand topper\">topper</p>\n</div>\n</li><li id=\"helperComplement_2028670\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/mercurialx-victory-vi-tf-077005831968303/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 1.799,00\", \"bestPrice\": \"$ 1.799,00\", \"skuId\": \"2189824\"}</div>\n    <div class=\"product-name\">BOTINES NIKE MERCURIALX VICTORY VI TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag lanzamientos\">LANZAMIENTOS</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/282330-225-225/077005831968303_1.jpg\" width=\"225\" height=\"225\" alt=\"077005831968303_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2028508\" style=\"display:none\" class=\"helperComplement\"></li><li layout=\"69721f9b-91ea-452c-a4a5-09ffb0819cbf\" class=\"botines last\">\n<div class=\"product-base\">\n    <div class=\"data\">{\"url\": \"http://www.sportline.com.ar/hypervenomx-finale-ii-tf-077005852573308/p\", \"hasBestPrice\": False, \"isInStock\": True, \"listPrice\": \"$ 2.399,00\", \"bestPrice\": \"$ 2.399,00\", \"skuId\": \"2189252\"}</div>\n    <div class=\"product-name\">BOTINES NIKE HYPERVENOMX FINALE II TF</div>\n    <div class=\"discount-high-light\"></div>\n    <div class=\"collection-highlight\"><p class=\"flag hombres-training\">Hombres Training</p><p class=\"flag hombres-running\">Hombres Running</p><p class=\"flag hombres-moda\">Hombres Moda</p><p class=\"flag productos-home\">Productos Home</p><p class=\"flag lanzamientos\">LANZAMIENTOS</p></div>\n    <div class=\"product-image\"><img src=\"http://sportline.vteximg.com.br/arquivos/ids/284053-225-225/077005852573308_1.jpg\" width=\"225\" height=\"225\" alt=\"077005852573308_1\" id=\"\" /></div>\n    <p class=\"texto brand nike\">nike</p>\n</div>\n</li><li id=\"helperComplement_2028431\" style=\"display:none\" class=\"helperComplement\"></li></ul></div></body></html>`;\n\nconst $ = cheerio.load(html)\nconst result = $('.product-base').map((index, product) => {\n\tconst $product = $(product);\n\tconst productData = {};\n\ttry {\n\t\tObject.assign(productData, JSON.parse($product.find('.data').text().replace(/False/g, 'false').replace(/True/g, 'true')));\n\n\t\tproductData.name = $product.find('.product-name').get().textContent;\n\t\tproductData.imageUrl = $product.find('.product-image img').attr('src');\n\t\tproductData.discountHighLights = $product.find('.discount-high-light').children('p').map((index, element) => $(element).text()).get();\n\t\tproductData.collectionHighlights = $product.find('.collection-highlight').children('p').map((index, element) => $(element).text()).get();\n\t} catch(e) {};\n\treturn productData;\n}).get();\n\nconsole.log(JSON.stringify(result, null, 2));",
+			"file": "/home/fizzmod/Documentos/test-html-extractor/app3.js",
+			"file_size": 52172,
+			"file_write_time": 131412604060000000,
 			"settings":
 			{
-				"buffer_size": 154,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/fizzmod/Documentos/react-test/webpack.config.dev.js",
-			"settings":
-			{
-				"buffer_size": 226,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/fizzmod/Documentos/react-test/dist/bundle.js",
-			"settings":
-			{
-				"buffer_size": 764918,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/fizzmod/Documentos/react-test/.babelrc",
-			"settings":
-			{
-				"buffer_size": 49,
+				"buffer_size": 52124,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -165,17 +132,20 @@
 	"expanded_folders":
 	[
 		"/home/fizzmod/Documentos/react-test",
-		"/home/fizzmod/Documentos/react-test/app",
-		"/home/fizzmod/Documentos/react-test/dist",
 		"/home/fizzmod/Documentos/react-test2"
 	],
 	"file_history":
 	[
-		"/home/fizzmod/Documentos/react-test/app/index.html",
-		"/home/fizzmod/Documentos/react-test/index.html",
-		"/home/fizzmod/Documentos/react-test/node_modules/webpack.config.js",
+		"/home/fizzmod/Documentos/test/test.js",
 		"/home/fizzmod/Documentos/react-test/dist/bundle.js",
+		"/home/fizzmod/Documentos/react-test/webpack.config.dev.js",
+		"/home/fizzmod/Documentos/react-test/index.html",
+		"/home/fizzmod/Documentos/react-test/app/index.js",
+		"/home/fizzmod/Documentos/react-test/webpack.config.js",
+		"/home/fizzmod/Documentos/react-test/package.json",
 		"/home/fizzmod/Documentos/react-test/.babelrc",
+		"/home/fizzmod/Documentos/react-test/app/index.html",
+		"/home/fizzmod/Documentos/react-test/node_modules/webpack.config.js",
 		"/var/www/aurora/src/include/institutional/institutional.css",
 		"/var/www/aurora/src/html/store-benefits.html",
 		"/var/www/aurora/src/include/faqs/CL/faqs.html",
@@ -293,12 +263,7 @@
 		"/var/www/aurora/src/html/message-center/includes/footer.html",
 		"/var/www/aurora/src/include/styles/views/_category.css",
 		"/var/www/aurora/src/include/styles/blocks/_product-quantity.css",
-		"/var/www/aurora/src/include/styles/blocks/_minicart.css",
-		"/var/www/aurora/src/.map/global.css.map",
-		"/var/www/aurora/src/include/checkout/AR-storePickupOffices.js",
-		"/var/www/aurora/src/html/shelf-templates/CEM-Abandoned-Cart-Shelf.html",
-		"/var/www/aurora/src/include/styles/blocks/_product-list-wrapper.css",
-		"/var/www/aurora/src/include/loader/spinner-loader.html"
+		"/var/www/aurora/src/include/styles/blocks/_minicart.css"
 	],
 	"find":
 	{
@@ -509,209 +474,94 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/fizzmod/Documentos/react-test/package.json",
+					"file": "/home/fizzmod/Documentos/test-html-extractor/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 701,
+						"buffer_size": 52223,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								355,
-								355
+								52223,
+								52223
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/fizzmod/Documentos/react-test/webpack.config.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 226,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								226,
-								226
-							]
-						],
-						"settings":
-						{
-							"auto_name": "module.exports = {",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/fizzmod/Documentos/react-test/app/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 648,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JSX/JSX.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 5524.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "/home/fizzmod/Documentos/react-test/index.html",
+					"buffer": 1,
+					"file": "/home/fizzmod/Documentos/test-html-extractor/app2.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 154,
+						"buffer_size": 52184,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								154,
-								154
+								52184,
+								52184
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/home/fizzmod/Documentos/react-test/webpack.config.dev.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 226,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								224,
-								224
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/home/fizzmod/Documentos/react-test/dist/bundle.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 764918,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3158,
-								3158
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1078.0,
+						"translation.x": -0.0,
+						"translation.y": 5482.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/home/fizzmod/Documentos/react-test/.babelrc",
+					"buffer": 2,
+					"file": "/home/fizzmod/Documentos/test-html-extractor/app3.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 49,
+						"buffer_size": 52124,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								49287,
+								49287
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5454.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

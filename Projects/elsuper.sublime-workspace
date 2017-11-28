@@ -8,19 +8,26 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/elsuper/src/js/fizzlist.js",
+			"contents": "/*\nAPI BUSCAPAGINA\n\nUrl: /buscapagina\n\n-----Parametros---------\n\n*Cantidad de productos: &PS=10\n*Columnas: &cc=10\n*Template Id: &sl=ad0735bc-c549-4a63-a7e0-dbcfb8105629\n*&sm=0\n\nFiltros:\n\nColección: &fq=H:137\nDepartamento/Categoria: &fq=C:389\nCampo de producto / Especificación: &fq=spec_fct_id:valor\nMarca: &fq=B:id\nOrdenación: &O=OrderByTopSaleDESC\n\nValores de ordenación\nOrderByTopSaleDESC\nOrderByReleaseDateDESC\nOrderByPriceASC\nOrderByPriceDESC\nOrderByNameASC\nOrderByNameDESC\nOrderByBestDiscountDESC\n\n */\n\n\n$.get(\"/buscapagina?sl=...&PS=50&cc=50&sm=0\")",
 			"settings":
 			{
-				"buffer_size": 31993,
-				"encoding": "UTF-8",
+				"buffer_size": 555,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/var/www/elsuper/src/html/Product.html",
+			"contents": "import { createStore, applyMiddleware, compose } from 'redux';\nimport createLogger from 'redux-logger';\nimport thunk from 'redux-thunk';\nimport reducer from './modules/reducer';\n\nconst composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;\nexport default createStore(reducer, composeEnhancers(applyMiddleware(thunk, createLogger())));\n",
 			"settings":
 			{
-				"buffer_size": 6677,
+				"buffer_size": 355,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/elsuper/src/js/global.js",
+			"settings":
+			{
+				"buffer_size": 96094,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -41,16 +48,24 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 92.0,
-		"last_filter": "install ",
+		"height": 172.0,
+		"last_filter": "javas",
 		"selected_items":
 		[
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
 			[
 				"install ",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 485.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -78,23 +93,27 @@
 	],
 	"file_history":
 	[
-		"/var/www/elsuper/src/html/Category.html",
-		"/var/www/elsuper/src/js/fizzlist.js",
-		"/var/www/elsuper/src/html/Department.html",
-		"/var/www/elsuper/src/js/global.js",
-		"/var/www/elsuper/src/html/shelf-templates/Product List.html",
 		"/var/www/elsuper/src/styles/includes/global-mixins.css",
+		"/var/www/elsuper/src/js/fizzlist.js",
+		"/var/www/elsuper/src/html/Product.html",
+		"/var/www/elsuper/src/styles/global.css",
+		"/var/www/elsuper/src/js/global.js",
+		"/var/www/elsuper/src/html/Category.html",
+		"/var/www/elsuper/src/js/fizzmod.js",
+		"/home/fizzmod/Documentos/Evaluaciones/Evalucacion-Es6-Pedro/app.js",
 		"/var/www/elsuper/src/html/Orders.html",
+		"/var/www/elsuper/src/js/orders.js",
+		"/var/www/elsuper/src/styles/includes/global-vars.css",
+		"/var/www/elsuper/src/html/shelf-templates/Product List.html",
+		"/var/www/elsuper/src/html/Department.html",
 		"/var/www/elsuper/src/styles/checkout-custom.css",
 		"/var/www/elsuper/src/styles/fonts.css",
 		"/var/www/elsuper/src/js/product.js",
-		"/var/www/elsuper/src/styles/global.css",
-		"/var/www/elsuper/src/js/checkout/orderplaced.js",
-		"/var/www/elsuper/src/js/fizzmod.js"
+		"/var/www/elsuper/src/js/checkout/orderplaced.js"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 52.0
 	},
 	"find_in_files":
 	{
@@ -108,6 +127,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"date",
+			"5 - GLOBAL FUNCTIONS",
+			"city",
+			"state",
+			"OrderByTopSaleDESC",
+			"data-order=\"",
+			"item",
 			"additional",
 			"brand",
 			"fq",
@@ -161,71 +187,100 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/elsuper/src/js/fizzlist.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 31993,
+						"buffer_size": 555,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16643,
-								16643
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JSX/JSX.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 8422.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/var/www/elsuper/src/html/Product.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6677,
-						"regions":
-						{
-						},
-						"selection":
-						[
+								331,
+								349
+							],
 							[
-								1160,
-								1160
+								373,
+								391
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 464.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/var/www/elsuper/src/html/shelf-templates/Product List.html",
+					"buffer": 1,
 					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								355,
+								355
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/elsuper/src/js/global.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 96094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								46726,
+								46726
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 21625.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/elsuper/src/html/shelf-templates/Product List.html",
+					"semi_transient": true,
 					"settings":
 					{
 						"buffer_size": 2705,
@@ -235,8 +290,8 @@
 						"selection":
 						[
 							[
-								624,
-								624
+								1047,
+								1047
 							]
 						],
 						"settings":
@@ -256,7 +311,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -289,11 +344,15 @@
 	{
 		"height": 0.0
 	},
+	"output.unsaved_changes":
+	{
+		"height": 118.0
+	},
 	"pinned_build_system": "",
 	"project": "elsuper.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -303,12 +362,68 @@
 		"selected_items":
 		[
 			[
-				"fizzlist",
+				"global.js",
+				"src/js/global.js"
+			],
+			[
+				"glo",
+				"src/js/global.js"
+			],
+			[
+				"orders.html",
+				"src/html/Orders.html"
+			],
+			[
+				"fizzlis",
 				"src/js/fizzlist.js"
+			],
+			[
+				"fizz",
+				"src/js/fizzlist.js"
+			],
+			[
+				"fizzmod",
+				"src/js/fizzmod.js"
+			],
+			[
+				"order.js",
+				"src/js/orders.js"
+			],
+			[
+				"order",
+				"src/html/Orders.html"
+			],
+			[
+				"global.j",
+				"src/js/global.js"
+			],
+			[
+				"global-var",
+				"src/styles/includes/global-vars.css"
+			],
+			[
+				"glboa",
+				"src/styles/global.css"
+			],
+			[
+				"mixin",
+				"src/styles/includes/global-mixins.css"
 			],
 			[
 				"productlist",
 				"src/html/shelf-templates/Product List.html"
+			],
+			[
+				"productli",
+				"src/html/shelf-templates/Product List.html"
+			],
+			[
+				"cate",
+				"src/html/Category.html"
+			],
+			[
+				"fizzlist",
+				"src/js/fizzlist.js"
 			],
 			[
 				"product.html",
@@ -321,14 +436,6 @@
 			[
 				"deparm",
 				"src/html/Department.html"
-			],
-			[
-				"global.js",
-				"src/js/global.js"
-			],
-			[
-				"fizzlis",
-				"src/js/fizzlist.js"
 			],
 			[
 				"fizzli",
@@ -345,10 +452,6 @@
 			[
 				"produ",
 				"src/js/product.js"
-			],
-			[
-				"fizz",
-				"src/js/fizzlist.js"
 			],
 			[
 				"product",
@@ -387,16 +490,8 @@
 				"src/html/Department.html"
 			],
 			[
-				"fizzmod",
-				"src/js/fizzmod.js"
-			],
-			[
 				"product.js",
 				"src/js/product.js"
-			],
-			[
-				"mixin",
-				"src/styles/includes/global-mixins.css"
 			]
 		],
 		"width": 0.0

@@ -1,0 +1,1636 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"PropTyp",
+				"PropTypes.number"
+			],
+			[
+				"Prop",
+				"PropTypes.string"
+			],
+			[
+				"array",
+				"PropTypes.arrayOf"
+			],
+			[
+				"shape",
+				"PropTypes.shape"
+			],
+			[
+				"arrayOf",
+				"React.PropTypes.arrayOf"
+			],
+			[
+				"Propty",
+				"PropTypes.array"
+			],
+			[
+				"ob",
+				"PropTypes.object"
+			],
+			[
+				"arra",
+				"PropTypes.arrayOf"
+			],
+			[
+				"Number",
+				"PropTypes.number"
+			],
+			[
+				"profileLoa",
+				"startProfileLoading"
+			],
+			[
+				"mh",
+				"min-height"
+			],
+			[
+				"startship",
+				"startShippingMethodsLoading"
+			],
+			[
+				"imp",
+				"import\t x from 'x'"
+			],
+			[
+				"a",
+				"Array"
+			],
+			[
+				"ecolo",
+				"ecologicBagsInCart"
+			],
+			[
+				"config",
+				"configPromise"
+			],
+			[
+				"jumbocolom",
+				"jumbocolombiafood"
+			],
+			[
+				"fz",
+				"fz\tfont-size"
+			],
+			[
+				"bg-i",
+				"background-image"
+			],
+			[
+				"component",
+				"componentWillUpdate\t Life Cycle"
+			],
+			[
+				"placeholer",
+				"placeholderText"
+			],
+			[
+				"jumbo",
+				"jumbocolombiafood"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"address",
+				"addressSelector"
+			],
+			[
+				"hipo",
+				"hipotecario-svg"
+			],
+			[
+				"space-",
+				"space-between"
+			],
+			[
+				"jumbocolombi",
+				"jumbocolombiafoodqa"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"discoun",
+				"discountData"
+			],
+			[
+				"getD",
+				"getDiscountById"
+			],
+			[
+				"current",
+				"currentTarget"
+			],
+			[
+				"dis",
+				"discountIds"
+			],
+			[
+				"dicount",
+				"discountFormatted"
+			],
+			[
+				"hidden",
+				"hiddenCategories"
+			],
+			[
+				"unit",
+				"unitMultiplier"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "extends ../slides-src/layout.pug\nblock variables\n\t- title = 'Capacitación React - Segunda Parte'\n\t- reactColor = '#61dafb'\n\t- sectionStyle = {}\nblock slides\n\tstyle.\n\t\t.reveal .slide-background {\n\t\t\tbackground-image: url(\"https://d33wubrfki0l68.cloudfront.net/baf3e4b6e2dd4f4793cd6e2b4e1d498183d8adb4/85dd1/large-logo.svg\");\n\t\t\tbackground-size: 50% auto;\n\t\t\tbackground-position: 120% 0%;\n\t\t}\n\tsection\n\t\t+svg(\"react\")\n\t\th2(style={ color: reactColor, 'text-shadow': 'none'}) React\n\t\tp Segunda parte\n\tsection\n\t\th3 Componentes (repaso)\n\t\tpre\n\t\t\t-\n\t\t\t\tcode = `\n\t\t\t\tfunction Welcome(props) {\n\t\t\t\t  return <h1>Hello, {props.name}</h1>;\n\t\t\t\t}\n\n\t\t\t\tfunction App() {\n\t\t\t\t  return (\n\t\t\t\t    <div>\n\t\t\t\t      <Welcome name=\"Sara\" />\n\t\t\t\t      <Welcome name=\"Cahal\" />\n\t\t\t\t      <Welcome name=\"Edite\" />\n\t\t\t\t    </div>\n\t\t\t\t  );\n\t\t\t\t}\n\n\t\t\t\tReactDOM.render(\n\t\t\t\t  <App />,\n\t\t\t\t  document.getElementById('root')\n\t\t\t\t);`\n\t\t\tcode.javascript(data-trim)=code\n\tsection\n\t\th3 Actualización de la vista\n\t\tp Hasta ahora lo hacíamos con\n\t\tpre\n\t\t\t-\n\t\t\t\tcode = `\n\t\t\t\tReactDOM.render(\n\t\t\t\t  <SomeComponent />,\n\t\t\t\t  document.getElementById('root')\n\t\t\t\t);`\n\t\t\tcode.javascript(data-trim)=code\n\tsection\n\t\th3 Estados\n\t\t+img('states.gif')\n\tsection\n\t\th3 Estados - Ideas principales\n\t\tul\n\t\t\tli Los componentes manejan su propio estado\n\t\t\tli Al actualizar algún estado automáticamente se actualiza la vista\n\tsection\n\t\th3 Estados\n\t\tpre\n\t\t\t-\n\t\t\t\tcode = `\n\t\t\t\tclass Clock extends React.Component {\n\t\t\t\t\tconstructor(props) {\n\t\t\t\t\t\tsuper(props);\n\n\t\t\t\t\t\tthis.state = {\n\t\t\t\t\t\t\tdate: new Date()\n\t\t\t\t\t\t};\n\n\t\t\t\t\t\tsetInterval(this.tick, 1000);\n\t\t\t\t\t}\n\t\t\t\t\ttick = () => {\n\t\t\t\t\t\tthis.setState({ date: new Date() });\n\t\t\t\t\t}\n\t\t\t\t\trender() {\n\t\t\t\t\t\treturn (\n\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t<h2>Clock component</h2>\n\t\t\t\t\t\t\t\t<div>Son las {this.state.date.toLocaleTimeString()}</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t);\n\t\t\t\t\t}\n\t\t\t\t}`\n\t\t\tcode.javascript(data-trim)=code\n\tsection\n\t\th3 Estados - A tener en cuenta\n\t\tul\n\t\t\tli Son la minima representación de los datos \"mutables\"\n\t\t\tli.fragment Sólo los componentes basados en clases pueden tener estados\n\t\t\tli.fragment Siempre aplicar DRY: Don’t Repeat Yourself\n\t\t\tli.fragment Lá única manera de actualizarlo es a través de setState\n\t\t\tli.fragment setState puede ser asíncrono\n\tsection\n\t\th3 Flujo de datos\n\t\t+img('data-event-flow.png')\n\tsection\n\t\th3 Ciclo de vida\n\t\tul\n\t\t\tli componentDidMount()\n\t\t\tli componentWillUnmount()\n\tsection\n\t\th3 Manejo de eventos\n\t\tp Diferencia entre HTML y React\n\t\tpre\n\t\t\t-\n\t\t\t\tcodeHTML = `\n\t\t\t\t<button onclick=\"activateLasers()\">\n\t\t\t\t  Activate Lasers\n\t\t\t\t</button>`\n\t\t\tcode.javascript(data-trim)=codeHTML\n\t\tpre\n\t\t\t-\n\t\t\t\tcodeReact = `\n\t\t\t\t<button onClick={activateLasers}>\n\t\t\t\t  Activate Lasers\n\t\t\t\t</button>`\n\t\t\tcode.javascript(data-trim)=codeReact\n\tsection\n\t\th3 Renderizado condicional\n\t\tp Podemos renderizar o no elementos dependiendo del estado\n\t\th4 Operador &&\n\t\tpre\n\t\t\t-\n\t\t\t\tcodeReact = `\n\t\t\t\t<div>\n\t\t\t\t\t{hasDiscounts &&\n\t\t\t\t\t  <div>Oferta!</div>\n\t\t\t\t\t}\n\t\t\t\t</div>`\n\t\t\tcode.javascript(data-trim)=codeReact\n\tsection\n\t\th3 Renderizado condicional\n\t\th4 Operador ternario\n\t\tpre\n\t\t\t-\n\t\t\t\tcodeReact = `\n\t\t\t\t<div>\n\t\t\t\t  {isLoggedIn ? (\n\t\t\t\t\t  <LogoutButton onClick={this.handleLogoutClick} />\n\t\t\t\t    ) : (\n\t\t\t\t      <LoginButton onClick={this.handleLoginClick} />\n\t\t\t\t    )}\n\t\t\t\t</div>`\n\t\t\tcode.javascript(data-trim)=codeReact\n\tsection\n\t\th3 Listas de componentes\n\t\tpre\n\t\t\t-\n\t\t\t\tcode = `\n\t\t\t\tfunction NumberList(props) {\n\t\t\t\t  const numbers = props.numbers;\n\t\t\t\t  const listItems = numbers.map((number) =>\n\t\t\t\t    <li>{number}</li>\n\t\t\t\t  );\n\t\t\t\t  return (\n\t\t\t\t    <ul>{listItems}</ul>\n\t\t\t\t  );\n\t\t\t\t}\n\n\t\t\t\tconst numbers = [1, 2, 3, 4, 5];\n\t\t\t\tReactDOM.render(\n\t\t\t\t  <NumberList numbers={numbers} />,\n\t\t\t\t  document.getElementById('root')\n\t\t\t\t);`\n\t\t\tcode.javascript(data-trim)=code\n",
+			"file": "/var/www/capacitaciones/react-segunda-parte/diapositivas.pug",
+			"file_size": 3785,
+			"file_write_time": 131554210128518869,
+			"settings":
+			{
+				"buffer_size": 3769,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n\nReact element:\n- Son los bloques mas pequeños.\n- describe lo que queres ver en pantalla\n- Son objetos planos\nInmutables, una vez creados no se pueden cambiar sus hijos o atributos. Representan la vista en un punto especifico en el tiempo.\nCon lo que vimos hasta ahora la única forma de actualizar la UI es llamar a ReactDOM.render(), react sólo actualiza lo necesario.\nLos componentes están hechos de elementos de react.\n\nAhora pensamos en como debería verse la vista en un momento dado en vez de que cambios tengo que aplicarle a la vista (cambio de paradigma). Esto elimina un monton de bugs.\n\n- Hacer el ejemeplo del tick\n--------------------------------------------------------------------------------\nComponents:\n\nTe permiten separar la vista en piezas independientes y reutilizables, y pensar en cada pieza de forma aislada.\nSon funciones, que toman un input arbitrario y devuelven elementos de react que describen lo que tiene que aparecer en pantalla.\n\n\nEstan compuestos de elementos.\nReciben datos y retornan elementos de react.\nlos datos son propiedades que va a utilizar el componente\nLa manera más simple de definir un componente es a traves de una función:\n\nLos elementos de react pueden representar etiquetas del DOM, pero también pueden representar componentes definidos por nosotros\nEj: const element = <Welcome name=\"front\" />\n\nfunctional components:\nclass components\n\nimportante! los componentes siempre empiezas con letra mayuscula. (mostrar ejemplo de compilación JSX)\nEn la v16 se puede retornar una lista de elementos, un string, numero, boolean, null \n\nTodos los componentes deben ser funciones puras con respecto a sus propiedades.\nAll React components must act like pure functions with respect to their props.\n\n\nEjemplo copado de components Utilizando productos\n---------------------------------------------------------\n\n",
+			"file": "/var/www/capacitaciones/react-segunda-parte/reapaso.note",
+			"file_size": 1999,
+			"file_write_time": 131554200950960736,
+			"settings":
+			{
+				"buffer_size": 1848,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/capacitaciones/react-segunda-parte/state.note",
+			"settings":
+			{
+				"buffer_size": 1009,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/var/www/capacitaciones/react-segunda-parte/ciclo-de-vida.note",
+			"settings":
+			{
+				"buffer_size": 709,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 246.0,
+		"last_filter": "java",
+		"selected_items":
+		[
+			[
+				"java",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"add rp",
+				"Project Manager: Add New Project"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Enable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"conver to",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"snippet react",
+				"Snippet: reactClass"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"indetation",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"identation",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"bind",
+				"Preferences: Key Bindings"
+			],
+			[
+				"fold a",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"fold all",
+				"Code Folding: Unfold All"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"debu",
+				"SublimeLinter: Enable Debug Mode"
+			],
+			[
+				"debug",
+				"SublimeLinter: Disable Debug Mode"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"monokai",
+				"Monokai Pro: select theme"
+			],
+			[
+				"linte er",
+				"SublimeLinter: Report (Open Files)"
+			],
+			[
+				"linte",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"lint mo",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"toggle l",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"lista pa",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pakaces",
+				"Package Control: List Packages"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"js",
+				"Set Syntax: JSX"
+			],
+			[
+				"git blam",
+				"Git: Blame"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"git bl",
+				"Git: Blame"
+			],
+			[
+				"gitbl",
+				"Git: Blame"
+			],
+			[
+				"fold",
+				"Code Folding: Unfold All"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"scope",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"scopehun",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"show",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"show scope",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"scope hun",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"key ",
+				"Preferences: Key Bindings"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sjx",
+				"Set Syntax: JSX"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"git bla",
+				"Git: Blame"
+			],
+			[
+				"git",
+				"Git: Blame"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"beauti",
+				"HTMLBeautify"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"pug",
+				"Set Syntax: Pug"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 413.0
+	},
+	"console":
+	{
+		"height": 425.0,
+		"history":
+		[
+			"ls",
+			"./node_modules/.bin/eslint",
+			"eslint",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/capacitaciones",
+		"/var/www/capacitaciones/react-segunda-parte",
+		"/var/www/capacitaciones/slides-src"
+	],
+	"file_history":
+	[
+		"/var/www/capacitaciones/node modules/diapositivas.html",
+		"/home/fizzmod/Documentos/hello-fizzmod/src/components.js",
+		"/var/www/capacitaciones/node modules/project/file.js",
+		"/var/www/capacitaciones/node modules/diapositivas.pug",
+		"/var/www/capacitaciones/index.js",
+		"/home/fizzmod/Documentos/hello-fizzmod/src/react-elements.js",
+		"/home/fizzmod/Documentos/hello-fizzmod/src/App.js",
+		"/var/www/capacitaciones/react-primera-parte/diapositivas.pug",
+		"/home/fizzmod/Documentos/hello-fizzmod/src/index.js",
+		"/home/fizzmod/Documentos/hello-fizzmod/public/index.html",
+		"/var/www/capacitaciones/node modules/webpack-project/index.js",
+		"/var/www/capacitaciones/node modules/webpack-project/package.json",
+		"/var/www/capacitaciones/es6 - tercera parte/practica/nested-destructuring.js",
+		"/var/www/capacitaciones/es6 - tercera parte/practica/destructuring.js",
+		"/var/www/capacitaciones/node modules/webpack-project/webpack.config.js",
+		"/var/www/capacitaciones/es6 - segunda parte/diapositivas/src/index.pug",
+		"/var/www/capacitaciones/es6 - tercera parte/diapositivas.pug",
+		"/var/www/capacitaciones/es6 - tercera parte/destructuring.js",
+		"/var/www/capacitaciones/es6 - tercera parte/forOf.js",
+		"/var/www/capacitaciones/slides-src/layout.pug",
+		"/var/www/aurora/src/js/shopping-lists.js",
+		"/var/www/aurora/src/redux/modules/shoppingLists.js",
+		"/var/www/aurora/src/components/ShoppingLists/ShoppingLists.js",
+		"/var/www/aurora/src/components/ShoppingLists/Lists.js",
+		"/var/www/aurora/src/components/ShoppingLists/ShoppingLists.scss",
+		"/var/www/aurora/src/redux/create.js",
+		"/var/www/aurora/src/js/shopping-list.js",
+		"/var/www/aurora/src/components/MyAccount/Utils.js",
+		"/var/www/aurora/src/js/fizzmod.shoplist.js",
+		"/var/www/aurora/src/js/global.js",
+		"/var/www/aurora/.eslintignore",
+		"/home/fizzmod/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/var/www/aurora/.eslintrc.json",
+		"/var/www/aurora/src/components/ShoppingLists/ShoppingListsContainer.js",
+		"/var/www/aurora/src/components/ShoppingLists/Loader.js",
+		"/var/www/aurora/src/components/MyOrders/styles/MyOrders.scss",
+		"/var/www/aurora/src/components/ShoppingLists/ListItem/ListItem.js",
+		"/var/www/aurora/vtex-uploader.conf",
+		"/var/www/aurora/src/components/MyOrders/MyOrdersContainer.js",
+		"/var/www/aurora/src/components/ShoppingLists/AddListView.js",
+		"/var/www/aurora/src/components/ShoppingLists/ListItem/ActionsForEmptyLIst.js",
+		"/var/www/aurora/src/components/ShoppingLists/Actions.js",
+		"/var/www/aurora/src/components/ShoppingLists/ListItem/Actions.js",
+		"/var/www/aurora/src/components/ShoppingLists/ListItem.js",
+		"/var/www/aurora/src/html/subtemplates/overlay-add-shop-list.html",
+		"/var/www/aurora/src/include/styles/blocks/_overlay.css",
+		"/var/www/aurora/src/html/subtemplates/overlay-create-shop-list.html",
+		"/var/www/aurora/src/redux/modules/myOrders.js",
+		"/var/www/aurora/src/redux/modules/reducer.js",
+		"/var/www/aurora/src/redux/modules/myAccount.js",
+		"/var/www/aurora/src/include/js/selectors.js",
+		"/var/www/aurora/src/html/shopping-lists-user.html",
+		"/var/www/aurora/src/components/MyAccount/MyAccount.js",
+		"/var/www/aurora/src/components/MyOrders/MyOrders.js",
+		"/var/www/aurora/src/include/classes/shareByMailManager.js",
+		"/var/www/aurora/src/include/shopping-list/create-list/create-list.html",
+		"/var/www/aurora/src/components/MyOrders/Filters.js",
+		"/var/www/aurora/src/components/MyOrders/Order/OrderItems.js",
+		"/var/www/aurora/src/components/MyOrders/Order/Totalizer.js",
+		"/var/www/aurora/src/components/MyOrders/OrderList.js",
+		"/var/www/aurora/src/components/MyOrders/Utils.js",
+		"/var/www/aurora/src/views/MyAccountView.js",
+		"/var/www/aurora/src/include/styles/views/_orders.css",
+		"/var/www/aurora/src/components/MyOrders/Loader.js",
+		"/var/www/aurora/src/js/orders.js",
+		"/var/www/aurora/src/components/MyOrders/Order/Order.js",
+		"/var/www/aurora/src/components/ShippingPreference/ShippingDelivery/ShippingDeliverySelector.js",
+		"/var/www/aurora/fizzmod-scripts/webpack.config.js",
+		"/var/www/capacitaciones/es6 - segunda parte/Observacionesjs",
+		"/var/www/aurora/src/components/MyOrders/Order/Info.js",
+		"/var/www/aurora/src/js/libs/lodash.js",
+		"/var/www/aurora/src/components/MyData/MyData.js",
+		"/var/www/aurora/src/components/ProductPrices/ProductPrices.js",
+		"/var/www/aurora/src/components/MyOrders/Order/ProductItem.js",
+		"/var/www/aurora/src/components/MyData/profile/ProfileBox.js",
+		"/var/www/aurora/src/components/UI/Loader.js",
+		"/var/www/aurora/src/components/MyOrders/Order/Categories.js",
+		"/var/www/aurora/src/components/MyData/Utils.js",
+		"/var/www/aurora/src/components/MyData/styles/_myDataShippingMethodOption.scss",
+		"/var/www/aurora/src/components/MyData/shipping/ShippingMethods.js",
+		"/var/www/aurora/src/components/MyData/shipping/ShippingMethodListPE.js",
+		"/var/www/aurora/src/html/orders.html",
+		"/var/www/aurora/src/components/MyOrders/Order/OrderInfo.js",
+		"/var/www/aurora/src/include/html/product-prices-handlebars.html",
+		"/var/www/aurora/src/js/fizzmod.js",
+		"/var/www/aurora/package.json",
+		"/var/www/aurora/fizzmod-scripts/clear-folder.js",
+		"/var/www/aurora/src/styles/my-account.css",
+		"/var/www/aurora/src/selectors/my-account.css",
+		"/var/www/aurora/src/html/my-account.html",
+		"/var/www/aurora/src/components/Utils/Utils.js",
+		"/var/www/aurora/src/include/footer/common-resources.html",
+		"/var/www/aurora/src/html/subtemplates/footer.html",
+		"/var/www/aurora/src/include/html/CO/footer.html",
+		"/var/www/aurora/src/components/MyOrders/Order.js",
+		"/var/www/aurora/src/components/MyAccount/MyAccount.scss",
+		"/var/www/aurora/src/components/HealthyWorld/HealthyWorld.js",
+		"/var/www/aurora/src/components/HealthyWorld/Menu.js",
+		"/var/www/aurora/src/components/MyData/styles/MyData.scss",
+		"/var/www/aurora/src/styles/custom-landing/my-account.css",
+		"/var/www/aurora/src/styles/global.css",
+		"/var/www/aurora/src/styles/temp.css",
+		"/var/www/aurora/src/redux/modules/myData.js",
+		"/var/www/aurora/src/components/MyData/profile/CorporateForm.js",
+		"/var/www/aurora/src/components/MyData/profile/ProfileForm.js",
+		"/var/www/aurora/src/include/checkout/profile.js",
+		"/var/www/aurora/src/components/MyData/shipping/ShippingBox.js",
+		"/var/www/aurora/src/components/MyData/MyDataContainer.js",
+		"/var/www/aurora/src/components/MyData/styles/_profileForm.scss",
+		"/var/www/aurora/src/components/MyData/styles/_myDataBox.scss",
+		"/var/www/aurora/src/components/MyAccount/MyAccountContainer.js",
+		"/var/www/aurora/fizzmod-scripts/countryConfig.js",
+		"/var/www/aurora/src/components/HealthyWorld/CollectionSection/CollectionSlider.js",
+		"/var/www/aurora/src/include/cart/CO/cart.js",
+		"/home/fizzmod/Documentos/Evaluaciones/Evalucacion-Es6-Pedro/app.js",
+		"/var/www/aurora/src/components/MyData/styles/_myData.scss",
+		"/var/www/aurora/src/components/MyData/styles/_myDataShippingMethods.scss",
+		"/var/www/aurora/src/components/MyData/Loader.js",
+		"/var/www/aurora/src/components/MyData/shipping/ShippingMethodListCL.js",
+		"/var/www/aurora/src/components/MyData/shipping/ModalEditAddress.js",
+		"/var/www/aurora/src/components/MyData/styles/_myDataModal.scss",
+		"/var/www/aurora/src/components/MyData/styles/_myDataEditAddress.scss",
+		"/var/www/aurora/src/components/MyData/styles/_addressSelector.scss",
+		"/var/www/aurora/src/components/Spinner.js",
+		"/var/www/aurora/src/components/MyAccount/profile/ProfileForm.js",
+		"/var/www/aurora/src/components/MyAccount/my-orders/MyOrders.js",
+		"/var/www/aurora/src/html/subtemplates/navigation.html",
+		"/var/www/aurora/src/include/html/AR/navigation.html"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+			"src/components/",
+			"src/html",
+			"src/js",
+			"src/",
+			"src/components",
+			"src/js",
+			"*.css",
+			"*.js",
+			"*.html",
+			"src/components",
+			"*.css",
+			"*.html",
+			"src/html",
+			"src/components",
+			"*.js",
+			"",
+			"src/redux",
+			"src/components",
+			"",
+			"src/redux",
+			"*.js",
+			"",
+			"src",
+			"src/**/*.js",
+			"*.js",
+			"*.css",
+			"*.html",
+			"src/components/ShippingPreference",
+			"src/components/shippingPreference",
+			"src/components",
+			"*.js",
+			"*.css",
+			"*.js",
+			"*.css",
+			"src/",
+			"src/components",
+			"",
+			"src/components",
+			"src/js",
+			"src/js/",
+			"src/js/global.js",
+			"src/js",
+			"src/components",
+			"*.js",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.html",
+			"*css",
+			"src/components",
+			"src/",
+			"src/html",
+			"src/components",
+			"*.css",
+			"src/",
+			"src/components/",
+			"*.js",
+			"src/",
+			"src/components",
+			"src/",
+			"src/components",
+			"",
+			"src/components",
+			"src/",
+			"",
+			"*.json",
+			"",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.html",
+			"*.css",
+			"*.html",
+			"src/components",
+			"*.html",
+			"*.css",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.js",
+			"*.css",
+			"*.html",
+			"*.css",
+			"*.html",
+			"",
+			"*.",
+			"*.css",
+			"*.js",
+			"",
+			"*.css",
+			"*.js",
+			"src/js",
+			"*js",
+			"*css",
+			"src/js",
+			"/src/js",
+			"*.js",
+			"",
+			"*js",
+			"*css",
+			"*js",
+			"*html",
+			"src/",
+			"src/components",
+			"*.css",
+			"*.html",
+			"*.css",
+			"src/components",
+			"*.html",
+			"",
+			"src/components/",
+			"",
+			"src/components/",
+			"/src/compotents/",
+			"src/compotents/",
+			"src/compotents/*",
+			"/src/compotents/*",
+			"*.css",
+			"*.js",
+			"src/components/HealthyWorld",
+			"src/components/HelthyWorld",
+			"src/components/",
+			"src/Components/",
+			"/src/Components",
+			"src/Components",
+			"*scss",
+			"scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"estados",
+			"codeReact",
+			"estados",
+			"PropTypes",
+			"React.PropTypes",
+			"react.proptypes",
+			"data-id=\"2\" tabIndex=\"0\"",
+			".html",
+			"}",
+			"output",
+			"sayHello",
+			"\"",
+			", ",
+			"skuAmount",
+			"skuLength",
+			" ",
+			"button",
+			"start",
+			"json.parse",
+			"Actions",
+			"OrderLoader",
+			"shoppingLists",
+			"measurementUnitVisual",
+			"gr",
+			"kg",
+			"shoppingLists",
+			"loader",
+			"Actions",
+			"skus",
+			" ",
+			"{",
+			" ",
+			"</button>",
+			"}}",
+			"{{",
+			"{",
+			"class=",
+			"__close",
+			"<div class=\"v-center\">",
+			"5 - CREATE SHOP LIST",
+			"console.log",
+			"__close",
+			"ShoppingLists",
+			"myOrders",
+			"getListArray",
+			"getlistarray",
+			"userLists",
+			"Fizzmod.ShoppingList.userLists",
+			"getListArray",
+			"RECEIVE_LISTS",
+			"getListArray",
+			"Fizzmod.ShoppingList",
+			"setUserLists",
+			"STOP_LOADING",
+			"onStartShoppingList",
+			"appendUserLists",
+			"setUserLists",
+			"shopListCreateSubmit",
+			"create-shop-list",
+			"create-shop-list__submit",
+			"class",
+			"MyOrders",
+			"searchText",
+			"hasOrders",
+			"filteredOrders",
+			"statusMap",
+			"!isLoading && ",
+			"CHANGE_SEARCH_TEXT",
+			"searchText",
+			"MyAccountContainer",
+			"onSearchTextChange",
+			"CHANGE_DATE",
+			"dateActive",
+			"max-height",
+			"ease-in-out",
+			"wong",
+			"wongfood",
+			"monthNames",
+			"orders",
+			"getDateFilters",
+			" ",
+			"creationDateFormatted",
+			"creationDateStr",
+			"creationDate",
+			"creationDateStr",
+			"CHANGE_STATUS",
+			" ",
+			"onChangeStatus",
+			"dateActive",
+			"statusActive",
+			" ",
+			"Status",
+			"changeStatus",
+			"dateFilters",
+			"status",
+			"CHANGE_STATUS",
+			"UPDATE_ORDERS",
+			"/>\n",
+			"statusCodes",
+			"status",
+			"ordersFilterSelectState",
+			"status",
+			"PropTypes.arrayOf(PropTypes.string)",
+			"isLoading",
+			"RECEIVE_ORDERS",
+			"type",
+			"unique",
+			"import _ from 'lodash'",
+			"filterDate",
+			"filterStatus",
+			"getDateFilters",
+			"getFilterDate",
+			"getFilterStatus",
+			"monthNames",
+			" ",
+			"\"",
+			"monthName",
+			"monthNames",
+			"orderFilterSelectDate",
+			"ordersFilterSelectDate",
+			" ",
+			"getOrders",
+			" ",
+			"ordersFilterSelectState",
+			"monthNames",
+			"Filters",
+			"filters",
+			"jumbo.cl"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"className",
+			"my-data-box",
+			"",
+			"@include justify-content;",
+			"@include align-items;",
+			"@include displayFlex;",
+			"align-items: center;",
+			"justify-content: center;",
+			"flex-direction: column;",
+			"display: flex;",
+			"",
+			"@include flex-direction(column);",
+			"@include justify-content(space-around);",
+			"@include justify-content(space-between);",
+			"",
+			"@include justify-content;",
+			"justify-content: center",
+			"@include align-items;",
+			"@include justify-content;",
+			"@include displayFlex;",
+			"elem.",
+			"$(elem.",
+			"{{FK:phoneNumber}}",
+			"*                               ",
+			"*\t\t\t\t\t\t\t",
+			"*      "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/var/www/capacitaciones/react-segunda-parte/diapositivas.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3769,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1894,
+								1894
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1044.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/var/www/capacitaciones/react-segunda-parte/reapaso.note",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/capacitaciones/react-segunda-parte/state.note",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1009,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								597,
+								597
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/var/www/capacitaciones/react-segunda-parte/ciclo-de-vida.note",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								709,
+								709
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "capacitaciones.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"shopping-lists.js",
+				"src/js/shopping-lists.js"
+			],
+			[
+				"fizzmod.shop",
+				"src/js/fizzmod.shoplist.js"
+			],
+			[
+				"reduxshoppig",
+				"src/redux/modules/shoppingLists.js"
+			],
+			[
+				"global.js",
+				"src/js/global.js"
+			],
+			[
+				"global.j",
+				"src/js/global.js"
+			],
+			[
+				"globa",
+				"src/js/global.js"
+			],
+			[
+				"eslinti",
+				".eslintignore"
+			],
+			[
+				"eslint",
+				".eslintrc.json"
+			],
+			[
+				"crea",
+				"src/redux/create.js"
+			],
+			[
+				"shopping-list.js",
+				"src/js/shopping-list.js"
+			],
+			[
+				"shopping-list-u",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"reduxshopping",
+				"src/redux/modules/shoppingLists.js"
+			],
+			[
+				".conf",
+				"vtex-uploader.conf"
+			],
+			[
+				"create.js",
+				"src/redux/create.js"
+			],
+			[
+				"myorderscont",
+				"src/components/MyOrders/MyOrdersContainer.js"
+			],
+			[
+				"shopping-lists-u",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"shopping-lists-user",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"overlay.css",
+				"src/include/styles/blocks/_overlay.css"
+			],
+			[
+				"overlay-add",
+				"src/html/subtemplates/overlay-add-shop-list.html"
+			],
+			[
+				"overlay-cre",
+				"src/html/subtemplates/overlay-create-shop-list.html"
+			],
+			[
+				"fizzmod.sho",
+				"src/js/fizzmod.shoplist.js"
+			],
+			[
+				"fizzmod.shp",
+				"src/js/fizzmod.shoplist.js"
+			],
+			[
+				"selectors.js",
+				"src/include/js/selectors.js"
+			],
+			[
+				"sharebymailmanager",
+				"src/include/classes/shareByMailManager.js"
+			],
+			[
+				"create-list",
+				"src/include/shopping-list/create-list/create-list.html"
+			],
+			[
+				"shopping-lists.html",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"shopping-lists",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"orders.css",
+				"src/include/styles/views/_orders.css"
+			],
+			[
+				"shopping-list-user",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"utils",
+				"src/components/MyOrders/Utils.js"
+			],
+			[
+				"orders.js",
+				"src/js/orders.js"
+			],
+			[
+				"lodash.js",
+				"src/js/libs/lodash.js"
+			],
+			[
+				"selectors",
+				"src/include/js/selectors.js"
+			],
+			[
+				"global",
+				"src/js/global.js"
+			],
+			[
+				"order.js",
+				"src/js/orders.js"
+			],
+			[
+				"glo",
+				"src/js/global.js"
+			],
+			[
+				"fizzmod.shopli",
+				"src/js/fizzmod.shoplist.js"
+			],
+			[
+				"myorders.js",
+				"src/redux/modules/myOrders.js"
+			],
+			[
+				"myorder",
+				"src/components/MyOrders/MyOrders.js"
+			],
+			[
+				"orders.html",
+				"src/html/orders.html"
+			],
+			[
+				"product-pric",
+				"src/include/html/product-prices-handlebars.html"
+			],
+			[
+				"myor",
+				"src/redux/modules/myOrders.js"
+			],
+			[
+				"fizzmod.js",
+				"src/js/fizzmod.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"product-prices",
+				"src/include/html/product-prices-handlebars.html"
+			],
+			[
+				"esl",
+				".eslintrc.json"
+			],
+			[
+				"my-accoutn.css",
+				"src/selectors/my-account.css"
+			],
+			[
+				"my-account.css",
+				"src/styles/my-account.css"
+			],
+			[
+				"eslin",
+				".eslintrc.json"
+			],
+			[
+				"my-account.html",
+				"src/html/my-account.html"
+			],
+			[
+				"common",
+				"src/include/footer/common-resources.html"
+			],
+			[
+				"footer.html",
+				"src/html/subtemplates/footer.html"
+			],
+			[
+				"cofooter.html",
+				"src/include/html/CO/footer.html"
+			],
+			[
+				"global.css",
+				"src/styles/global.css"
+			],
+			[
+				"webpa",
+				"fizzmod-scripts/webpack.config.js"
+			],
+			[
+				"profile.js",
+				"src/include/checkout/profile.js"
+			],
+			[
+				"cart.js",
+				"src/include/cart/CO/cart.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"myaccount.js",
+				"src/components/MyAccount/MyAccount.js"
+			],
+			[
+				"menu-food",
+				"src/include/menu/menu-food.html"
+			],
+			[
+				"arnavi",
+				"src/include/html/AR/navigation.html"
+			],
+			[
+				"nav",
+				"src/html/subtemplates/navigation.html"
+			],
+			[
+				"web",
+				"fizzmod-scripts/webpack.config.js"
+			],
+			[
+				"myaccount",
+				"src/redux/modules/myAccount.js"
+			],
+			[
+				"departments.json",
+				"src/include/json/CO/departments-menu-nonfood.json"
+			],
+			[
+				"lint",
+				".eslintrc.json"
+			],
+			[
+				"checkout-cu",
+				"src/styles/checkout-custom.css"
+			],
+			[
+				"navigation",
+				"src/include/html/CO/navigation.html"
+			],
+			[
+				"menu-nonfood",
+				"src/include/menu/menu-nonfood-mobile.html"
+			],
+			[
+				"navigation.html",
+				"src/include/html/CO/navigation.html"
+			],
+			[
+				"home.h",
+				"src/html/home.html"
+			],
+			[
+				"conavigation",
+				"src/include/html/CO/navigation.html"
+			],
+			[
+				"navi",
+				"src/html/subtemplates/navigation.html"
+			],
+			[
+				"menunonfood",
+				"src/include/menu/menu-nonfood.html"
+			],
+			[
+				"vtex",
+				"vtex-uploader.conf"
+			],
+			[
+				"list.js",
+				"src/js/list.js"
+			],
+			[
+				"webpack",
+				"fizzmod-scripts/webpack.config.js"
+			],
+			[
+				"we",
+				"fizzmod-scripts/webpack.config.js"
+			],
+			[
+				"paths",
+				"fizzmod-scripts/paths.js"
+			],
+			[
+				"webp",
+				"fizzmod-scripts/webpack.config.js"
+			],
+			[
+				"header.html",
+				"src/include/html/PE/header.html"
+			],
+			[
+				"peheader",
+				"src/include/html/PE/header.html"
+			],
+			[
+				"header.css",
+				"src/include/styles/blocks/_header.css"
+			],
+			[
+				"pehader",
+				"src/include/html/PE/header.html"
+			],
+			[
+				"recipe.js",
+				"src/js/recipe.js"
+			],
+			[
+				"conf",
+				"src/components/MyAccount/config.js"
+			],
+			[
+				"my-account",
+				"src/styles/my-account.css"
+			],
+			[
+				"checkout5-custom",
+				"src/include/checkout/PE-checkout5-custom.js"
+			],
+			[
+				"checkout5-cus",
+				"src/js/checkout5-custom.js"
+			],
+			[
+				"pe-ch",
+				"src/include/checkout/PE-checkout5-custom.js"
+			],
+			[
+				"font-icons-exte",
+				"src/include/styles/font-icons/PE/font-icons-extended.css"
+			],
+			[
+				"font-face-cate",
+				"src/include/styles/font-face/PE/font-face-categories.css"
+			],
+			[
+				"variables",
+				"src/include/styles/_variables.css"
+			],
+			[
+				"janis.con",
+				"src/include/janis/janis.conf.js"
+			],
+			[
+				"font-icons-ex",
+				"src/include/styles/font-icons/PE/font-icons-extended.css"
+			],
+			[
+				"recipes.js",
+				"src/js/recipes.js"
+			],
+			[
+				"edit",
+				"src/components/MyAccount/ModalEditAddress.js"
+			],
+			[
+				"config.js",
+				"src/components/MyAccount/config.js"
+			],
+			[
+				"marker.js",
+				"src/components/ShippingPreference/Marker.js"
+			],
+			[
+				"shippingstoremap",
+				"src/components/ShippingPreference/ShippingStore/ShippingStoreMap.js"
+			],
+			[
+				"storeadres",
+				"src/include/classes/storeAddress.js"
+			],
+			[
+				"janis",
+				"src/include/janis/janis.conf.js"
+			],
+			[
+				"store.css",
+				"src/include/institutional/_institutional-store.css"
+			],
+			[
+				"variables.scss",
+				"src/styles/_variables.scss"
+			],
+			[
+				"font-face-ca",
+				"src/include/styles/font-face/PE/font-face-categories.css"
+			],
+			[
+				"my-acc",
+				"src/html/my-account.html"
+			],
+			[
+				"font-icons",
+				"src/include/styles/_font-icons.css"
+			],
+			[
+				"bagadder.scss",
+				"src/components/BagAdder/BagAdder.scss"
+			],
+			[
+				"handle",
+				"src/handlebars.js"
+			],
+			[
+				"handlebar",
+				"src/include/js/handlebar-functions.js"
+			],
+			[
+				"han",
+				"src/handlebars.js"
+			],
+			[
+				"checkout5",
+				"src/include/checkout/CO-checkout5-custom.js"
+			],
+			[
+				"fizzmod.shoplis",
+				"src/js/fizzmod.shoplist.js"
+			],
+			[
+				"profileform",
+				"src/components/MyAccount/ProfileForm.js"
+			],
+			[
+				"global-tem",
+				"src/include/html/global-templates.html"
+			],
+			[
+				"var",
+				"src/styles/_variables.scss"
+			],
+			[
+				"shopping-lists.",
+				"src/html/shopping-lists-user.html"
+			],
+			[
+				"paths.js",
+				"fizzmod-scripts/paths.js"
+			],
+			[
+				"payment.js",
+				"src/include/checkout/payment.js"
+			],
+			[
+				"globa.l",
+				"src/js/global.js"
+			],
+			[
+				"list",
+				"src/js/list.js"
+			],
+			[
+				"shipping-filter",
+				"src/include/json/CO/checkout-shipping-filters.json"
+			],
+			[
+				"shippingpreferencemap.js",
+				"src/components/ShippingPreference/ShippingStore/ShippingStoreMap.js"
+			],
+			[
+				"shipping-data.css",
+				"src/include/styles/checkout/_shipping-data.css"
+			],
+			[
+				"checkout5-c",
+				"src/js/checkout5-custom.js"
+			],
+			[
+				"pech",
+				"src/include/checkout/PE-checkout5-custom.js"
+			],
+			[
+				"checkout5manager",
+				"src/include/checkout/Checkout5Manager.js"
+			],
+			[
+				"checkout-shipping",
+				"src/include/json/CO/checkout-shipping-filters.json"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 289.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

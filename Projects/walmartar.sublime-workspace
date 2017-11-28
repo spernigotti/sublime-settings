@@ -44,12 +44,22 @@
 	"buffers":
 	[
 		{
-			"file": "/var/www/walmartar/src/js/walmart.js",
+			"file": "/var/www/walmartar/src/js/includes/stores.json",
 			"settings":
 			{
-				"buffer_size": 138083,
+				"buffer_size": 44697,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 117 files for \"honorio\"\n\n0 matches\n\nSearching 399 files for \"honorio\"\n\n/var/www/walmartar/src/html/placeholders-institucional/atencion-al-cliente.html:\n 1193  <td><p>1066</p></td>\n 1194  <td><p>SM</p></td>\n 1195: <td><p>Honorio Pueyrredon</p></td>\n 1196  <td nowrap=\"\" ><p>CABA</p></td>\n 1197: <td nowrap=\"\" ><p>Honorio Pueyrredón 652</p></td>\n 1198  </tr>\n 1199  \n\n/var/www/walmartar/src/html/placeholders-institucional/experiencia-walmart.html:\n  772  <td><p>1066</p></td>\n  773  <td><p>SM</p></td>\n  774: <td><p>Honorio Pueyrredon</p></td>\n  775  <td nowrap=\"\" ><p>CABA</p></td>\n  776: <td nowrap=\"\" ><p>Honorio Pueyrredón 652</p></td>\n  777  </tr>\n  778  \n\n/var/www/walmartar/src/js/includes/stores.json:\n  512  \t\t\t\"ecommerce\"\t: false,\n  513  \t\t\t\"id\"\t\t: null,\n  514: \t\t\t\"name\"\t\t: \"Supermercado Honorio Pueyrredón\",\n  515  \t\t\t\"state\"\t\t: \"Ciudad Autonoma de Buenos Aires\",\n  516  \t\t\t\"city\"\t\t: \"Ciudad Autonoma de Buenos Aires\",\n  517: \t\t\t\"address\"\t: \"Honorio Pueyrredón 652, Caballito\",\n  518  \t\t\t\"phone\"\t\t: \"4901-2017 / 4902-7054\",\n  519  \t\t\t\"timetable\"\t: \"Todos los días de 8 a 22 hs.\",\n\n/var/www/walmartar/src/xml/shops.xml:\n  380  \t</shop>\n  381  \t<shop>\n  382: \t\t<name>Walmart Supermercado Honorio Pueyrredón</name>\n  383  \t\t<city>CAPITAL FEDERAL</city>\n  384  \t\t<state>CABA</state>\n  385: \t\t<fulladress>Honorio Pueyrredón 652, Caballito, C.A.B.A</fulladress>\n  386  \t\t<timetable>todos los días de 8 a 22 hs.</timetable>\n  387  \t\t<service>SÓLO PRESENCIAL</service>\n\n8 matches across 4 files\n",
+			"settings":
+			{
+				"buffer_size": 1508,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
 			}
 		}
 	],
@@ -60,7 +70,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 172.0,
+		"height": 246.0,
 		"last_filter": "java",
 		"selected_items":
 		[
@@ -97,7 +107,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 485.0
+		"width": 395.0
 	},
 	"console":
 	{
@@ -124,6 +134,11 @@
 	],
 	"file_history":
 	[
+		"/var/www/walmartar/src/js/walmart.js",
+		"/var/www/walmartar/src/checkout/checkoutinstallments.js",
+		"/var/www/walmartar/src/html/WALMART-orders.html",
+		"/var/www/walmartar/src/js/includes/installments.js",
+		"/var/www/walmartar/src/js/includes/checkout-walmart.js",
 		"/var/www/aurora/src/html/test.html",
 		"/var/www/aurora/src/html/home.html",
 		"/var/www/aurora/src/html/subtemplates/metas.html",
@@ -246,22 +261,18 @@
 		"/var/www/aurora/src/js/compare.js",
 		"/var/www/aurora/src/js/shopping-list.js",
 		"/var/www/aurora/build/css/product-item.css",
-		"/var/www/aurora/src/include/styles/_buttons.css",
-		"/var/www/aurora/src/html/subtemplates/overlay-product-quickview.html",
-		"/var/www/aurora/src/include/js/selectors.js",
-		"/var/www/aurora/src/js/fizzmod.js",
-		"/var/www/aurora/src/include/menu/menu-food.html",
-		"/home/fizzmod/Documentos/react - Por qué la Inmutabilidad es importante?"
+		"/var/www/aurora/src/include/styles/_buttons.css"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
-		"height": 90.0,
+		"height": 98.0,
 		"where_history":
 		[
+			"",
 			"*.js",
 			"*.html",
 			"*.css",
@@ -329,6 +340,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mendoza",
+			"Mendoza",
+			"mendoza",
+			"san luis",
+			"córdoba",
+			"Córdoba",
+			"córdoba",
+			"honorio",
+			"prototype",
+			"Fingerprint2",
+			"angu",
+			"window.",
 			"home",
 			"new page",
 			"page",
@@ -444,19 +467,7 @@
 			"$.get",
 			"e928",
 			"__filters",
-			"--remove",
-			"filters",
-			"__filters",
-			"cartlimit",
-			"wongfoodqa",
-			"wongfood",
-			"cart_lim",
-			"addProductRequests",
-			"compileSearchResultsItems",
-			"setProductProperties",
-			"cartlimit",
-			"cart_limit",
-			"setData"
+			"--remove"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -502,31 +513,106 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/var/www/walmartar/src/js/walmart.js",
+					"file": "/var/www/walmartar/src/js/includes/stores.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 138083,
+						"buffer_size": 44697,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								365,
-								365
+								41587,
+								41615
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 91.0,
+						"translation.y": 8170.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1508,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										230,
+										237
+									],
+									[
+										322,
+										329
+									],
+									[
+										525,
+										532
+									],
+									[
+										617,
+										624
+									],
+									[
+										808,
+										815
+									],
+									[
+										963,
+										970
+									],
+									[
+										1207,
+										1214
+									],
+									[
+										1321,
+										1328
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								972,
+								972
+							]
+						],
+						"settings":
+						{
+							"default_dir": "/var/www/walmartar",
+							"detect_indentation": false,
+							"line_numbers": false,
+							"output_tag": 2,
+							"result_base_dir": "",
+							"result_file_regex": "^([^ \t].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -580,6 +666,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"store",
+				"src/js/includes/stores.json"
+			],
+			[
+				"installmen",
+				"src/checkout/checkoutinstallments.js"
+			],
+			[
+				"install",
+				"src/js/includes/installments.js"
+			],
+			[
+				"orders.html",
+				"src/html/WALMART-orders.html"
+			],
+			[
+				"checkout-wa",
+				"src/js/includes/checkout-walmart.js"
+			],
 			[
 				"selectors.js",
 				"src/include/js/selectors.js"
@@ -723,10 +829,6 @@
 			[
 				"font-icon",
 				"src/include/styles/font-icons/CO/font-icons-extended.css"
-			],
-			[
-				"orders.html",
-				"src/html/orders.html"
 			],
 			[
 				"orders.css",
@@ -1075,22 +1177,6 @@
 			[
 				"category",
 				"src/html/category.html"
-			],
-			[
-				"responsi",
-				"src/styles/responsive.css"
-			],
-			[
-				"payment.js",
-				"src/include/checkout/payment.js"
-			],
-			[
-				"selectors",
-				"src/include/js/selectors.js"
-			],
-			[
-				"recipes.js",
-				"src/js/recipes.js"
 			]
 		],
 		"width": 0.0
@@ -1120,7 +1206,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 284.0,
 	"status_bar_visible": true,
 	"template_settings":

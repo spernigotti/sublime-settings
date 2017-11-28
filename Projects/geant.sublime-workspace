@@ -11,7 +11,7 @@
 			"file": "/var/www/geant/src/html/shelf-templates/prodTemplate.html",
 			"settings":
 			{
-				"buffer_size": 2288,
+				"buffer_size": 2406,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -20,7 +20,57 @@
 			"file": "/var/www/geant/src/js/global.js",
 			"settings":
 			{
-				"buffer_size": 52505,
+				"buffer_size": 76451,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/geant/vtex-uploader.conf",
+			"settings":
+			{
+				"buffer_size": 648,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/geant/src/js/compare.js",
+			"settings":
+			{
+				"buffer_size": 13148,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/geant/src/checkout/storePickupOffices.js",
+			"settings":
+			{
+				"buffer_size": 1132,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/geant/src/js/checkout.js",
+			"settings":
+			{
+				"buffer_size": 2354,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/geant/src/html/Orders.html",
+			"settings":
+			{
+				"buffer_size": 5986,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/var/www/geant/src/js/product.js",
+			"settings":
+			{
+				"buffer_size": 49925,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -29,7 +79,7 @@
 			"file": "/var/www/geant/src/styles/global.css",
 			"settings":
 			{
-				"buffer_size": 125946,
+				"buffer_size": 136131,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -99,15 +149,19 @@
 	[
 		"/var/www/geant",
 		"/var/www/geant/src",
+		"/var/www/geant/src/html",
+		"/var/www/geant/src/html/shelf-templates",
 		"/var/www/geant/src/styles"
 	],
 	"file_history":
 	[
+		"/var/www/geant/src/js/fizzmod.js",
+		"/var/www/geant/src/styles/responsive.css",
 		"/var/www/geant/src/js/product.js"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -122,6 +176,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"utils",
+			"getProductShelf",
+			"appendCategoryProducts",
+			"newProducts",
+			"isResolutionSmallDesktop",
+			"1280",
+			"kit",
+			"fizzquote",
+			"fizzquote =",
+			"fizzquote",
+			"dolar",
 			"janis"
 		],
 		"highlight": true,
@@ -140,7 +205,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -149,15 +214,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2288,
+						"buffer_size": 2406,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								898,
-								898
+								0,
+								0
 							]
 						],
 						"settings":
@@ -169,7 +234,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -178,20 +243,50 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 52505,
+						"buffer_size": 76451,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								128,
-								128
+								73266,
+								73266
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 29860.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/var/www/geant/vtex-uploader.conf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								648,
+								648
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -202,36 +297,183 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/var/www/geant/src/styles/global.css",
+					"buffer": 3,
+					"file": "/var/www/geant/src/js/compare.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 125946,
+						"buffer_size": 13148,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								835,
-								835
+								4662,
+								4662
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"syntax": "Packages/JSX/JSX.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
+						"translation.y": 1980.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/var/www/geant/src/checkout/storePickupOffices.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								610,
+								610
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/var/www/geant/src/js/checkout.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2354,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1582,
+								1582
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/var/www/geant/src/html/Orders.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5986,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2322,
+								2322
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 656.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 7,
+					"file": "/var/www/geant/src/js/product.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49925,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20181,
+								20181
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8843.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/var/www/geant/src/styles/global.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 136131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
 					"semi_transient": false,
 					"settings":
 					{
@@ -254,11 +496,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 10,
 					"file": "/var/www/geant/src/html/Home.html",
 					"semi_transient": true,
 					"settings":
@@ -270,8 +512,8 @@
 						"selection":
 						[
 							[
-								450,
-								450
+								6012,
+								6001
 							]
 						],
 						"settings":
@@ -280,10 +522,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2552.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -291,7 +533,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -328,7 +570,7 @@
 	"project": "geant.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -338,16 +580,56 @@
 		"selected_items":
 		[
 			[
+				".conf",
+				"vtex-uploader.conf"
+			],
+			[
+				"fizzmod.js",
+				"src/js/fizzmod.js"
+			],
+			[
+				"global.js",
+				"src/js/global.js"
+			],
+			[
+				"home.html",
+				"src/html/Home.html"
+			],
+			[
+				"globla.js",
+				"src/js/global.js"
+			],
+			[
+				"responsi",
+				"src/styles/responsive.css"
+			],
+			[
+				"product.js",
+				"src/js/product.js"
+			],
+			[
+				"orders.html",
+				"src/html/Orders.html"
+			],
+			[
+				"checkout.js",
+				"src/js/checkout.js"
+			],
+			[
+				"storepick",
+				"src/checkout/storePickupOffices.js"
+			],
+			[
+				"compare.js",
+				"src/js/compare.js"
+			],
+			[
 				"gl",
 				"src/styles/global.css"
 			],
 			[
 				"glob",
 				"src/js/global.js"
-			],
-			[
-				"product.js",
-				"src/js/product.js"
 			]
 		],
 		"width": 0.0
@@ -377,7 +659,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 418.0,
 	"status_bar_visible": true,
 	"template_settings":

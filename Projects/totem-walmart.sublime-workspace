@@ -1,0 +1,1394 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ecolo",
+				"ecologicBagsInCart"
+			],
+			[
+				"ob",
+				"Object"
+			],
+			[
+				"config",
+				"configPromise"
+			],
+			[
+				"jumbocolom",
+				"jumbocolombiafood"
+			],
+			[
+				"fz",
+				"fz\tfont-size"
+			],
+			[
+				"bg-i",
+				"background-image"
+			],
+			[
+				"component",
+				"componentWillUpdate\t Life Cycle"
+			],
+			[
+				"placeholer",
+				"placeholderText"
+			],
+			[
+				"jumbo",
+				"jumbocolombiafood"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"address",
+				"addressSelector"
+			],
+			[
+				"hipo",
+				"hipotecario-svg"
+			],
+			[
+				"space-",
+				"space-between"
+			],
+			[
+				"jumbocolombi",
+				"jumbocolombiafoodqa"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"discoun",
+				"discountData"
+			],
+			[
+				"getD",
+				"getDiscountById"
+			],
+			[
+				"current",
+				"currentTarget"
+			],
+			[
+				"dis",
+				"discountIds"
+			],
+			[
+				"dicount",
+				"discountFormatted"
+			],
+			[
+				"hidden",
+				"hiddenCategories"
+			],
+			[
+				"unit",
+				"unitMultiplier"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 246.0,
+		"last_filter": "java",
+		"selected_items":
+		[
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"project manager ",
+				"Project Manager: Add New Project"
+			],
+			[
+				"project sa",
+				"Project: Save As"
+			],
+			[
+				"project",
+				"Project: Add Folder"
+			],
+			[
+				"bind",
+				"Preferences: Key Bindings"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"fold a",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"fold all",
+				"Code Folding: Unfold All"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"jsx",
+				"Set Syntax: JSX"
+			],
+			[
+				"debu",
+				"SublimeLinter: Enable Debug Mode"
+			],
+			[
+				"debug",
+				"SublimeLinter: Disable Debug Mode"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"monokai",
+				"Monokai Pro: select theme"
+			],
+			[
+				"linte er",
+				"SublimeLinter: Report (Open Files)"
+			],
+			[
+				"linte",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"lint mo",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"toggle l",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"lista pa",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pakaces",
+				"Package Control: List Packages"
+			],
+			[
+				"git blame",
+				"Git: Blame"
+			],
+			[
+				"js",
+				"Set Syntax: JSX"
+			],
+			[
+				"git blam",
+				"Git: Blame"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"git bl",
+				"Git: Blame"
+			],
+			[
+				"gitbl",
+				"Git: Blame"
+			],
+			[
+				"fold",
+				"Code Folding: Unfold All"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"scope",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"scopehun",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"show",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"show scope",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"scope hun",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"key ",
+				"Preferences: Key Bindings"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sjx",
+				"Set Syntax: JSX"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"git bla",
+				"Git: Blame"
+			],
+			[
+				"git",
+				"Git: Blame"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"beauti",
+				"HTMLBeautify"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"pug",
+				"Set Syntax: Pug"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 413.0
+	},
+	"console":
+	{
+		"height": 425.0,
+		"history":
+		[
+			"ls",
+			"./node_modules/.bin/eslint",
+			"eslint",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/totem-walmart",
+		"/var/www/totem-walmart/app",
+		"/var/www/totem-walmart/app/components",
+		"/var/www/totem-walmart/app/components/Cart",
+		"/var/www/totem-walmart/app/components/Product/ProductInfo",
+		"/var/www/totem-walmart/app/redux",
+		"/var/www/totem-walmart/app/redux/modules"
+	],
+	"file_history":
+	[
+		"/var/www/totem-walmart/app/components/Product/ProductImage/ProductImageContainer.js",
+		"/var/www/totem-walmart/app/redux/modules/cart.js",
+		"/var/www/totem-walmart/app/components/Product/Product.js",
+		"/var/www/totem-walmart/app/components/Product/ProductInfo/ProductInfo.js",
+		"/var/www/totem-walmart/app/components/Checkout/Checkout.js",
+		"/var/www/totem-walmart/app/components/Cart/Cart.js",
+		"/var/www/totem-walmart/app/components/Product/ProductList/ProductList.js",
+		"/var/www/totem-walmart/app/components/Search/Search.js",
+		"/var/www/totem-walmart/app/redux/modules/history.js",
+		"/var/www/totem-walmart/app/utils/iframeReady.js",
+		"/var/www/totem-walmart/app/components/Keyboard/ScreenKeyboard/ScreenKeyboard.js",
+		"/var/www/totem-walmart/app/containers/Root.js",
+		"/var/www/totem-walmart/app/redux/modules/modal.js",
+		"/var/www/totem-walmart/app/components/UI/Modal/CartModal/CartModal.js",
+		"/var/www/totem-walmart/app/components/UI/Modal/index.js",
+		"/var/www/totem-walmart/package.json",
+		"/var/www/totem-walmart/app/main.dev.js",
+		"/var/www/totem-walmart/app/components/Keyboard/ScreenKeyboard/KeyboardButton.js",
+		"/var/www/totem-walmart/app/app.global.scss",
+		"/var/www/totem-walmart/app/redux/configureStore.dev.js",
+		"/var/www/totem-walmart/app/redux/selectors/cartSelectors.js",
+		"/var/www/totem-walmart/app/redux/modules/catalog.js",
+		"/var/www/totem-walmart/app/redux/modules/search.js",
+		"/var/www/totem-walmart/app/containers/ComparePage.js",
+		"/var/www/totem-walmart/app/redux/selectors/compareSelectors.js",
+		"/var/www/totem-walmart/app/redux/configureStore.js",
+		"/var/www/totem-walmart/app/styles/_variables.scss",
+		"/var/www/totem-walmart/app/styles/_colors.scss",
+		"/var/www/totem-walmart/app/styles/_animations.scss",
+		"/var/www/totem-walmart/app/components/Product/Product.scss",
+		"/var/www/totem-walmart/app/containers/CheckoutPage.js",
+		"/var/www/totem-walmart/app/redux/modules/keyboard.js",
+		"/var/www/totem-walmart/app/containers/App.js",
+		"/var/www/totem-walmart/app/index.js",
+		"/var/www/totem-walmart/app/routes.js",
+		"/var/www/totem-walmart/app/containers/CategoriesPage.js",
+		"/var/www/totem-walmart/app/components/UI/Sidebar/Sidebar.js",
+		"/var/www/totem-walmart/app/components/UI/Icons/ArrowDownIcon.js",
+		"/var/www/totem-walmart/app/components/UI/Input/Input.js",
+		"/var/www/totem-walmart/app/components/UI/Input/SearchInput/SearchInput.js",
+		"/var/www/totem-walmart/app/components/UI/Icons/index.js",
+		"/var/www/totem-walmart/app/components/UI/Buttons/Button.js",
+		"/var/www/totem-walmart/app/components/Product/UI/index.js",
+		"/var/www/totem-walmart/app/components/UI/index.js",
+		"/var/www/totem-walmart/app/components/UI/Buttons/index.js",
+		"/var/www/totem-walmart/app/containers/DepartmentsPage.js",
+		"/var/www/totem-walmart/yarn.lock",
+		"//",
+		"/var/www/aurora/src/html/product-nonfood.html",
+		"/var/www/aurora/src/html/product-food.html",
+		"/var/www/aurora/src/js/product.js",
+		"/var/www/aurora/src/components/ShippingPreference/ShippingDelivery/ShippingDelivery.js",
+		"/var/www/aurora/src/html/subtemplates/metas.html",
+		"/var/www/aurora/src/components/ShippingPreference/Utils/Utils.js",
+		"/var/www/aurora/src/components/BagAdder/BagAdder.scss",
+		"/var/www/aurora/src/js/fizzmod.js",
+		"/var/www/aurora/src/components/ShippingPreference/ShippingDelivery/districts.json",
+		"/var/www/aurora/src/include/templates/product-item-template.html",
+		"/var/www/aurora/src/include/html/product-prices-handlebars.html",
+		"/var/www/aurora/src/js/global.js",
+		"/var/www/aurora/src/components/ShippingPreference/ShippingDelivery/ShippingDeliverySelector.js",
+		"/var/www/aurora/src/components/BagAdder/BagGetter.js",
+		"/var/www/aurora/src/components/BagAdder/Utils.js",
+		"/var/www/aurora/tareas",
+		"/var/www/aurora/src/include/cart/CO/cart.js",
+		"/var/www/aurora/src/redux/modules/auroraConfig.js",
+		"/var/www/aurora/src/js/checkout.js",
+		"/var/www/aurora/src/components/BagAdder/views/Redirect.js",
+		"/var/www/aurora/src/include/html/CO/cart.html",
+		"/var/www/aurora/src/components/BagAdder/BagAdderContainer.js",
+		"/var/www/aurora/src/include/styles/blocks/_overlay.css",
+		"/var/www/aurora/src/styles/bag-adder.css",
+		"/var/www/aurora/src/include/cart/CL/cart.js",
+		"/var/www/aurora/src/html/cart.html",
+		"/var/www/aurora/src/components/BagAdder/Product.js",
+		"/var/www/aurora/src/components/BagAdder/views/BagSelector.js",
+		"/var/www/aurora/src/components/BagAdder/BagAdder.js",
+		"/var/www/aurora/src/redux/modules/reducer.js",
+		"/var/www/aurora/fizzmod-scripts/webpack.config.js",
+		"/var/www/aurora/src/js/fizzmod.minicart.js",
+		"/var/www/aurora/src/components/BagAdder/views/Confirmation.js",
+		"/var/www/aurora/src/redux/modules/vtex.js",
+		"/var/www/aurora/src/include/js/selectors.js",
+		"/var/www/aurora/src/include/styles/font-icons/CO/font-icons-extended.css",
+		"/var/www/aurora/src/include/styles/font-icons/AR/font-icons-extended.css",
+		"/var/www/aurora/src/html/subtemplates/overlay-bag-adder.html",
+		"/var/www/aurora/src/selectors/bagAdderSelectors.js",
+		"/var/www/aurora/src/components/Search/SearchContainer.js",
+		"/var/www/aurora/src/include/styles/_buttons.css",
+		"/var/www/aurora/src/components/ProductItem/ProductItemContainer.js",
+		"/var/www/aurora/src/components/BagAdder/ProductAmountInCart.js",
+		"/var/www/aurora/src/selectors/orderFormSelectors.js",
+		"/var/www/aurora/src/redux/modules/bagAdder.js",
+		"/var/www/aurora/src/include/styles/_helpers.css",
+		"/var/www/aurora/src/html/message-center/vtexcommerce-order-cancelled.html",
+		"/var/www/aurora/src/styles/global.css",
+		"/var/www/aurora/src/components/BagAdder/Loader.js",
+		"/var/www/aurora/src/include/styles/font-face/CO/font-face-categories.css",
+		"/var/www/aurora/src/include/styles/_font-icons.css",
+		"/var/www/aurora/vtex-uploader.conf",
+		"/var/www/aurora/src/components/HealthyWorld/HealthyWorld.js",
+		"/var/www/aurora/src/js/fizzmod.catalog.js",
+		"/var/www/aurora/src/views/BagAdderView.js",
+		"/var/www/aurora/src/redux/modules/orderForm.js",
+		"/var/www/aurora/src/include/json/CO/departments-qa.json",
+		"/var/www/aurora/src/include/json/CO/departments.json",
+		"/var/www/aurora/src/redux/modules/search.js",
+		"/home/fizzmod/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/var/www/aurora/src/js/jquery-prototype-extended.js",
+		"/var/www/aurora/src/components/ShippingPreference/ShippingPreference.js",
+		"/var/www/aurora/src/html/subtemplates/overlay-paper-gift.html",
+		"/var/www/aurora/fizzmod-scripts/paths.js",
+		"/var/www/aurora/.eslintrc.json",
+		"/var/www/aurora/src/redux/modules/media.js",
+		"/var/www/aurora/src/redux/create.js",
+		"/var/www/aurora/src/html/recipes.html",
+		"/var/www/aurora/src/include/styles/font-icons/PE/font-icons-extended.css",
+		"/var/www/aurora/src/include/styles/font-face/PE/font-face-categories.css",
+		"/var/www/aurora/src/include/html/PE/header.html",
+		"/var/www/aurora/src/include/navigation/mobile/PE/navigation-mobile.html",
+		"/var/www/aurora/src/include/html/CO/navigation.html",
+		"/var/www/aurora/src/components/ShippingPreference/ShippingPreference.scss",
+		"/var/www/aurora/src/include/styles/PE/navigation-mobile.css",
+		"/var/www/aurora/src/html/subtemplates/navigation.html",
+		"/var/www/aurora/src/components/ShippingPreference/ShippingSelector/ShippingSelector.scss",
+		"/var/www/aurora/src/handlebars.js",
+		"/var/www/aurora/src/components/ShippingPreference/ShippingStore/ShippingStore.js",
+		"/var/www/aurora/src/components/ShippingPreference/ShippingStore/ShippingStoreMap.scss"
+	],
+	"find":
+	{
+		"height": 52.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"app/components",
+			"app/",
+			"",
+			"src/components",
+			"",
+			"src/components",
+			"src/js",
+			"src/js/",
+			"src/js/global.js",
+			"src/js",
+			"src/components",
+			"*.js",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.html",
+			"*css",
+			"src/components",
+			"src/",
+			"src/html",
+			"src/components",
+			"*.css",
+			"src/",
+			"src/components/",
+			"*.js",
+			"src/",
+			"src/components",
+			"src/",
+			"src/components",
+			"",
+			"src/components",
+			"src/",
+			"",
+			"*.json",
+			"",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.html",
+			"*.css",
+			"*.html",
+			"src/components",
+			"*.html",
+			"*.css",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.js",
+			"*.css",
+			"*.html",
+			"*.css",
+			"*.html",
+			"",
+			"*.",
+			"*.css",
+			"*.js",
+			"",
+			"*.css",
+			"*.js",
+			"src/js",
+			"*js",
+			"*css",
+			"src/js",
+			"/src/js",
+			"*.js",
+			"",
+			"*js",
+			"*css",
+			"*js",
+			"*html",
+			"src/",
+			"src/components",
+			"*.css",
+			"*.html",
+			"*.css",
+			"src/components",
+			"*.html",
+			"",
+			"src/components/",
+			"",
+			"src/components/",
+			"/src/compotents/",
+			"src/compotents/",
+			"src/compotents/*",
+			"/src/compotents/*",
+			"*.css",
+			"*.js",
+			"src/components/HealthyWorld",
+			"src/components/HelthyWorld",
+			"src/components/",
+			"src/Components/",
+			"/src/Components",
+			"src/Components",
+			"*scss",
+			"scss",
+			"",
+			"*.css",
+			"",
+			"*.js",
+			"*.html",
+			"*.js",
+			"",
+			"*.html",
+			"*.js",
+			"*.html",
+			"*.js",
+			"*.css",
+			"*.js",
+			"*.html",
+			"*.css",
+			"*.html",
+			"*.css",
+			"*.html",
+			"*.css",
+			"",
+			"*.js",
+			"*.html",
+			"",
+			"*.html",
+			"*.js",
+			"*.html",
+			"*.css",
+			"*global.js",
+			"",
+			"*.js",
+			"*.css",
+			"*.html"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"vtexcommercestable",
+			"retiro",
+			"producto",
+			"cómo",
+			"envío a domicilio",
+			"retiro en tienda",
+			"addtocart",
+			"addto",
+			"handleAddToCart",
+			"AddToCart",
+			"addtocart",
+			"ADD_TO_CART",
+			"addtocart",
+			"addToCart",
+			"addtocart",
+			"ProductList",
+			"ProductListItem",
+			"ProductList",
+			"AddedToCartModal",
+			"react-modal",
+			"scripts",
+			"handleSearchSuccess",
+			".search",
+			"search",
+			"onSearch",
+			"searchQuery",
+			"button",
+			"app",
+			"node-png",
+			"png",
+			">>>>",
+			"======",
+			"address",
+			"Mobile",
+			"mobile",
+			"description",
+			"setDescription",
+			"description",
+			"description-short",
+			".description-short",
+			"Short",
+			"setActiveView",
+			"setActiveViewç",
+			"setActiveView",
+			"showSuccess",
+			"sendShippingDataAttachment",
+			"state",
+			".state",
+			".state.",
+			".href",
+			"sendAttachment",
+			"simulateShipping",
+			"sendShippingDataAttachment",
+			"sendAttachment",
+			"sendShippingDataAttachment",
+			"handleSubmitAddress",
+			"setLocationPlace",
+			"getSla",
+			"getStoreData",
+			"getDistanceInKm",
+			"fetchAddress",
+			"fetch",
+			"fetchSalesChannelByLocation",
+			"clearActiveSla",
+			"fetchStoreSc",
+			"polygonclick",
+			"newPlaceSeted",
+			"setAutocomplete",
+			"handlePlaceChanged",
+			"handleSubmitAddress",
+			"handleSubmitAddressç",
+			"handleSubmitAddress",
+			"handlePlaceChanged",
+			"autocomple",
+			"handlePlaceChanged",
+			"location.href",
+			"simulateShipping",
+			"attachmentAddress",
+			"handleSubmitAddress",
+			"this.props",
+			"validaddress",
+			"validaddress:",
+			"validAddress",
+			"49",
+			"0-50",
+			"0-49",
+			"store",
+			"newPlaceSeted",
+			"polygonclick",
+			"handleSelectDistrict",
+			"onSelectDistrict",
+			"polygonclick",
+			"newPlaceSeted",
+			"this.place",
+			"setLocationPlace",
+			"polygonclick",
+			"handleSubmitAddress",
+			"validAddress",
+			"disabled",
+			"group",
+			"handleSubmitAddress",
+			"disabled",
+			"setLocationPlace",
+			"handlepolygonclick",
+			"handlePolygonClick",
+			"handle",
+			"drawpol",
+			"handlePolygonClick",
+			"click",
+			"fillColor:",
+			"polygon",
+			"districtGeoJsonMap",
+			"fetchSalesChannelByLocation",
+			"fetchSalesChannelByDistrict",
+			"fetchPostalCodeByLocation",
+			"fetchSalesChannelByDistrict",
+			"districts",
+			"fetchSalesChannelByLocation",
+			"district",
+			"fetchSalesChannelByLocation",
+			"localityGeoJsonMap",
+			"localityPolygonMap",
+			"localityGeoJsonMap",
+			"districtGeoJsonMap",
+			"camachoGeoJson",
+			"benavidesGeoJson",
+			"Miraflores",
+			"localityGeoJsonMap"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"@include justify-content;",
+			"@include align-items;",
+			"@include displayFlex;",
+			"align-items: center;",
+			"justify-content: center;",
+			"flex-direction: column;",
+			"display: flex;",
+			"",
+			"@include flex-direction(column);",
+			"@include justify-content(space-around);",
+			"@include justify-content(space-between);",
+			"",
+			"@include justify-content;",
+			"justify-content: center",
+			"@include align-items;",
+			"@include justify-content;",
+			"@include displayFlex;",
+			"elem.",
+			"$(elem.",
+			"{{FK:phoneNumber}}",
+			"*                               ",
+			"*\t\t\t\t\t\t\t",
+			"*      "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "totem-walmart.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"cart.js",
+				"app/redux/modules/cart.js"
+			],
+			[
+				"modal.js",
+				"app/components/UI/Modal/CartModal/CartModal.js"
+			],
+			[
+				"modal",
+				"app/redux/modules/modal.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"appglobal",
+				"app/app.global.scss"
+			],
+			[
+				"routes",
+				"app/routes.js"
+			],
+			[
+				"product-non",
+				"src/html/product-nonfood.html"
+			],
+			[
+				"product.html",
+				"src/html/product-food.html"
+			],
+			[
+				"product.js",
+				"src/js/product.js"
+			],
+			[
+				"metas",
+				"src/html/subtemplates/metas.html"
+			],
+			[
+				"fizzmod.js",
+				"src/js/fizzmod.js"
+			],
+			[
+				"global",
+				"src/js/global.js"
+			],
+			[
+				"product-pric",
+				"src/include/html/product-prices-handlebars.html"
+			],
+			[
+				"product-item.html",
+				"src/include/templates/product-item-template.html"
+			],
+			[
+				"global.js",
+				"src/js/global.js"
+			],
+			[
+				"bag",
+				"src/components/BagAdder/BagGetter.js"
+			],
+			[
+				"checkout.js",
+				"src/js/checkout.js"
+			],
+			[
+				"bag-adder",
+				"src/styles/bag-adder.css"
+			],
+			[
+				"clcart.js",
+				"src/include/cart/CL/cart.js"
+			],
+			[
+				"utils.js",
+				"src/components/BagAdder/Utils.js"
+			],
+			[
+				"baggett",
+				"src/components/BagAdder/BagGetter.js"
+			],
+			[
+				"baggetter",
+				"src/components/BagAdder/BagGetter.js"
+			],
+			[
+				"tare",
+				"tareas"
+			],
+			[
+				"web",
+				"fizzmod-scripts/webpack.config.js"
+			],
+			[
+				"bagadderconta",
+				"src/components/BagAdder/BagAdderContainer.js"
+			],
+			[
+				"fizzmod.mini",
+				"src/js/fizzmod.minicart.js"
+			],
+			[
+				"glboal.js",
+				"src/js/global.js"
+			],
+			[
+				"selectors.js",
+				"src/include/js/selectors.js"
+			],
+			[
+				"font-icons-ex",
+				"src/include/styles/font-icons/CO/font-icons-extended.css"
+			],
+			[
+				"font-icons-e",
+				"src/include/styles/font-icons/AR/font-icons-extended.css"
+			],
+			[
+				"tareas",
+				"tareas"
+			],
+			[
+				"overlay.css",
+				"src/include/styles/blocks/_overlay.css"
+			],
+			[
+				"overlabag-adder",
+				"src/html/subtemplates/overlay-bag-adder.html"
+			],
+			[
+				"bagaddercont",
+				"src/components/BagAdder/BagAdderContainer.js"
+			],
+			[
+				"bag-adder.html",
+				"src/html/subtemplates/overlay-bag-adder.html"
+			],
+			[
+				"buttons",
+				"src/include/styles/_buttons.css"
+			],
+			[
+				"helpers",
+				"src/include/styles/_helpers.css"
+			],
+			[
+				"_hel",
+				"src/include/styles/_helpers.css"
+			],
+			[
+				"global.css",
+				"src/styles/global.css"
+			],
+			[
+				"bag-adder.css",
+				"src/styles/bag-adder.css"
+			],
+			[
+				"font-icons-extend",
+				"src/include/styles/font-icons/CO/font-icons-extended.css"
+			],
+			[
+				"font-icon-ex",
+				"src/include/styles/font-icons/AR/font-icons-extended.css"
+			],
+			[
+				"font-face-cate",
+				"src/include/styles/font-face/CO/font-face-categories.css"
+			],
+			[
+				"confirmation",
+				"src/components/BagAdder/views/Confirmation.js"
+			],
+			[
+				"font-icons",
+				"src/include/styles/_font-icons.css"
+			],
+			[
+				"bagadder.css",
+				"src/styles/bag-adder.css"
+			],
+			[
+				"confir",
+				"src/components/BagAdder/views/Confirmation.js"
+			],
+			[
+				"confirm",
+				"src/components/BagAdder/views/Confirmation.js"
+			],
+			[
+				"confirma",
+				"src/components/BagAdder/views/Confirmation.js"
+			],
+			[
+				"healthyworld.js",
+				"src/components/HealthyWorld/HealthyWorld.js"
+			],
+			[
+				"fizzmod",
+				"src/js/fizzmod.catalog.js"
+			],
+			[
+				"webpa",
+				"fizzmod-scripts/webpack.config.js"
+			],
+			[
+				".conf",
+				"vtex-uploader.conf"
+			],
+			[
+				"overlay-bag-",
+				"src/html/subtemplates/overlay-bag-adder.html"
+			],
+			[
+				"cart.html",
+				"src/html/cart.html"
+			],
+			[
+				"conf",
+				"src/components/BagAdder/views/Confirmation.js"
+			],
+			[
+				"confi",
+				"src/components/BagAdder/views/Confirmation.js"
+			],
+			[
+				"departmentsqa",
+				"src/include/json/CO/departments-qa.json"
+			],
+			[
+				"departments",
+				"src/include/json/CO/departments.json"
+			],
+			[
+				"departmentqa",
+				"src/include/json/CO/departments-qa.json"
+			],
+			[
+				"jquery-p",
+				"src/js/jquery-prototype-extended.js"
+			],
+			[
+				"shippingprefere",
+				"src/components/ShippingPreference/ShippingPreference.js"
+			],
+			[
+				"bagadder.html",
+				"src/html/subtemplates/overlay-bag-adder.html"
+			],
+			[
+				"overlay-paper",
+				"src/html/subtemplates/overlay-paper-gift.html"
+			],
+			[
+				"tarea",
+				"tareas"
+			],
+			[
+				"overlay-bag-adder",
+				"src/html/subtemplates/overlay-bag-adder.html"
+			],
+			[
+				"lint.json",
+				".eslintrc.json"
+			],
+			[
+				"recipes.html",
+				"src/html/recipes.html"
+			],
+			[
+				"font",
+				"src/include/styles/font-icons/PE/font-icons-extended.css"
+			],
+			[
+				"font-face-ca",
+				"src/include/styles/font-face/PE/font-face-categories.css"
+			],
+			[
+				"font-ic",
+				"src/include/styles/font-icons/PE/font-icons-extended.css"
+			],
+			[
+				"header.html",
+				"src/include/html/PE/header.html"
+			],
+			[
+				"shippingpre",
+				"src/components/ShippingPreference/ShippingPreference.scss"
+			],
+			[
+				"handle",
+				"src/handlebars.js"
+			],
+			[
+				"conavigation",
+				"src/include/html/CO/navigation.html"
+			],
+			[
+				"navigation",
+				"src/html/subtemplates/navigation.html"
+			],
+			[
+				"shippingstore.js",
+				"src/components/ShippingPreference/ShippingStore/ShippingStore.js"
+			],
+			[
+				"shippingdelivery.js",
+				"src/components/ShippingPreference/ShippingDelivery/ShippingDelivery.js"
+			],
+			[
+				"shippignstoremap.js",
+				"src/components/ShippingPreference/ShippingStore/ShippingStoreMap.js"
+			],
+			[
+				"shippingdeliverymaps",
+				"src/components/ShippingPreference/ShippingDelivery/ShippingDeliveryMap.scss"
+			],
+			[
+				"checkout5",
+				"src/styles/checkout5-custom.css"
+			],
+			[
+				"profile.js",
+				"src/include/checkout/profile.js"
+			],
+			[
+				"shipping.js",
+				"src/include/checkout/shipping.js"
+			],
+			[
+				"shippingstore",
+				"src/components/ShippingPreference/ShippingStore/ShippingStoreMap.scss"
+			],
+			[
+				"shippingstore.scss",
+				"src/components/ShippingPreference/ShippingStore/ShippingStore.scss"
+			],
+			[
+				"deliverymap",
+				"src/components/ShippingPreference/ShippingDelivery/ShippingDeliveryMap.scss"
+			],
+			[
+				"mixins",
+				"src/styles/_mixins.scss"
+			],
+			[
+				"shippingdelivery",
+				"src/components/ShippingPreference/ShippingDelivery/ShippingDelivery.js"
+			],
+			[
+				"shippingpreference",
+				"src/components/ShippingPreference/ShippingPreference.js"
+			],
+			[
+				"shippignprefer",
+				"src/components/ShippingPreference/ShippingPreference.scss"
+			],
+			[
+				"footer.html",
+				"src/include/html/PE/footer.html"
+			],
+			[
+				"recipe-sear",
+				"src/html/recipe-search.html"
+			],
+			[
+				"global-tem",
+				"src/include/html/global-templates.html"
+			],
+			[
+				"recipe-search.html",
+				"src/html/recipe-search.html"
+			],
+			[
+				"recipe-search.js",
+				"src/js/recipe-search.js"
+			],
+			[
+				"shippingpreference.js",
+				"src/components/ShippingPreference/ShippingPreference.js"
+			],
+			[
+				"mixin",
+				"src/styles/_mixins.scss"
+			],
+			[
+				"shippingselector.scss",
+				"src/components/ShippingPreference/ShippingSelector/ShippingSelector.scss"
+			],
+			[
+				"janis",
+				"src/include/janis/janis.conf.js"
+			],
+			[
+				"recipes.js",
+				"src/js/recipes.js"
+			],
+			[
+				"recipe.js",
+				"src/include/classes/Recipe.js"
+			],
+			[
+				"recipe-se",
+				"src/js/recipe-search.js"
+			],
+			[
+				"pecart.html",
+				"src/include/html/PE/cart.html"
+			],
+			[
+				"quantity",
+				"src/include/html/product-quantity-handlebars.html"
+			],
+			[
+				"selec",
+				"src/include/js/selectors.js"
+			],
+			[
+				"minicart-produc",
+				"src/include/templates/minicart-product-item-template.html"
+			],
+			[
+				"compo",
+				"src/components/Form/FieldComponent.js"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"compoen",
+				"src/components/Form/FieldComponent.js"
+			],
+			[
+				"product-food.html",
+				"src/html/product-food.html"
+			],
+			[
+				"commo",
+				"src/include/footer/common-resources.html"
+			],
+			[
+				"product-nonfood",
+				"src/html/product-nonfood.html"
+			],
+			[
+				"product-html",
+				"src/html/product-food.html"
+			],
+			[
+				"common",
+				"src/include/footer/common-resources.html"
+			],
+			[
+				"overlay-paper-gift",
+				"src/html/subtemplates/overlay-paper-gift.html"
+			],
+			[
+				"cocart.html",
+				"src/include/html/CO/cart.html"
+			],
+			[
+				"overlay-paper-gift.js",
+				"src/js/webpack/overlay-paper-gift.js"
+			],
+			[
+				"paths.js",
+				"fizzmod-scripts/paths.js"
+			],
+			[
+				"common-",
+				"src/include/footer/common-resources.html"
+			],
+			[
+				"metas.html",
+				"src/html/subtemplates/metas.html"
+			],
+			[
+				"shippingmap",
+				"src/components/ShippingPreference/ShippingDelivery/ShippingDeliveryMap.js"
+			],
+			[
+				"shippignprefe",
+				"src/components/ShippingPreference/ShippingPreference.js"
+			],
+			[
+				"paths",
+				"fizzmod-scripts/paths.js"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"selector.js",
+				"src/components/HealthyWorld/CollectionSection/TipSelector.js"
+			],
+			[
+				"home",
+				"src/html/home.html"
+			],
+			[
+				"janis.con",
+				"src/include/janis/janis.conf.js"
+			],
+			[
+				"useraddres",
+				"src/include/classes/userAddressManager.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 316.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

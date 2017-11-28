@@ -5,23 +5,31 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"Babel",
+		"Babel Snippets",
 		"DocBlockr",
 		"Emmet",
+		"ES6-Toolkit",
+		"FoldFunctions",
 		"Git",
 		"HTML-CSS-JS Prettify",
 		"HTMLBeautify",
 		"Javascript Beautify",
 		"JSONLint",
-		"JSX",
+		"Monokai Extended",
+		"MonokaiFree",
+		"Oceanic Next Color Scheme",
 		"Package Control",
 		"ProjectManager",
 		"Pug",
 		"Sass",
 		"ScopeHunter",
 		"SCSS",
+		"SideBarEnhancements",
 		"Sublimall",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint"
+		"SublimeLinter-contrib-eslint",
+		"Theme - Monokai+"
 	]
 }

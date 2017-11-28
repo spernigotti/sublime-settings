@@ -1,19 +1,18 @@
 {
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Phoenix (SL).tmTheme",
 	"folder_exclude_patterns":
 	[
 		".svn",
 		".git",
 		".hg",
 		"CVS",
-		"node_modules",
-		".map"
+		"node_modules"
 	],
 	"font_size": 10,
 	"ignored_packages":
 	[
-		"ScopeHunter",
 		"Vintage"
-	]
+	],
+	"theme": "Default.sublime-theme"
 }
